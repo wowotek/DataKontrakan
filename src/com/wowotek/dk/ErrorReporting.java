@@ -3,12 +3,10 @@ package com.wowotek.dk;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class ErrorReporting
 {
-
+    public int errID = 0;
     private BufferedWriter w;
     private boolean _LOGOPENED = false;
 
@@ -76,8 +74,9 @@ public class ErrorReporting
 
     public void debug(String error)
     {
-        String finalER = "[" + new Util().getDate() + "] [CLOGS] " + error;
+        String finalER =  "[" + new Util().getDate() + "] [" + this.errID + "] "+ error;
         System.err.println(finalER);
+        this.errID++;
         if (_LOGOPENED == true)
         {
             try
@@ -114,9 +113,9 @@ public class ErrorReporting
                 strLevel = "CLOGS";
                 break;
         }
-        String finalER = "[" + new Util().getDate() + "] [" + strLevel + "] " + error;
-
+        String finalER = "[" + new Util().getDate() + "] [" + strLevel + "] [" + this.errID + "] "+ error;
         System.err.println(finalER);
+        this.errID++;
         if (_LOGOPENED == true)
         {
             try
