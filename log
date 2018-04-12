@@ -1,0 +1,149 @@
+================= Session Started At 12.04.2018 | 11:00:04 ================
+
+[11:00:04] [CPASS] Successfuly Opened Log File
+[11:00:04] [CLOGS] Opening Databases...
+[11:00:04] [CLOGS] Closing Databases...
+[11:00:04] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:00:04 =================
+
+
+================= Session Started At 12.04.2018 | 11:00:13 ================
+
+[11:00:13] [CPASS] Successfuly Opened Log File
+[11:00:13] [CLOGS] Opening Databases...
+[11:00:13] [CLOGS] Closing Databases...
+[11:00:13] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:00:13 =================
+
+
+================= Session Started At 12.04.2018 | 11:12:27 ================
+
+[11:12:27] [CPASS] Successfuly Opened Log File
+[11:12:27] [CLOGS] Database Connection Initialization
+[11:12:27] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:12:27] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:12:27] [CLOGS] Connection Failed, Retrying...
+[11:12:27] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:12:27] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:12:27] [CLOGS] Connection Failed, Retrying...
+[11:12:27] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:12:27] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:12:27] [CLOGS] Connection Failed, Retrying...
+[11:12:27] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:12:27 =================
+
+
+================= Session Started At 12.04.2018 | 11:13:54 ================
+
+[11:13:54] [CPASS] Successfuly Opened Log File
+[11:13:54] [CLOGS] Database Connection Initialization
+[11:13:54] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:13:54] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:13:54] [CLOGS] Connection Failed, Retrying...
+[11:13:55] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:13:55] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:13:55] [CLOGS] Connection Failed, Retrying...
+[11:13:56] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:13:56] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:13:56] [CLOGS] Connection Failed, Retrying...
+[11:13:57] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:13:57 =================
+
+
+================= Session Started At 12.04.2018 | 11:14:46 ================
+
+[11:14:46] [CPASS] Successfuly Opened Log File
+[11:14:46] [CLOGS] Database Connection Initialization
+[11:14:46] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:14:46] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:14:46] [CLOGS] Connection Failed, Retrying...
+[11:14:47] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:14:47] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:14:47] [CLOGS] Connection Failed, Retrying...
+[11:14:48] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:14:48] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:14:48] [CLOGS] Connection Failed, Retrying...
+[11:14:49] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:14:49 =================
+
+
+================= Session Started At 12.04.2018 | 11:14:55 ================
+
+[11:14:55] [CPASS] Successfuly Opened Log File
+[11:14:55] [CLOGS] Database Connection Initialization
+[11:14:55] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:14:55] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:14:55] [CLOGS] Connection Failed, Retrying...
+[11:14:58] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:14:58] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:14:58] [CLOGS] Connection Failed, Retrying...
+[11:15:01] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:15:01] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:15:01] [CLOGS] Connection Failed, Retrying...
+[11:15:04] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:15:04 =================
+
+
+================= Session Started At 12.04.2018 | 11:17:56 ================
+
+[11:17:56] [CPASS] Successfuly Opened Log File
+[11:17:56] [CLOGS] Database Connection Initialization
+[11:17:56] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:17:56] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:17:56] [CAUTN] Connection Failed, Retrying...
+[11:17:59] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:17:59] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:17:59] [CAUTN] Connection Failed, Retrying...
+[11:18:02] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:18:02] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:18:02] [CAUTN] Connection Failed, Retrying...
+[11:18:05] [LETHL] Closing Program...
+[11:18:05] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:18:05 =================
+
+
+================= Session Started At 12.04.2018 | 11:18:45 ================
+
+[11:18:45] [CPASS] Successfuly Opened Log File
+[11:18:45] [CLOGS] Database Connection Initialization
+[11:18:45] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:18:45] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:18:45] [CAUTN] Connection Failed, Retrying...
+[11:18:48] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:18:48] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:18:48] [CAUTN] Connection Failed, Retrying...
+[11:18:51] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:18:51] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:18:51] [SEVER] Database Connection Failed!
+[11:18:51] [LETHL] Closing Program...
+[11:18:51] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:18:51 =================
+
+
+================= Session Started At 12.04.2018 | 11:29:13 ================
+
+[11:29:13] [CPASS] Successfuly Opened Log File
+[11:29:13] [CLOGS] Database Connection Initialization
+[11:29:13] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:29:13] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:29:13] [CAUTN] Connection Failed, Retrying...
+[11:29:16] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:29:16] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:29:16] [CAUTN] Connection Failed, Retrying...
+[11:29:19] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
+[11:29:19] [CAUTN] Exception: com.mysql.jdbc.Driver
+[11:29:19] [SEVER] Database Connection Failed!
+[11:29:19] [LETHL] Closing Program...
+[11:29:19] [CLOGS] Closing Log File
+
+================= Session Closed At 12.04.2018 | 11:29:19 =================
+
+
