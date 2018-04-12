@@ -1,149 +1,590 @@
-================= Session Started At 12.04.2018 | 11:00:04 ================
+================= Session Started At 13.04.2018 | 05:40:11 ================
 
-[11:00:04] [CPASS] Successfuly Opened Log File
-[11:00:04] [CLOGS] Opening Databases...
-[11:00:04] [CLOGS] Closing Databases...
-[11:00:04] [CLOGS] Closing Log File
+[05:40:11][1][CPASS] Successfuly Opened Log File
+[05:40:11][2]        Database Connection Initialization
+[05:40:11][3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[05:40:12][4]        Handshake Successful !
+[05:40:12][5][CPASS] Connection Established, Total Tries = 0
+[05:40:12][6]        Mengambil data pemasukan...
+[05:40:12][7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[05:40:12][8][LETHL] Closing Program...
+[05:40:12][9]        Menutup Koneksi Database !
+[05:40:15][10]        Koneksi Berhasil di Tutup
+[05:40:15][11]        Closing Log File..
 
-================= Session Closed At 12.04.2018 | 11:00:04 =================
-
-
-================= Session Started At 12.04.2018 | 11:00:13 ================
-
-[11:00:13] [CPASS] Successfuly Opened Log File
-[11:00:13] [CLOGS] Opening Databases...
-[11:00:13] [CLOGS] Closing Databases...
-[11:00:13] [CLOGS] Closing Log File
-
-================= Session Closed At 12.04.2018 | 11:00:13 =================
+================= Session Closed At 13.04.2018 | 05:40:17 =================
 
 
-================= Session Started At 12.04.2018 | 11:12:27 ================
+================= Session Started At 13.04.2018 | 05:48:53 ================
 
-[11:12:27] [CPASS] Successfuly Opened Log File
-[11:12:27] [CLOGS] Database Connection Initialization
-[11:12:27] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:12:27] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:12:27] [CLOGS] Connection Failed, Retrying...
-[11:12:27] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:12:27] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:12:27] [CLOGS] Connection Failed, Retrying...
-[11:12:27] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:12:27] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:12:27] [CLOGS] Connection Failed, Retrying...
-[11:12:27] [CLOGS] Closing Log File
+[05:48:53][1][CPASS] Successfuly Opened Log File
+[05:48:53][2]        Database Connection Initialization
+[05:48:53][3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[05:48:53][4]        Handshake Successful !
+[05:48:53][5][CPASS] Connection Established, Total Tries = 0
+[05:48:53][6]        Mengambil data pemasukan...
+[05:48:53][7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[05:48:53][8][LETHL] Closing Program...
+[05:48:53][9]        Menutup Koneksi Database !
+[05:48:53][10]        Koneksi Berhasil di Tutup
+[05:48:53][11]        Closing Log File..
 
-================= Session Closed At 12.04.2018 | 11:12:27 =================
-
-
-================= Session Started At 12.04.2018 | 11:13:54 ================
-
-[11:13:54] [CPASS] Successfuly Opened Log File
-[11:13:54] [CLOGS] Database Connection Initialization
-[11:13:54] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:13:54] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:13:54] [CLOGS] Connection Failed, Retrying...
-[11:13:55] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:13:55] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:13:55] [CLOGS] Connection Failed, Retrying...
-[11:13:56] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:13:56] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:13:56] [CLOGS] Connection Failed, Retrying...
-[11:13:57] [CLOGS] Closing Log File
-
-================= Session Closed At 12.04.2018 | 11:13:57 =================
+================= Session Closed At 13.04.2018 | 05:48:59 =================
 
 
-================= Session Started At 12.04.2018 | 11:14:46 ================
+================= Session Started At 13.04.2018 | 05:49:20 ================
 
-[11:14:46] [CPASS] Successfuly Opened Log File
-[11:14:46] [CLOGS] Database Connection Initialization
-[11:14:46] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:14:46] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:14:46] [CLOGS] Connection Failed, Retrying...
-[11:14:47] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:14:47] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:14:47] [CLOGS] Connection Failed, Retrying...
-[11:14:48] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:14:48] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:14:48] [CLOGS] Connection Failed, Retrying...
-[11:14:49] [CLOGS] Closing Log File
+HAHAHAHAHAH[1][CPASS] Successfuly Opened Log File
+HAHAHAHAHAH[2]        Database Connection Initialization
+HAHAHAHAHAH[3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHAH[4]        Handshake Successful !
+HAHAHAHAHAH[5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHAH[6]        Mengambil data pemasukan...
+HAHAHAHAHAH[7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHAH[8][LETHL] Closing Program...
+HAHAHAHAHAH[9]        Menutup Koneksi Database !
+HAHAHAHAHAH[10]        Koneksi Berhasil di Tutup
+HAHAHAHAHAH[11]        Closing Log File..
 
-================= Session Closed At 12.04.2018 | 11:14:49 =================
-
-
-================= Session Started At 12.04.2018 | 11:14:55 ================
-
-[11:14:55] [CPASS] Successfuly Opened Log File
-[11:14:55] [CLOGS] Database Connection Initialization
-[11:14:55] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:14:55] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:14:55] [CLOGS] Connection Failed, Retrying...
-[11:14:58] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:14:58] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:14:58] [CLOGS] Connection Failed, Retrying...
-[11:15:01] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:15:01] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:15:01] [CLOGS] Connection Failed, Retrying...
-[11:15:04] [CLOGS] Closing Log File
-
-================= Session Closed At 12.04.2018 | 11:15:04 =================
+================= Session Closed At 13.04.2018 | 05:49:27 =================
 
 
-================= Session Started At 12.04.2018 | 11:17:56 ================
+================= Session Started At 13.04.2018 | 05:49:35 ================
 
-[11:17:56] [CPASS] Successfuly Opened Log File
-[11:17:56] [CLOGS] Database Connection Initialization
-[11:17:56] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:17:56] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:17:56] [CAUTN] Connection Failed, Retrying...
-[11:17:59] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:17:59] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:17:59] [CAUTN] Connection Failed, Retrying...
-[11:18:02] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:18:02] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:18:02] [CAUTN] Connection Failed, Retrying...
-[11:18:05] [LETHL] Closing Program...
-[11:18:05] [CLOGS] Closing Log File
+HAHAHAHAHA[1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[2]        Database Connection Initialization
+HAHAHAHAHA[3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[4]        Handshake Successful !
+HAHAHAHAHA[5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[6]        Mengambil data pemasukan...
+HAHAHAHAHA[7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[8][LETHL] Closing Program...
+HAHAHAHAHA[9]        Menutup Koneksi Database !
+HAHAHAHAHA[10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[11]        Closing Log File..
 
-================= Session Closed At 12.04.2018 | 11:18:05 =================
+================= Session Closed At 13.04.2018 | 05:49:41 =================
 
 
-================= Session Started At 12.04.2018 | 11:18:45 ================
+================= Session Started At 13.04.2018 | 05:54:23 ================
 
-[11:18:45] [CPASS] Successfuly Opened Log File
-[11:18:45] [CLOGS] Database Connection Initialization
-[11:18:45] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:18:45] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:18:45] [CAUTN] Connection Failed, Retrying...
-[11:18:48] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:18:48] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:18:48] [CAUTN] Connection Failed, Retrying...
-[11:18:51] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:18:51] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:18:51] [SEVER] Database Connection Failed!
-[11:18:51] [LETHL] Closing Program...
-[11:18:51] [CLOGS] Closing Log File
+HAHAHAHAHA[1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[2]        Database Connection Initialization
+HAHAHAHAHA[3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[4]        Handshake Successful !
+HAHAHAHAHA[5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[6]        Mengambil data pemasukan...
+HAHAHAHAHA[7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[8][LETHL] Closing Program...
+HAHAHAHAHA[9]        Menutup Koneksi Database !
+HAHAHAHAHA[10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[11]        Closing Log File..
 
-================= Session Closed At 12.04.2018 | 11:18:51 =================
+================= Session Closed At 13.04.2018 | 05:54:29 =================
 
 
-================= Session Started At 12.04.2018 | 11:29:13 ================
+================= Session Started At 13.04.2018 | 05:55:37 ================
 
-[11:29:13] [CPASS] Successfuly Opened Log File
-[11:29:13] [CLOGS] Database Connection Initialization
-[11:29:13] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:29:13] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:29:13] [CAUTN] Connection Failed, Retrying...
-[11:29:16] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:29:16] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:29:16] [CAUTN] Connection Failed, Retrying...
-[11:29:19] [CLOGS] Attempting to Handshake jdbc:mysql://localhost/kontrakan_punya
-[11:29:19] [CAUTN] Exception: com.mysql.jdbc.Driver
-[11:29:19] [SEVER] Database Connection Failed!
-[11:29:19] [LETHL] Closing Program...
-[11:29:19] [CLOGS] Closing Log File
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8][LETHL] Closing Program...
+HAHAHAHAHA[EID:9]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:11]        Closing Log File..
 
-================= Session Closed At 12.04.2018 | 11:29:19 =================
+================= Session Closed At 13.04.2018 | 05:55:44 =================
+
+
+================= Session Started At 13.04.2018 | 05:55:54 ================
+
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8][LETHL] Closing Program...
+HAHAHAHAHA[EID:9]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:11]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 05:56:00 =================
+
+
+================= Session Started At 13.04.2018 | 05:56:16 ================
+
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8][LETHL] Closing Program...
+HAHAHAHAHA[EID:9]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:11]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 05:56:22 =================
+
+
+================= Session Started At 13.04.2018 | 05:56:25 ================
+
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8][LETHL] Closing Program...
+HAHAHAHAHA[EID:9]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:11]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 05:56:32 =================
+
+
+================= Session Started At 13.04.2018 | 05:56:34 ================
+
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8][LETHL] Closing Program...
+HAHAHAHAHA[EID:9]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:10]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:11]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 05:56:40 =================
+
+
+================= Session Started At 13.04.2018 | 05:57:07 ================
+
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:10]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:12]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:13][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:14]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:15][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:16]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:17][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:18]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:19][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:20]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:21][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:22]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:23][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:24]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:25][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:26][LETHL] Closing Program...
+HAHAHAHAHA[EID:27]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:28]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:29]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 05:57:13 =================
+
+
+================= Session Started At 13.04.2018 | 05:57:44 ================
+
+HAHAHAHAHA[EID:1][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:2]        Database Connection Initialization
+HAHAHAHAHA[EID:3]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:4]        Handshake Successful !
+HAHAHAHAHA[EID:5][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:10]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:12]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:13][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:14]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:15][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:16]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:17][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:18]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:19][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:20]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:21][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:22]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:23][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:24]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:25][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:26][LETHL] Closing Program...
+HAHAHAHAHA[EID:27]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:28]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:29]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 05:57:50 =================
+
+
+================= Session Started At 13.04.2018 | 06:00:00 ================
+
+HAHAHAHAHA[EID:0][CPASS] Successfuly Opened Log File
+HAHAHAHAHA[EID:1]        Database Connection Initialization
+HAHAHAHAHA[EID:1]        Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA[EID:1]        Handshake Successful !
+HAHAHAHAHA[EID:1][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA[EID:2]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:2][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:3]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:4]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:5]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:6]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:7]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:8]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:9]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:10]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:11]        Mengambil data pemasukan...
+HAHAHAHAHA[EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:12][LETHL] Closing Program...
+HAHAHAHAHA[EID:13]        Menutup Koneksi Database !
+HAHAHAHAHA[EID:13]        Koneksi Berhasil di Tutup
+HAHAHAHAHA[EID:13]        Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:00:07 =================
+
+
+================= Session Started At 13.04.2018 | 06:02:00 ================
+
+HAHAHAHAHA[EID:0][CPASS] Successfuly Opened Log File
+HAHAHAHAHA               Database Connection Initialization
+HAHAHAHAHA               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+HAHAHAHAHA               Handshake Successful !
+HAHAHAHAHA[EID:1][CPASS] Connection Established, Total Tries = 0
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:2][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA               Mengambil data pemasukan...
+HAHAHAHAHA[EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA                Mengambil data pemasukan...
+HAHAHAHAHA[EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA                Mengambil data pemasukan...
+HAHAHAHAHA[EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+HAHAHAHAHA[EID:12][LETHL] Closing Program...
+HAHAHAHAHA                Menutup Koneksi Database !
+HAHAHAHAHA                Koneksi Berhasil di Tutup
+HAHAHAHAHA                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:02:06 =================
+
+
+================= Session Started At 13.04.2018 | 06:02:10 ================
+
+[06:02:10][EID:0][CPASS] Successfuly Opened Log File
+[06:02:10]               Database Connection Initialization
+[06:02:10]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:02:10]               Handshake Successful !
+[06:02:10][EID:1][CPASS] Connection Established, Total Tries = 0
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:2][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]               Mengambil data pemasukan...
+[06:02:10][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]                Mengambil data pemasukan...
+[06:02:10][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10]                Mengambil data pemasukan...
+[06:02:10][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:10][EID:12][LETHL] Closing Program...
+[06:02:10]                Menutup Koneksi Database !
+[06:02:10]                Koneksi Berhasil di Tutup
+[06:02:10]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:02:16 =================
+
+
+================= Session Started At 13.04.2018 | 06:02:25 ================
+
+[06:02:25][EID:0][CPASS] Successfuly Opened Log File
+[06:02:25]               Database Connection Initialization
+[06:02:25]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:02:25]               Handshake Successful !
+[06:02:25][EID:1][CPASS] Connection Established, Total Tries = 0
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:2][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]               Mengambil data pemasukan...
+[06:02:25][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]                Mengambil data pemasukan...
+[06:02:25][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25]                Mengambil data pemasukan...
+[06:02:25][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:02:25][EID:12][LETHL] Closing Program...
+[06:02:25]                Menutup Koneksi Database !
+[06:02:25]                Koneksi Berhasil di Tutup
+[06:02:25]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:02:31 =================
+
+
+================= Session Started At 13.04.2018 | 06:03:57 ================
+
+[06:03:57][EID:0][CPASS] Successfuly Opened Log File
+[06:03:57]               Database Connection Initialization
+[06:03:57]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:03:57]               Handshake Successful !
+[06:03:57][EID:1][CPASS] Connection Established, Total Tries = 0
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:2][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]               Mengambil data pemasukan...
+[06:03:57][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]                Mengambil data pemasukan...
+[06:03:57][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57]                Mengambil data pemasukan...
+[06:03:57][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:03:57][EID:12][LETHL] Closing Program...
+[06:03:57]                Menutup Koneksi Database !
+[06:03:57]                Koneksi Berhasil di Tutup
+[06:03:57]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:04:03 =================
+
+
+================= Session Started At 13.04.2018 | 06:04:08 ================
+
+[06:04:08][EID:0][CPASS] Successfuly Opened Log File
+[06:04:08]               Database Connection Initialization
+[06:04:08]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:04:08]               Handshake Successful !
+[06:04:08][EID:1][CPASS] Connection Established, Total Tries = 0
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:2][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]               Mengambil data pemasukan...
+[06:04:08][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08]                Mengambil data pemasukan...
+[06:04:08][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:08][EID:12][LETHL] Closing Program...
+[06:04:08]                Menutup Koneksi Database !
+[06:04:08]                Koneksi Berhasil di Tutup
+[06:04:08]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:04:14 =================
+
+
+================= Session Started At 13.04.2018 | 06:04:28 ================
+
+[06:04:28][EID:1][CPASS] Successfuly Opened Log File
+[06:04:28]               Database Connection Initialization
+[06:04:28]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:04:28]               Handshake Successful !
+[06:04:28][EID:2][CPASS] Connection Established, Total Tries = 0
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]               Mengambil data pemasukan...
+[06:04:28][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]                Mengambil data pemasukan...
+[06:04:28][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28]                Mengambil data pemasukan...
+[06:04:28][EID:12][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:04:28][EID:13][LETHL] Closing Program...
+[06:04:28]                Menutup Koneksi Database !
+[06:04:28]                Koneksi Berhasil di Tutup
+[06:04:28]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:04:34 =================
+
+
+================= Session Started At 13.04.2018 | 06:05:08 ================
+
+[06:05:08][EID:1][CPASS] Successfuly Opened Log File
+[06:05:08]               Database Connection Initialization
+[06:05:08]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:05:08]               Handshake Successful !
+[06:05:08][EID:2][CPASS] Connection Established, Total Tries = 0
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]               Mengambil data pemasukan...
+[06:05:08][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]                Mengambil data pemasukan...
+[06:05:08][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08]                Mengambil data pemasukan...
+[06:05:08][EID:12][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:05:08][EID:13][LETHL] Closing Program...
+[06:05:08]                Menutup Koneksi Database !
+[06:05:08]                Koneksi Berhasil di Tutup
+[06:05:08]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:05:14 =================
+
+
+================= Session Started At 13.04.2018 | 06:06:46 ================
+
+[06:06:46][EID:1][CPASS] Successfuly Opened Log File
+[06:06:46]               Database Connection Initialization
+[06:06:46]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:06:46]               Handshake Successful !
+[06:06:46][EID:2][CPASS] Connection Established, Total Tries = 0
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]               Mengambil data pemasukan...
+[06:06:46][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]                Mengambil data pemasukan...
+[06:06:46][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46]                Mengambil data pemasukan...
+[06:06:46][EID:12][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:06:46][EID:13][LETHL] Closing Program...
+[06:06:46]                Menutup Koneksi Database !
+[06:06:46]                Koneksi Berhasil di Tutup
+[06:06:46]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:06:53 =================
+
+
+================= Session Started At 13.04.2018 | 06:08:08 ================
+
+[06:08:08][EID:1][CPASS] Successfuly Opened Log File
+[06:08:08]               Database Connection Initialization
+[06:08:08]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[06:08:09]               Handshake Successful !
+[06:08:09][EID:2][CPASS] Connection Established, Total Tries = 0
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:3][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:4][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:5][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:6][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:7][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:8][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:9][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]               Mengambil data pemasukan...
+[06:08:09][EID:10][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]                Mengambil data pemasukan...
+[06:08:09][EID:11][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09]                Mengambil data pemasukan...
+[06:08:09][EID:12][ERROR] Terjadi Kesalahan saat Mengambil data Pemasukan,
+[06:08:09][EID:13][LETHL] Closing Program...
+[06:08:09]                Menutup Koneksi Database !
+[06:08:12]                Koneksi Berhasil di Tutup
+[06:08:12]                Closing Log File..
+
+================= Session Closed At 13.04.2018 | 06:08:14 =================
 
 

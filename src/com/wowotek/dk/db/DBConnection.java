@@ -2,6 +2,7 @@ package com.wowotek.dk.db;
 
 import static com.wowotek.dk.CONFIG.*;
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.Util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -11,15 +12,10 @@ import java.util.Properties;
 public class DBConnection
 {
 
-    private Connection c;
+    public Connection c;
     private ErrorReporting er;
     
     public boolean DATABASE_CONNECTION_STATUS = false;
-
-    private Connection getConnection()
-    {
-        return this.c;
-    }
 
     public DBConnection(ErrorReporting _ER)
     {
@@ -41,7 +37,7 @@ public class DBConnection
                 {
                     dfs += ", Retrying...";
                     er.debug(dfs, 2);
-                    try{Thread.sleep(3000);}catch (InterruptedException ex){}
+                    new Util().delay(3);
                 }
                 else
                 {
@@ -63,11 +59,12 @@ public class DBConnection
 
         try
         {
-            er.debug("Attempting to Handshake " + connectionURL);
+            er.debug("Attempting to Handshake... URL: " + connectionURL);
+            try{Thread.sleep(1500);}catch (InterruptedException ex){}
             Class.forName("com.mysql.jdbc.Driver").newInstance();
             c = DriverManager.getConnection(connectionURL, properties);
 
-            er.debug("Handshake Successful !" + connectionURL);
+            er.debug("Handshake Successful !");
             return true;
         }
         catch (ClassNotFoundException | InstantiationException
@@ -79,8 +76,25 @@ public class DBConnection
         catch (SQLException ex)
         {
             er.debug("SQLException: " + ex.getMessage(), 2);
-            er.debug("SQLState: " + ex.getSQLState(), 2);
-            er.debug("VendorError: " + ex.getErrorCode(), 2);
+            er.debugln("SQLState: " + ex.getSQLState());
+            er.debugln("VendorError: " + ex.getErrorCode());
+            return false;
+        }
+    }
+    
+    public boolean closeConnection()
+    {
+        try
+        {
+            er.debug("Menutup Koneksi Database !");
+            new Util().delay(1);
+            this.c.close();
+            new Util().delay(1);
+            er.debug("Koneksi Berhasil di Tutup");
+            return true;
+        }
+        catch (SQLException ex)
+        {
             return false;
         }
     }

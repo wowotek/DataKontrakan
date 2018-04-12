@@ -6,9 +6,11 @@ import java.io.IOException;
 
 public class ErrorReporting
 {
-    public int errID = 0;
+
+    public int errID = 1;
     private BufferedWriter w;
     private boolean _LOGOPENED = false;
+    public final String ERR_DEBUG_PREFIX = "[" + new Util().getDate() + "]";
 
     public ErrorReporting()
     {
@@ -26,11 +28,6 @@ public class ErrorReporting
             }
             debug("Successfuly Opened Log File", 0);
         }
-    }
-
-    public void log(String error)
-    {
-        System.err.println("[CLOGS] " + error);
     }
 
     public void log(String error, int level)
@@ -60,6 +57,11 @@ public class ErrorReporting
         System.err.println("[" + strLevel + "] " + error);
     }
 
+    public void log(String error)
+    {
+        log(error, 5);
+    }
+
     public void log(String error, String logFile)
     {
         String finalString = error + ">>" + logFile;
@@ -74,9 +76,14 @@ public class ErrorReporting
 
     public void debug(String error)
     {
-        String finalER =  "[" + new Util().getDate() + "] [" + this.errID + "] "+ error;
+        //+ "[EID:" + this.errID + "]        " + error
+        String finalER = "[" + new Util().getDate() + "]";
+        for (int i = 0; i < Integer.toString(this.errID - 1).length() + 6; i++)
+        {
+            finalER += " ";
+        }
+        finalER += "        " + error;
         System.err.println(finalER);
-        this.errID++;
         if (_LOGOPENED == true)
         {
             try
@@ -101,7 +108,7 @@ public class ErrorReporting
                 strLevel = "WARNG";
                 break;
             case 2:
-                strLevel = "CAUTN";
+                strLevel = "ERROR";
                 break;
             case 3:
                 strLevel = "SEVER";
@@ -113,9 +120,12 @@ public class ErrorReporting
                 strLevel = "CLOGS";
                 break;
         }
-        String finalER = "[" + new Util().getDate() + "] [" + strLevel + "] [" + this.errID + "] "+ error;
+        String finalER = "[" + new Util().getDate() + "]" + "[EID:" + this.errID + "]" + "[" + strLevel + "] " + error;
         System.err.println(finalER);
-        this.errID++;
+        if (level != 0 || level != 4)
+        {
+            this.errID++;
+        }
         if (_LOGOPENED == true)
         {
             try
@@ -141,6 +151,16 @@ public class ErrorReporting
         debug(finalString, level);
     }
 
+    public void debugln(String error)
+    {
+        int totalLength = ("[" + new Util().getDate() + "]").length() + Integer.toString(this.errID - 1).length() + 14;
+        for (int i = 0; i < totalLength; i++)
+        {
+            System.err.print(" ");
+        }
+        System.err.println(error);
+    }
+
     public boolean openFile()
     {
         try
@@ -158,14 +178,18 @@ public class ErrorReporting
 
     public boolean closeFile()
     {
-        debug("Closing Log File");
+        debug("Closing Log File..");
+        new Util().delay(1);
         try
         {
             w.write("\n");
             w.write("================= Session Closed At "
-                        + new Util().getDate(true)
-                        + " =================\n\n\n");
+                    + new Util().getDate(true)
+                    + " =================\n\n\n");
             w.close();
+            this._LOGOPENED = false;
+            debug("Berhasil Menutup File Log", 0);
+            new Util().delay(1);
             return true;
         }
         catch (IOException ex)
