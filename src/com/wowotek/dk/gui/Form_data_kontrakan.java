@@ -44,8 +44,12 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
-        jTable1 = new javax.swing.JTable();
+        table_penghuni = new javax.swing.JTable();
         btn_save = new javax.swing.JButton();
         btn_delete = new javax.swing.JButton();
         btn_edit = new javax.swing.JButton();
@@ -167,13 +171,32 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
 
         jLabel5.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Home.png")); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Home.png"))); // NOI18N
         jLabel5.setText("Home");
 
         jLabel6.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
         jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\User.png")); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/User.png"))); // NOI18N
         jLabel6.setText("Data Penghuni");
+
+        jLabel7.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Register.png"))); // NOI18N
+        jLabel7.setText("Pemasukan");
+
+        jLabel8.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Register.png"))); // NOI18N
+        jLabel8.setText("Pengeluaran");
+
+        jLabel9.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Logout.png"))); // NOI18N
+        jLabel9.setText("Exit");
+
+        jLabel10.setFont(new java.awt.Font("Vivaldi", 1, 30)); // NOI18N
+        jLabel10.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel10.setText("Welcome to Kontrakan Dispenser");
 
         javax.swing.GroupLayout GarisLayout = new javax.swing.GroupLayout(Garis);
         Garis.setLayout(GarisLayout);
@@ -181,25 +204,41 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 749, Short.MAX_VALUE)
             .addGroup(GarisLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel6)
+                .addGroup(GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(GarisLayout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jLabel9))
+                    .addGroup(GarisLayout.createSequentialGroup()
+                        .addGap(164, 164, 164)
+                        .addComponent(jLabel10)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         GarisLayout.setVerticalGroup(
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GarisLayout.createSequentialGroup()
-                .addContainerGap(108, Short.MAX_VALUE)
+                .addGap(25, 25, 25)
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(28, 28, 28)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
-        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+        table_penghuni.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -234,12 +273,12 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 return types [columnIndex];
             }
         });
-        jScrollPane2.setViewportView(jTable1);
+        jScrollPane2.setViewportView(table_penghuni);
 
         btn_save.setBackground(new java.awt.Color(101, 198, 187));
         btn_save.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_save.setForeground(new java.awt.Color(1, 50, 67));
-        btn_save.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Save.png")); // NOI18N
+        btn_save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Save.png"))); // NOI18N
         btn_save.setText("Save");
         btn_save.setActionCommand("Simpan");
         btn_save.addActionListener(new java.awt.event.ActionListener() {
@@ -251,7 +290,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete.setBackground(new java.awt.Color(101, 198, 187));
         btn_delete.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_delete.setForeground(new java.awt.Color(1, 50, 67));
-        btn_delete.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Delete.png")); // NOI18N
+        btn_delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Delete.png"))); // NOI18N
         btn_delete.setText("delete");
         btn_delete.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -262,7 +301,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_edit.setBackground(new java.awt.Color(101, 198, 187));
         btn_edit.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_edit.setForeground(new java.awt.Color(1, 50, 67));
-        btn_edit.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Edit.png")); // NOI18N
+        btn_edit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Edit.png"))); // NOI18N
         btn_edit.setText("Edit");
         btn_edit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -273,7 +312,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_reset.setBackground(new java.awt.Color(101, 198, 187));
         btn_reset.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_reset.setForeground(new java.awt.Color(1, 50, 67));
-        btn_reset.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Register.png")); // NOI18N
+        btn_reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Logout.png"))); // NOI18N
         btn_reset.setText("Reset");
         btn_reset.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -310,11 +349,11 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             }
         });
 
-        btn_Search.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Icon Search.png")); // NOI18N
+        btn_Search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Icon Search.png"))); // NOI18N
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\clock.png")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/clock.png"))); // NOI18N
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("D:\\GitKraken\\DataKontrakan\\Image\\Date.png")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Date.png"))); // NOI18N
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
         jLabel3.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 12)); // NOI18N
@@ -476,22 +515,26 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JButton btn_save;
     private javax.swing.JLabel btn_search;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JTable jTable1;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JLabel label_name;
     private javax.swing.JLabel label_name3;
     private javax.swing.JLabel label_name4;
     private javax.swing.JLabel label_name6;
     private javax.swing.JLabel label_name7;
+    private javax.swing.JTable table_penghuni;
     private javax.swing.JTextField text_search;
     private javax.swing.JTextField txt_nama;
     private javax.swing.JTextField txt_nama1;
