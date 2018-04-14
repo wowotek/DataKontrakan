@@ -5,6 +5,10 @@
  */
 package com.wowotek.dk.gui;
 
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import javax.swing.Timer;
+
 /**
  *
  * @author Asus
@@ -16,8 +20,46 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
      */
     public Form_data_kontrakan() {
         initComponents();
+        setJam();
+        setTanggal();
+    }
+        public void setTanggal() {
+        java.util.Date skrg = new java.util.Date();
+        java.text.SimpleDateFormat kal = new java.text.SimpleDateFormat("dd/MM/yyyy");
+        label_date.setText(kal.format(skrg));
     }
 
+//untuk perintah penampilan tanggal
+    public void setJam() {
+        ActionListener taskPerformer = new ActionListener() {
+
+            public void actionPerformed(ActionEvent evt) {
+                String nol_jam = "", nol_menit = "", nol_detik = "";
+
+                java.util.Date dateTime = new java.util.Date();
+                int nilai_jam = dateTime.getHours();
+                int nilai_menit = dateTime.getMinutes();
+                int nilai_detik = dateTime.getSeconds();
+
+                if (nilai_jam <= 9) {
+                    nol_jam = "0";
+                }
+                if (nilai_menit <= 9) {
+                    nol_menit = "0";
+                }
+                if (nilai_detik <= 9) {
+                    nol_detik = "0";
+                }
+
+                String waktu = nol_jam + Integer.toString(nilai_jam);
+                String menit = nol_menit + Integer.toString(nilai_menit);
+                String detik = nol_detik + Integer.toString(nilai_detik);
+
+                label_clock.setText(waktu + ":" + menit + ":" + detik + "");
+            }
+        };
+        new Timer(1000, taskPerformer).start();
+    }
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -42,11 +84,11 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         jTextArea1 = new javax.swing.JTextArea();
         Garis = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
+        btn_home = new javax.swing.JLabel();
+        btn_data_penghuni = new javax.swing.JLabel();
+        btn_pemasukan = new javax.swing.JLabel();
+        btn_pengeluaran = new javax.swing.JLabel();
+        btn_exit = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         table_penghuni = new javax.swing.JTable();
@@ -60,8 +102,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_Search = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
+        label_clock = new javax.swing.JLabel();
+        label_date = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -169,30 +211,30 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel5.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Home.png"))); // NOI18N
-        jLabel5.setText("Home");
+        btn_home.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        btn_home.setForeground(new java.awt.Color(255, 255, 255));
+        btn_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Home.png"))); // NOI18N
+        btn_home.setText("Home");
 
-        jLabel6.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/User.png"))); // NOI18N
-        jLabel6.setText("Data Penghuni");
+        btn_data_penghuni.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        btn_data_penghuni.setForeground(new java.awt.Color(255, 255, 255));
+        btn_data_penghuni.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/User.png"))); // NOI18N
+        btn_data_penghuni.setText("Data Penghuni");
 
-        jLabel7.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Register.png"))); // NOI18N
-        jLabel7.setText("Pemasukan");
+        btn_pemasukan.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        btn_pemasukan.setForeground(new java.awt.Color(255, 255, 255));
+        btn_pemasukan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Register.png"))); // NOI18N
+        btn_pemasukan.setText("Pemasukan");
 
-        jLabel8.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Register.png"))); // NOI18N
-        jLabel8.setText("Pengeluaran");
+        btn_pengeluaran.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        btn_pengeluaran.setForeground(new java.awt.Color(255, 255, 255));
+        btn_pengeluaran.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Register.png"))); // NOI18N
+        btn_pengeluaran.setText("Pengeluaran");
 
-        jLabel9.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Logout.png"))); // NOI18N
-        jLabel9.setText("Exit");
+        btn_exit.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        btn_exit.setForeground(new java.awt.Color(255, 255, 255));
+        btn_exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Logout.png"))); // NOI18N
+        btn_exit.setText("Exit");
 
         jLabel10.setFont(new java.awt.Font("Vivaldi", 1, 30)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
@@ -207,15 +249,15 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGroup(GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(GarisLayout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel5)
+                        .addComponent(btn_home)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel6)
+                        .addComponent(btn_data_penghuni)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel7)
+                        .addComponent(btn_pemasukan)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel8)
+                        .addComponent(btn_pengeluaran)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel9))
+                        .addComponent(btn_exit))
                     .addGroup(GarisLayout.createSequentialGroup()
                         .addGap(164, 164, 164)
                         .addComponent(jLabel10)))
@@ -230,11 +272,11 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(jLabel7, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
-                    .addComponent(jLabel8, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE))
+                    .addComponent(btn_home, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_data_penghuni, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_pemasukan, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(btn_pengeluaran, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE)
+                    .addComponent(btn_exit, javax.swing.GroupLayout.DEFAULT_SIZE, 28, Short.MAX_VALUE))
                 .addContainerGap())
         );
 
@@ -355,14 +397,14 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Date.png"))); // NOI18N
 
-        jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 12)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("Clock");
+        label_clock.setBackground(new java.awt.Color(255, 255, 255));
+        label_clock.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        label_clock.setForeground(new java.awt.Color(255, 255, 255));
+        label_clock.setText("Clock");
 
-        jLabel4.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 12)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Date");
+        label_date.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 14)); // NOI18N
+        label_date.setForeground(new java.awt.Color(255, 255, 255));
+        label_date.setText("Date");
 
         javax.swing.GroupLayout BackroundLayout = new javax.swing.GroupLayout(Backround);
         Backround.setLayout(BackroundLayout);
@@ -386,12 +428,12 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackroundLayout.createSequentialGroup()
                         .addComponent(jLabel1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(label_clock, javax.swing.GroupLayout.PREFERRED_SIZE, 57, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(label_date, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(22, 22, 22)
                         .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(text_search)
                             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -417,8 +459,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                             .addComponent(btn_Search, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(jLabel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(label_clock, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(label_date, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
@@ -509,26 +551,26 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JPanel Backround;
     private javax.swing.JPanel Garis;
     private javax.swing.JLabel btn_Search;
+    private javax.swing.JLabel btn_data_penghuni;
     private javax.swing.JButton btn_delete;
     private javax.swing.JButton btn_edit;
+    private javax.swing.JLabel btn_exit;
+    private javax.swing.JLabel btn_home;
+    private javax.swing.JLabel btn_pemasukan;
+    private javax.swing.JLabel btn_pengeluaran;
     private javax.swing.JButton btn_reset;
     private javax.swing.JButton btn_save;
     private javax.swing.JLabel btn_search;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JLabel label_clock;
+    private javax.swing.JLabel label_date;
     private javax.swing.JLabel label_name;
     private javax.swing.JLabel label_name3;
     private javax.swing.JLabel label_name4;
