@@ -1,27 +1,12 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/Util.java</file>
-            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/classinstance/Pemasukan.java</file>
+            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/db/DBPengeluaran.java</file>
+            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/gui/Form_data_kontrakan.java</file>
             <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/Main.java</file>
-            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/ErrorReporting.java</file>
             <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/db/DBPemasukan.java</file>
-            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/db/DBConnection.java</file>
-            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/CONFIG.java</file>
         </group>
     </open-files>
 </project-private>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
-    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/D:/GitKraken/DataKontrakan/src/com/wowotek/dk/gui/Form_data_kontrakan.java</file>
-        </group>
-    </open-files>
-</project-private>
->>>>>>> master
