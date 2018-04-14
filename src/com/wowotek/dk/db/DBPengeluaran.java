@@ -2,7 +2,6 @@ package com.wowotek.dk.db;
 
 import com.wowotek.dk.ErrorReporting;
 import com.wowotek.dk.classinstance.Pengeluaran;
-import com.wowotek.dk.classinstance.Pengeluaran;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -116,21 +115,13 @@ public class DBPengeluaran
 
         try
         {
-            er.debug("Mengambil data pemasukan...");
-            ps = c.prepareStatement("SELECT * FROM pemasukan");
+            er.debug("Mengambil data pengeluaran...");
+            ps = c.prepareStatement("SELECT * FROM Pengeluaran");
             rs = ps.executeQuery();
 
             while (rs.next())
             {
-                String NIM = rs.getString(1);
-                String Nama = rs.getString(2);
-
-                allPengeluaran.add(
-                        new Pengeluaran(
-                                rs.getInt(1),
-                                rs.getString(2),
-                                rs.getString(3),
-                                rs.getInt(4)));
+                allPengeluaran.add(new Pengeluaran(rs.getInt(1), rs.getString(2), rs.getInt(3)));
             }
 
             rs.close();
