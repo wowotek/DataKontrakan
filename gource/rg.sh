@@ -3,7 +3,7 @@
 
 gource -1920x1080 \
 --camera-mode overview \
---caption-file /caption/CAP.txt \
+--caption-file /caption/MasterCap.txt \
 --caption-size 30 \
 --caption-duration 6 \
 --title "DATA KONTRAKAN" \
