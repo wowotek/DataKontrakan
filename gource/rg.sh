@@ -3,11 +3,11 @@
 
 gource -1920x1080 \
 --camera-mode overview \
---caption-file .gource/caption/CAP.txt \
+--caption-file /caption/CAP.txt \
 --caption-size 30 \
 --caption-duration 6 \
 --title "DATA KONTRAKAN" \
---user-image-dir .gource/avatar/ \
+--user-image-dir /avatar/ \
 --max-user-speed 170 \
 --user-friction 0.57 \
 --user-scale 0.8 \
