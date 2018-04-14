@@ -1,23 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.wowotek.dk.gui;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
 
-/**
- *
- * @author Asus
- */
 public class Form_data_kontrakan extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Form_data_kontrakan
-     */
     public Form_data_kontrakan() {
         initComponents();
         setJam();
