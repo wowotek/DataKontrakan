@@ -6,34 +6,34 @@ import com.wowotek.dk.db.DBPemasukan;
 public class Main
 {
 
-    private static ErrorReporting er;
-    private static DBConnection dbc;
+  private static ErrorReporting er;
+  private static DBConnection dbc;
 
-    public static void main(String[] args)
+  public static void main(String[] args)
+  {
+    er = new ErrorReporting();
+    dbc = new DBConnection(er);
+
+    if (dbc.DATABASE_CONNECTION_STATUS == false)
     {
-        er = new ErrorReporting();
-        dbc = new DBConnection(er);
-
-        if (dbc.DATABASE_CONNECTION_STATUS == false)
-        {
-            closingCeremonies();
-        }
-        else
-        {
-            for (int i = 0; i < 10; i++)
-            {
-                DBPemasukan dbp = new DBPemasukan(dbc.c, er);
-                dbp.ambilDataPemasukan();
-            }
-        }
-
-        closingCeremonies();
+      closingCeremonies();
+    }
+    else
+    {
+      for (int i = 0; i < 10; i++)
+      {
+        DBPemasukan dbp = new DBPemasukan(dbc.c, er);
+        dbp.ambilDataPemasukan();
+      }
     }
 
-    private static void closingCeremonies()
-    {
-        er.debug("Closing Program...", 4);
-        dbc.closeConnection();
-        er.closeFile();
-    }
+    closingCeremonies();
+  }
+
+  private static void closingCeremonies()
+  {
+    er.debug("Closing Program...", 4);
+    dbc.closeConnection();
+    er.closeFile();
+  }
 }
