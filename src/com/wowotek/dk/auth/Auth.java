@@ -25,7 +25,6 @@ public class Auth
         {
             er.debug("Cannot Create SHA-256 Instance", 2);
         }
-
     }
 
     public final String encode(String data)
@@ -35,7 +34,7 @@ public class Auth
         int j = 0;
         for (int i = 0; i < 512; i++)
         {
-            elong.append(j);
+            elong.append(bytedata[j]);
             j++;
             if(j >= data.length())
             {

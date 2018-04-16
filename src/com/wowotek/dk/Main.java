@@ -8,10 +8,9 @@ public class Main
     {
         ErrorReporting er = new ErrorReporting();
         Auth a = new Auth(er);
-        System.out.println(a.createBlock("wowotek", "Tekoajaib"));
+        System.out.println();
     }
-    
-//
+
 //    private static ErrorReporting er;
 //    private static DBConnection dbc;
 //
