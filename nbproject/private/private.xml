@@ -7,6 +7,8 @@
             <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/classinstance/Pengeluaran.java</file>
             <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/classinstance/Pemasukan.java</file>
             <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/Main.java</file>
+            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/db/DBPemasukan.java</file>
+            <file>file:/media/wowotek/Data/Misc-Programming/Java/DataKontrakan/src/com/wowotek/dk/db/DBConnection.java</file>
         </group>
     </open-files>
 </project-private>
