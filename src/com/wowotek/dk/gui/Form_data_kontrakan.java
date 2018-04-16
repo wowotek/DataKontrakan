@@ -57,6 +57,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jDialog1 = new javax.swing.JDialog();
         Backround = new javax.swing.JPanel();
         Background_text = new javax.swing.JPanel();
         btn_home = new javax.swing.JLabel();
@@ -79,6 +80,17 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         jLabel2 = new javax.swing.JLabel();
         label_clock = new javax.swing.JLabel();
         label_date = new javax.swing.JLabel();
+
+        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
+        jDialog1.getContentPane().setLayout(jDialog1Layout);
+        jDialog1Layout.setHorizontalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 745, Short.MAX_VALUE)
+        );
+        jDialog1Layout.setVerticalGroup(
+            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 469, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -408,6 +420,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JLabel btn_pemasukan;
     private javax.swing.JLabel btn_pengeluaran;
     private javax.swing.JLabel btn_search;
+    private javax.swing.JDialog jDialog1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
