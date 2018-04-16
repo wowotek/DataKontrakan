@@ -44,7 +44,7 @@ public class DBPemasukan
         }
         catch (SQLException ex)
         {
-            er.debug  ("Terjadi Kesalahan saat Menambah Pemasukan,", 2);
+            er.debug("Terjadi Kesalahan saat Menambah Pemasukan,", 2);
             er.debugln("Karena: ");
             er.debugln("        " + ex.getMessage());
             return false;
@@ -120,7 +120,7 @@ public class DBPemasukan
             er.debug("Mengambil data pemasukan...");
             ps = c.prepareStatement("SELECT * FROM pemasukan");
             rs = ps.executeQuery();
-            
+
             while (rs.next())
             {
                 String NIM = rs.getString(1);
@@ -133,7 +133,7 @@ public class DBPemasukan
                                 rs.getString(3),
                                 rs.getInt(4)));
             }
-            
+
             rs.close();
             ps.close();
             er.debug("Pengambilan data Pemasukan Berhasil !", 0);
@@ -144,7 +144,7 @@ public class DBPemasukan
             er.debugln("Karena: ");
             er.debugln("        " + ex.getMessage());
         }
-        
+
         return allPemasukan;
     }
 }
