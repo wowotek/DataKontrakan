@@ -1,12 +1,5 @@
 package com.wowotek.dk;
 
-import com.wowotek.dk.auth.Crypt;
-import com.wowotek.dk.auth.Block;
-import com.wowotek.dk.auth.authclasses.Users;
-import com.wowotek.dk.exception.ClassVariableCannotBeEmpty;
-import com.wowotek.dk.exception.VariableAlreadySetException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 public class Main
 {
