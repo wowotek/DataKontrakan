@@ -1,7 +1,7 @@
 package com.wowotek.dk.db;
 
 import com.wowotek.dk.ErrorReporting;
-import com.wowotek.dk.classinstance.Pengeluaran;
+import com.wowotek.dk.db.dbclasses.Pengeluaran;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

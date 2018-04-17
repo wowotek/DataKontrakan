@@ -1,4 +1,4 @@
-package com.wowotek.dk.classinstance;
+package com.wowotek.dk.db.dbclasses;
 
 public class Pengeluaran
 {
