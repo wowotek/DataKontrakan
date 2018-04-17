@@ -1,19 +1,20 @@
 package com.wowotek.dk.auth;
 
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.exception.ClassVariableCannotBeEmpty;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Base64;
 
-public class Auth
+public class Crypt
 {
 
     private MessageDigest crypt;
     private ErrorReporting er;
 
-    public Auth(ErrorReporting er)
+    public Crypt(ErrorReporting er)
     {
         this.er = er;
 
@@ -26,7 +27,12 @@ public class Auth
             er.debug("Cannot Create SHA-256 Instance", 2);
         }
     }
-
+    
+    public Crypt()
+    {
+        
+    }
+    
     public final String encode(String data)
     {
         StringBuilder elong = new StringBuilder();
@@ -102,4 +108,8 @@ public class Auth
         return hash(fin);
     }
 
+    public boolean verify(String Original, String hashed)
+    {
+        return Original.equals(hashed);
+    }
 }

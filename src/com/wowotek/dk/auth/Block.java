@@ -9,10 +9,6 @@ public class Block
     public String Tanggal;
     public Block BlockBefore;
 
-    public boolean checkTanggal(String Tanggal)
-    {
-        
-    }
 //    public Block(int ID, String Username, String Password, String Tanggal, Block blockbefore)
 //    {
 //        this.ID = ID;

@@ -1,17 +1,18 @@
 package com.wowotek.dk;
 
-import com.wowotek.dk.auth.Auth;
+import com.wowotek.dk.auth.Crypt;
 import com.wowotek.dk.auth.Block;
+import com.wowotek.dk.auth.authclasses.Users;
+import com.wowotek.dk.exception.ClassVariableCannotBeEmpty;
+import com.wowotek.dk.exception.VariableAlreadySetException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 public class Main
 {
+
     public static void main(String[] args)
     {
-        ErrorReporting er = new ErrorReporting();
-        Auth a = new Auth(er);
-        Block b = new Block();
-        
-        System.out.println(b.checkTanggal("11/09/12"));
     }
 
 //    private static ErrorReporting er;
