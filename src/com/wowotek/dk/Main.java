@@ -1,6 +1,7 @@
 package com.wowotek.dk;
 
 import com.wowotek.dk.auth.Auth;
+import com.wowotek.dk.auth.Block;
 
 public class Main
 {
@@ -8,7 +9,9 @@ public class Main
     {
         ErrorReporting er = new ErrorReporting();
         Auth a = new Auth(er);
-        System.out.println();
+        Block b = new Block();
+        
+        System.out.println(b.checkTanggal("11/09/12"));
     }
 
 //    private static ErrorReporting er;
