@@ -55,7 +55,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         Data_penghuni = new javax.swing.JDialog();
         Backround2 = new javax.swing.JPanel();
@@ -264,7 +265,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         );
 
         table_pengeluaran2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -286,20 +288,25 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "Nama Lengkap", "ID KTP/Pasport/SIM", "TTL", "No.Telp 1", "No. Telp 2", "Pekerjaan", "Tempat Kerja"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
         jScrollPane4.setViewportView(table_pengeluaran2);
-        if (table_pengeluaran2.getColumnModel().getColumnCount() > 0) {
+        if (table_pengeluaran2.getColumnModel().getColumnCount() > 0)
+        {
             table_pengeluaran2.getColumnModel().getColumn(5).setResizable(false);
             table_pengeluaran2.getColumnModel().getColumn(5).setHeaderValue("Pekerjaan");
             table_pengeluaran2.getColumnModel().getColumn(6).setHeaderValue("Tempat Kerja");
@@ -322,14 +329,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search2.setBackground(new java.awt.Color(27, 188, 155));
         text_search2.setForeground(new java.awt.Color(255, 255, 255));
         text_search2.setBorder(null);
-        text_search2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_search2ActionPerformed(evt);
             }
         });
 
-        btn_search2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search2.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_search2MouseClicked(evt);
             }
         });
@@ -357,8 +368,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_save1.setText("Add");
         btn_save1.setActionCommand("Simpan");
-        btn_save1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save1ActionPerformed(evt);
             }
         });
@@ -475,7 +488,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGroup(Garis3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 178, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 149, Short.MAX_VALUE)
                 .addComponent(label_clock10)
                 .addGap(146, 146, 146))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis3Layout.createSequentialGroup()
@@ -496,12 +509,13 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                         .addGap(34, 34, 34)))
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date10, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                .addComponent(label_date10, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
         table_pengeluaran5.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -523,15 +537,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null, null, null},
                 {null, null, null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "ID Pemasukan", "Transaksi", "Sumber", "Jumlah", "Tanggal"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
@@ -554,14 +572,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search5.setBackground(new java.awt.Color(27, 188, 155));
         text_search5.setForeground(new java.awt.Color(255, 255, 255));
         text_search5.setBorder(null);
-        text_search5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search5.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_search5ActionPerformed(evt);
             }
         });
 
-        btn_search5.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search5.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_search5MouseClicked(evt);
             }
         });
@@ -589,8 +611,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_save4.setText("Add");
         btn_save4.setActionCommand("Simpan");
-        btn_save4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save4.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save4ActionPerformed(evt);
             }
         });
@@ -707,7 +731,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGroup(Garis4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 165, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 135, Short.MAX_VALUE)
                 .addComponent(label_clock12)
                 .addGap(146, 146, 146))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis4Layout.createSequentialGroup()
@@ -728,12 +752,13 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                         .addGap(34, 34, 34)))
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date12, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                .addComponent(label_date12, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
         table_pengeluaran6.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -755,15 +780,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null, null, null},
                 {null, null, null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "ID Pengeluaran", "Transaksi", "Sumber", "Jumlah", "Tanggal"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
@@ -786,14 +815,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search6.setBackground(new java.awt.Color(27, 188, 155));
         text_search6.setForeground(new java.awt.Color(255, 255, 255));
         text_search6.setBorder(null);
-        text_search6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search6.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_search6ActionPerformed(evt);
             }
         });
 
-        btn_search6.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search6.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_search6MouseClicked(evt);
             }
         });
@@ -821,8 +854,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_save5.setText("Add");
         btn_save5.setActionCommand("Simpan");
-        btn_save5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save5.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save5ActionPerformed(evt);
             }
         });
@@ -970,8 +1005,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete3.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete3.setText("Create");
-        btn_delete3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete3ActionPerformed(evt);
             }
         });
@@ -981,8 +1018,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete4.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete4.setText("Cancel");
-        btn_delete4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete4.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete4ActionPerformed(evt);
             }
         });
@@ -1024,7 +1063,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGap(24, 24, 24))
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, 414, Short.MAX_VALUE)
+                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, 418, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -1148,8 +1187,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete5.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete5.setText("Create");
-        btn_delete5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete5.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete5ActionPerformed(evt);
             }
         });
@@ -1159,8 +1200,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete6.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete6.setText("Cancel");
-        btn_delete6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete6.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete6ActionPerformed(evt);
             }
         });
@@ -1304,8 +1347,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete7.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete7.setText("Create");
-        btn_delete7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete7.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete7ActionPerformed(evt);
             }
         });
@@ -1315,8 +1360,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete8.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete8.setText("Cancel");
-        btn_delete8.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete8.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete8ActionPerformed(evt);
             }
         });
@@ -1447,8 +1494,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete9.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete9.setText("Added");
-        btn_delete9.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete9.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete9ActionPerformed(evt);
             }
         });
@@ -1458,8 +1507,11 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete10.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete10.setText("Cancel");
-        btn_delete10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete10.setPreferredSize(new java.awt.Dimension(85, 34));
+        btn_delete10.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete10ActionPerformed(evt);
             }
         });
@@ -1478,21 +1530,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGroup(jPanel17Layout.createSequentialGroup()
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
-                    .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addGap(26, 26, 26)
-                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(label_name37)
-                            .addComponent(label_name38)
-                            .addComponent(label_name39))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addComponent(txt_nama33, javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING, 0, 207, Short.MAX_VALUE)
-                            .addComponent(txt_nama32))
-                        .addGap(9, 9, 9))
-                    .addGroup(jPanel17Layout.createSequentialGroup()
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel17Layout.createSequentialGroup()
                                 .addGap(21, 21, 21)
@@ -1500,14 +1537,27 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                             .addGroup(jPanel17Layout.createSequentialGroup()
                                 .addGap(69, 69, 69)
                                 .addComponent(label_name33)))
-                        .addGap(0, 63, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 385, Short.MAX_VALUE)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(label_name39)
+                                    .addComponent(label_name37)
+                                    .addComponent(label_name38))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(txt_nama32)
+                                    .addComponent(txt_nama33)
+                                    .addComponent(jComboBox1, 0, 300, Short.MAX_VALUE)))
+                            .addGroup(jPanel17Layout.createSequentialGroup()
+                                .addComponent(btn_delete9, javax.swing.GroupLayout.PREFERRED_SIZE, 186, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(btn_delete10, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(0, 0, Short.MAX_VALUE)))))
                 .addContainerGap())
-            .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGap(78, 78, 78)
-                .addComponent(btn_delete9, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btn_delete10)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1518,23 +1568,26 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(label_name33, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(32, 32, 32)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name37, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama32, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(label_name39, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txt_nama32, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label_name37, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(txt_nama33, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label_name38, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name38, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama33, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name39, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_delete10)
-                    .addComponent(btn_delete9))
-                .addContainerGap(37, Short.MAX_VALUE))
+                    .addComponent(btn_delete9)
+                    .addComponent(btn_delete10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout Setoran_Data_pemasukanLayout = new javax.swing.GroupLayout(Setoran_Data_pemasukan.getContentPane());
@@ -1545,9 +1598,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         );
         Setoran_Data_pemasukanLayout.setVerticalGroup(
             Setoran_Data_pemasukanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Setoran_Data_pemasukanLayout.createSequentialGroup()
-                .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 1, Short.MAX_VALUE))
+            .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1682,12 +1733,13 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date1, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                .addComponent(label_date1, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
         table_pengeluaran.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null},
                 {null, null, null},
                 {null, null, null},
@@ -1709,15 +1761,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null},
                 {null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "ID Pemasukan", "Transaksi", "Jumlah"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
@@ -1740,14 +1796,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search.setBackground(new java.awt.Color(27, 188, 155));
         text_search.setForeground(new java.awt.Color(255, 255, 255));
         text_search.setBorder(null);
-        text_search.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_searchActionPerformed(evt);
             }
         });
 
-        btn_search.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_searchMouseClicked(evt);
             }
         });
