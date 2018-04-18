@@ -25,8 +25,7 @@ public class Form_login extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents()
-    {
+    private void initComponents() {
 
         RegisterFormData = new javax.swing.JDialog();
         jPanel2 = new javax.swing.JPanel();
@@ -82,7 +81,7 @@ public class Form_login extends javax.swing.JFrame {
 
         jPanel2.setBackground(new java.awt.Color(1, 50, 67));
 
-        label_name5.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        label_name5.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name5.setForeground(new java.awt.Color(255, 255, 255));
         label_name5.setText("Register Form");
 
@@ -102,13 +101,13 @@ public class Form_login extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        label_name6.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name6.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name6.setForeground(new java.awt.Color(255, 255, 255));
         label_name6.setText("Nama Lengkap *");
 
         txt_nama4.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name7.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name7.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name7.setForeground(new java.awt.Color(255, 255, 255));
         label_name7.setText("ID KTP/Passport/SIM *");
 
@@ -116,54 +115,50 @@ public class Form_login extends javax.swing.JFrame {
 
         txt_nama6.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name8.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name8.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name8.setForeground(new java.awt.Color(255, 255, 255));
         label_name8.setText("Tempat, Tgl Lahir *");
 
         txt_nama7.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name9.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name9.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name9.setForeground(new java.awt.Color(255, 255, 255));
         label_name9.setText("No. Telp 1 *");
 
-        label_name10.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name10.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name10.setForeground(new java.awt.Color(255, 255, 255));
         label_name10.setText("No. Telp 2");
 
         txt_nama8.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name11.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name11.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name11.setForeground(new java.awt.Color(255, 255, 255));
         label_name11.setText("Pekerjaan");
 
         txt_nama9.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name12.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name12.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name12.setForeground(new java.awt.Color(255, 255, 255));
         label_name12.setText("Tempat Kerja");
 
         txt_nama10.setForeground(new java.awt.Color(255, 255, 255));
 
         btn_delete.setBackground(new java.awt.Color(101, 198, 187));
-        btn_delete.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_delete.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         btn_delete.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete.setText("Next");
-        btn_delete.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_deleteActionPerformed(evt);
             }
         });
 
         btn_delete1.setBackground(new java.awt.Color(101, 198, 187));
-        btn_delete1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_delete1.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         btn_delete1.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete1.setText("Cancel");
-        btn_delete1.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete1ActionPerformed(evt);
             }
         });
@@ -182,11 +177,11 @@ public class Form_login extends javax.swing.JFrame {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(label_name7)
                                     .addComponent(label_name8)
-                                    .addComponent(label_name6, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addComponent(label_name9)
                                     .addComponent(label_name10)
                                     .addComponent(label_name11)
-                                    .addComponent(label_name12))
+                                    .addComponent(label_name12)
+                                    .addComponent(label_name6, javax.swing.GroupLayout.PREFERRED_SIZE, 156, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(14, 14, 14)
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(txt_nama5)
@@ -270,7 +265,7 @@ public class Form_login extends javax.swing.JFrame {
 
         jPanel5.setBackground(new java.awt.Color(1, 50, 67));
 
-        label_name13.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        label_name13.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         label_name13.setForeground(new java.awt.Color(255, 255, 255));
         label_name13.setText("Register Form");
 
@@ -290,46 +285,42 @@ public class Form_login extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        label_name14.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name14.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         label_name14.setForeground(new java.awt.Color(255, 255, 255));
         label_name14.setText("Username *");
 
         txt_nama11.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name15.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name15.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         label_name15.setForeground(new java.awt.Color(255, 255, 255));
         label_name15.setText("E-mail *");
 
         txt_nama12.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name16.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name16.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         label_name16.setForeground(new java.awt.Color(255, 255, 255));
         label_name16.setText("Password *");
 
-        label_name17.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name17.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         label_name17.setForeground(new java.awt.Color(255, 255, 255));
         label_name17.setText("Confirm Password *");
 
         btn_delete2.setBackground(new java.awt.Color(101, 198, 187));
-        btn_delete2.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_delete2.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         btn_delete2.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete2.setText("Create account");
-        btn_delete2.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete2ActionPerformed(evt);
             }
         });
 
         btn_delete3.setBackground(new java.awt.Color(101, 198, 187));
-        btn_delete3.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_delete3.setFont(new java.awt.Font("Helvetica", 0, 24)); // NOI18N
         btn_delete3.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete3.setText("Previous");
-        btn_delete3.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete3ActionPerformed(evt);
             }
         });
@@ -343,50 +334,48 @@ public class Form_login extends javax.swing.JFrame {
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 444, Short.MAX_VALUE)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addContainerGap()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 444, Short.MAX_VALUE)
+                            .addGroup(jPanel5Layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addGap(47, 47, 47)
+                                .addComponent(label_name13))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(label_name15)
                                     .addComponent(label_name16)
-                                    .addComponent(label_name14, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(label_name17))
+                                    .addComponent(label_name17)
+                                    .addComponent(label_name14, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(14, 14, 14)
-                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txt_nama12)
-                                    .addComponent(txt_nama11)
-                                    .addComponent(jPasswordField2)
-                                    .addComponent(jPasswordField3)))))
-                    .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(jPasswordField3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 206, Short.MAX_VALUE)
+                                    .addComponent(jPasswordField2, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txt_nama12, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(txt_nama11, javax.swing.GroupLayout.Alignment.LEADING)))
                             .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addComponent(jLabel3))
-                            .addGroup(jPanel5Layout.createSequentialGroup()
-                                .addGap(126, 126, 126)
-                                .addComponent(label_name13)))
-                        .addGap(0, 141, Short.MAX_VALUE)))
+                                .addGap(30, 30, 30)
+                                .addComponent(btn_delete3, javax.swing.GroupLayout.PREFERRED_SIZE, 170, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btn_delete2)))
+                        .addGap(0, 14, Short.MAX_VALUE)))
                 .addContainerGap())
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addGap(70, 70, 70)
-                .addComponent(btn_delete3, javax.swing.GroupLayout.PREFERRED_SIZE, 112, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btn_delete2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel3)
-                .addGap(4, 4, 4)
-                .addComponent(label_name13, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel3)
+                        .addGap(45, 45, 45))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                        .addComponent(label_name13)
+                        .addGap(18, 18, 18)))
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 34, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name14, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_nama11, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -402,11 +391,11 @@ public class Form_login extends javax.swing.JFrame {
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jPasswordField3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label_name17, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(29, 29, 29)
+                .addGap(30, 30, 30)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_delete3)
                     .addComponent(btn_delete2))
-                .addGap(43, 43, 43))
+                .addGap(42, 42, 42))
         );
 
         javax.swing.GroupLayout RegisterFormCredentialsLayout = new javax.swing.GroupLayout(RegisterFormCredentials.getContentPane());
@@ -440,83 +429,76 @@ public class Form_login extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        label_name.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name.setForeground(new java.awt.Color(255, 255, 255));
         label_name.setText("Password");
 
         txt_nama.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name1.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 19)); // NOI18N
+        label_name1.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name1.setForeground(new java.awt.Color(255, 255, 255));
         label_name1.setText("Username");
 
         jPasswordField1.setForeground(new java.awt.Color(255, 255, 255));
 
-        label_name2.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 24)); // NOI18N
+        label_name2.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name2.setForeground(new java.awt.Color(255, 255, 255));
         label_name2.setText("Login Form");
 
         btn_save.setBackground(new java.awt.Color(101, 198, 187));
-        btn_save.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_save.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
         btn_save.setForeground(new java.awt.Color(1, 50, 67));
         btn_save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Login.png"))); // NOI18N
         btn_save.setText("Login");
         btn_save.setActionCommand("Simpan");
-        btn_save.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_save.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_saveActionPerformed(evt);
             }
         });
 
         btn_save1.setBackground(new java.awt.Color(101, 198, 187));
-        btn_save1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_save1.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
         btn_save1.setForeground(new java.awt.Color(1, 50, 67));
         btn_save1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_save1.setText("Cancel");
         btn_save1.setActionCommand("Simpan");
-        btn_save1.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_save1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_save1ActionPerformed(evt);
             }
         });
 
+        checkbox1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         checkbox1.setForeground(new java.awt.Color(255, 255, 255));
         checkbox1.setLabel("   Remember my password");
 
-        label_name3.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
+        label_name3.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name3.setForeground(new java.awt.Color(255, 255, 255));
         label_name3.setText("Create account");
 
-        label_name4.setFont(new java.awt.Font("Tw Cen MT Condensed", 1, 18)); // NOI18N
+        label_name4.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name4.setForeground(new java.awt.Color(255, 255, 255));
         label_name4.setText("Forgot Password");
 
         btn_save2.setBackground(new java.awt.Color(101, 198, 187));
-        btn_save2.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_save2.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
         btn_save2.setForeground(new java.awt.Color(1, 50, 67));
         btn_save2.setText("Create new account");
         btn_save2.setActionCommand("Simpan");
-        btn_save2.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_save2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_save2ActionPerformed(evt);
             }
         });
 
         btn_save3.setBackground(new java.awt.Color(101, 198, 187));
-        btn_save3.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
+        btn_save3.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
         btn_save3.setForeground(new java.awt.Color(1, 50, 67));
         btn_save3.setText("Retrieve a lost account");
         btn_save3.setActionCommand("Simpan");
-        btn_save3.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_save3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_save3ActionPerformed(evt);
             }
         });
@@ -529,51 +511,49 @@ public class Form_login extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jLabel1)
+                .addGap(112, 112, 112)
+                .addComponent(label_name2, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(92, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(label_name, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGap(158, 158, 158)
-                                    .addComponent(label_name2, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 183, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                    .addComponent(label_name1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                    .addComponent(txt_nama, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addComponent(btn_save, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                        .addComponent(btn_save1, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                        .addComponent(label_name, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(jPasswordField1, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(22, 22, 22)
+                        .addComponent(label_name1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(txt_nama, javax.swing.GroupLayout.PREFERRED_SIZE, 331, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addComponent(checkbox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGroup(jPanel1Layout.createSequentialGroup()
+                            .addComponent(btn_save, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(btn_save1, javax.swing.GroupLayout.PREFERRED_SIZE, 165, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(label_name4)
-                            .addComponent(label_name3))
-                        .addGap(18, 18, 18)
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(btn_save2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(btn_save3, javax.swing.GroupLayout.DEFAULT_SIZE, 329, Short.MAX_VALUE))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                            .addComponent(label_name3)
+                            .addComponent(label_name4))
+                        .addGap(23, 23, 23)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(btn_save3, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btn_save2, javax.swing.GroupLayout.PREFERRED_SIZE, 274, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(3, 3, 3)))
                 .addGap(18, 18, 18))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(24, 24, 24)
-                .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_name2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel1)
+                        .addGap(40, 40, 40))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(label_name2, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(28, 28, 28)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(txt_nama, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label_name1, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -597,7 +577,7 @@ public class Form_login extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_save3)
                     .addComponent(label_name4, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(28, Short.MAX_VALUE))
+                .addContainerGap(29, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
