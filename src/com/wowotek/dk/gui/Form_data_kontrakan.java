@@ -137,8 +137,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name21 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jPanel14 = new javax.swing.JPanel();
-        label_name22 = new javax.swing.JLabel();
-        txt_nama19 = new javax.swing.JTextField();
         label_name23 = new javax.swing.JLabel();
         txt_nama20 = new javax.swing.JTextField();
         txt_nama21 = new javax.swing.JTextField();
@@ -154,8 +152,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name27 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
-        label_name28 = new javax.swing.JLabel();
-        txt_nama24 = new javax.swing.JTextField();
         label_name29 = new javax.swing.JLabel();
         txt_nama25 = new javax.swing.JTextField();
         txt_nama26 = new javax.swing.JTextField();
@@ -171,21 +167,14 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name33 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
-        label_name34 = new javax.swing.JLabel();
-        txt_nama29 = new javax.swing.JTextField();
         txt_nama32 = new javax.swing.JTextField();
         label_name37 = new javax.swing.JLabel();
         label_name38 = new javax.swing.JLabel();
         txt_nama33 = new javax.swing.JTextField();
         btn_delete9 = new javax.swing.JButton();
         btn_delete10 = new javax.swing.JButton();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
-        jRadioButton3 = new javax.swing.JRadioButton();
-        jRadioButton4 = new javax.swing.JRadioButton();
-        jRadioButton5 = new javax.swing.JRadioButton();
-        jRadioButton6 = new javax.swing.JRadioButton();
-        jRadioButton7 = new javax.swing.JRadioButton();
+        label_name39 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
         Backround = new javax.swing.JPanel();
         Background_text = new javax.swing.JPanel();
         btn_home = new javax.swing.JLabel();
@@ -1130,12 +1119,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        label_name22.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name22.setForeground(new java.awt.Color(255, 255, 255));
-        label_name22.setText("ID Pemasukan");
-
-        txt_nama19.setForeground(new java.awt.Color(255, 255, 255));
-
         label_name23.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name23.setForeground(new java.awt.Color(255, 255, 255));
         label_name23.setText("Transaksi");
@@ -1186,46 +1169,46 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
-                .addGap(0, 25, Short.MAX_VALUE)
-                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(label_name25)
-                            .addComponent(label_name26)
-                            .addComponent(label_name24))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txt_nama21, javax.swing.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
-                            .addComponent(txt_nama22)
-                            .addComponent(txt_nama23)))
-                    .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(label_name22)
-                            .addComponent(label_name23, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(40, 40, 40)
-                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txt_nama20, javax.swing.GroupLayout.DEFAULT_SIZE, 218, Short.MAX_VALUE)
-                            .addComponent(txt_nama19, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(24, 24, 24))
             .addGroup(jPanel13Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(23, 23, 23)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(jPanel13Layout.createSequentialGroup()
+                            .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(label_name25)
+                                .addComponent(label_name26)
+                                .addComponent(label_name24))
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(txt_nama21)
+                                .addComponent(txt_nama22)
+                                .addComponent(txt_nama23, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGroup(jPanel13Layout.createSequentialGroup()
+                            .addComponent(label_name23, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGap(40, 40, 40)
+                            .addComponent(txt_nama20, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(jPanel13Layout.createSequentialGroup()
+                        .addGap(53, 53, 53)
+                        .addComponent(btn_delete5, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(btn_delete6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 53, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(26, Short.MAX_VALUE))
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jLabel5))
+                        .addContainerGap()
+                        .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
                     .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGap(77, 77, 77)
-                        .addComponent(label_name21))
-                    .addGroup(jPanel13Layout.createSequentialGroup()
-                        .addGap(78, 78, 78)
-                        .addComponent(btn_delete5, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btn_delete6)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel13Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addComponent(jLabel5))
+                            .addGroup(jPanel13Layout.createSequentialGroup()
+                                .addGap(77, 77, 77)
+                                .addComponent(label_name21)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1236,11 +1219,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addComponent(jPanel14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(label_name21, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name22, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama19, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(31, 31, 31)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name23, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_nama20, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1260,7 +1239,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_delete6)
                     .addComponent(btn_delete5))
-                .addContainerGap(34, Short.MAX_VALUE))
+                .addContainerGap(41, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout Tambah_Data_pemasukanLayout = new javax.swing.GroupLayout(Tambah_Data_pemasukan.getContentPane());
@@ -1295,12 +1274,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 2, Short.MAX_VALUE)
         );
-
-        label_name28.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name28.setForeground(new java.awt.Color(255, 255, 255));
-        label_name28.setText("ID Pemasukan");
-
-        txt_nama24.setForeground(new java.awt.Color(255, 255, 255));
 
         label_name29.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name29.setForeground(new java.awt.Color(255, 255, 255));
@@ -1352,46 +1325,43 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         jPanel15.setLayout(jPanel15Layout);
         jPanel15Layout.setHorizontalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
-                .addGap(0, 25, Short.MAX_VALUE)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(label_name31)
-                            .addComponent(label_name32)
-                            .addComponent(label_name30))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(txt_nama26, javax.swing.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
-                            .addComponent(txt_nama27)
-                            .addComponent(txt_nama28)))
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(label_name28)
-                            .addComponent(label_name29, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(40, 40, 40)
-                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(txt_nama25, javax.swing.GroupLayout.DEFAULT_SIZE, 218, Short.MAX_VALUE)
-                            .addComponent(txt_nama24, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(24, 24, 24))
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE)
-                .addContainerGap())
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jLabel6))
+                        .addContainerGap()
+                        .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
                     .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGap(77, 77, 77)
-                        .addComponent(label_name27))
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGap(85, 85, 85)
-                        .addComponent(btn_delete7, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btn_delete8)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel15Layout.createSequentialGroup()
+                                .addGap(21, 21, 21)
+                                .addComponent(jLabel6))
+                            .addGroup(jPanel15Layout.createSequentialGroup()
+                                .addGap(77, 77, 77)
+                                .addComponent(label_name27))
+                            .addGroup(jPanel15Layout.createSequentialGroup()
+                                .addGap(25, 25, 25)
+                                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                    .addGroup(jPanel15Layout.createSequentialGroup()
+                                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(label_name31)
+                                            .addComponent(label_name32)
+                                            .addComponent(label_name30))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                        .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                            .addComponent(txt_nama26)
+                                            .addComponent(txt_nama27)
+                                            .addComponent(txt_nama28, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addGroup(jPanel15Layout.createSequentialGroup()
+                                        .addComponent(label_name29, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(40, 40, 40)
+                                        .addComponent(txt_nama25, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel15Layout.createSequentialGroup()
+                                .addGap(84, 84, 84)
+                                .addComponent(btn_delete7, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(18, 18, 18)
+                                .addComponent(btn_delete8)))
+                        .addGap(0, 14, Short.MAX_VALUE)))
+                .addContainerGap())
         );
         jPanel15Layout.setVerticalGroup(
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1402,11 +1372,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(label_name27, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name28, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama24, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(35, 35, 35)
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name29, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_nama25, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1422,11 +1388,11 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name32, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_nama28, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 37, Short.MAX_VALUE)
+                .addGap(28, 28, 28)
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_delete8)
                     .addComponent(btn_delete7))
-                .addGap(33, 33, 33))
+                .addContainerGap(35, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout Tambah_Data_pengeluaranLayout = new javax.swing.GroupLayout(Tambah_Data_pengeluaran.getContentPane());
@@ -1437,7 +1403,9 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         );
         Tambah_Data_pengeluaranLayout.setVerticalGroup(
             Tambah_Data_pengeluaranLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addGroup(Tambah_Data_pengeluaranLayout.createSequentialGroup()
+                .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 3, Short.MAX_VALUE))
         );
 
         jPanel17.setBackground(new java.awt.Color(1, 50, 67));
@@ -1461,12 +1429,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGap(0, 2, Short.MAX_VALUE)
         );
-
-        label_name34.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name34.setForeground(new java.awt.Color(255, 255, 255));
-        label_name34.setText("ID Pemasukan");
-
-        txt_nama29.setForeground(new java.awt.Color(255, 255, 255));
 
         txt_nama32.setForeground(new java.awt.Color(255, 255, 255));
 
@@ -1502,106 +1464,49 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             }
         });
 
-        jRadioButton1.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton1.setText("Nama1");
+        label_name39.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        label_name39.setForeground(new java.awt.Color(255, 255, 255));
+        label_name39.setText("Sumber");
 
-        jRadioButton2.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton2.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton2.setText("Nama1");
-
-        jRadioButton3.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton3.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton3.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton3.setText("Nama1");
-
-        jRadioButton4.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton4.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton4.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton4.setText("Nama1");
-
-        jRadioButton5.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton5.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton5.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton5.setText("Nama1");
-        jRadioButton5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton5ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton6.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton6.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton6.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton6.setText("Nama1");
-        jRadioButton6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jRadioButton6ActionPerformed(evt);
-            }
-        });
-
-        jRadioButton7.setBackground(new java.awt.Color(1, 50, 67));
-        jRadioButton7.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        jRadioButton7.setForeground(new java.awt.Color(255, 255, 255));
-        jRadioButton7.setText("Nama1");
+        jComboBox1.setEditable(true);
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Nama 1", "Nama 2", "Nama 3", "Nama 4", "Nama 5", "Nama 6", "Nama 7" }));
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
         jPanel17Layout.setHorizontalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGap(30, 30, 30)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(label_name37)
-                    .addComponent(label_name38)
-                    .addComponent(label_name34))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(txt_nama29)
-                    .addComponent(txt_nama32, javax.swing.GroupLayout.DEFAULT_SIZE, 216, Short.MAX_VALUE)
-                    .addComponent(txt_nama33))
-                .addGap(24, 24, 24))
-            .addGroup(jPanel17Layout.createSequentialGroup()
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
                     .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jLabel10)
-                        .addGap(0, 278, Short.MAX_VALUE))
+                        .addGap(26, 26, 26)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(label_name37)
+                            .addComponent(label_name38)
+                            .addComponent(label_name39))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                            .addComponent(txt_nama33, javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING, 0, 207, Short.MAX_VALUE)
+                            .addComponent(txt_nama32))
+                        .addGap(9, 9, 9))
                     .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addGap(34, 34, 34)
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel17Layout.createSequentialGroup()
-                                .addGap(45, 45, 45)
-                                .addComponent(jRadioButton1)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton2)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton3))
+                                .addGap(21, 21, 21)
+                                .addComponent(jLabel10))
                             .addGroup(jPanel17Layout.createSequentialGroup()
-                                .addComponent(jRadioButton4)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton5)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton6)
-                                .addGap(18, 18, 18)
-                                .addComponent(jRadioButton7)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                                .addGap(69, 69, 69)
+                                .addComponent(label_name33)))
+                        .addGap(0, 63, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(jPanel17Layout.createSequentialGroup()
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addGap(69, 69, 69)
-                        .addComponent(label_name33))
-                    .addGroup(jPanel17Layout.createSequentialGroup()
-                        .addGap(86, 86, 86)
-                        .addComponent(btn_delete9, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btn_delete10)))
+                .addGap(78, 78, 78)
+                .addComponent(btn_delete9, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(btn_delete10)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
@@ -1613,22 +1518,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(label_name33, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton1)
-                    .addComponent(jRadioButton2)
-                    .addComponent(jRadioButton3))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jRadioButton4)
-                    .addComponent(jRadioButton5)
-                    .addComponent(jRadioButton6)
-                    .addComponent(jRadioButton7))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name34, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama29, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
+                .addGap(32, 32, 32)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name37, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_nama32, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
@@ -1636,11 +1526,15 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name38, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txt_nama33, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(40, 40, 40)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(label_name39, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(30, 30, 30)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btn_delete10)
                     .addComponent(btn_delete9))
-                .addContainerGap(39, Short.MAX_VALUE))
+                .addContainerGap(37, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout Setoran_Data_pemasukanLayout = new javax.swing.GroupLayout(Setoran_Data_pemasukan.getContentPane());
@@ -1653,7 +1547,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             Setoran_Data_pemasukanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Setoran_Data_pemasukanLayout.createSequentialGroup()
                 .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 2, Short.MAX_VALUE))
+                .addGap(0, 1, Short.MAX_VALUE))
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -2023,14 +1917,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_delete10ActionPerformed
 
-    private void jRadioButton5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton5ActionPerformed
-
-    private void jRadioButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jRadioButton6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jRadioButton6ActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -2109,6 +1995,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JLabel btn_search2;
     private javax.swing.JLabel btn_search5;
     private javax.swing.JLabel btn_search6;
+    private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel16;
@@ -2141,13 +2028,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
-    private javax.swing.JRadioButton jRadioButton3;
-    private javax.swing.JRadioButton jRadioButton4;
-    private javax.swing.JRadioButton jRadioButton5;
-    private javax.swing.JRadioButton jRadioButton6;
-    private javax.swing.JRadioButton jRadioButton7;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane7;
@@ -2177,21 +2057,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JLabel label_name19;
     private javax.swing.JLabel label_name20;
     private javax.swing.JLabel label_name21;
-    private javax.swing.JLabel label_name22;
     private javax.swing.JLabel label_name23;
     private javax.swing.JLabel label_name24;
     private javax.swing.JLabel label_name25;
     private javax.swing.JLabel label_name26;
     private javax.swing.JLabel label_name27;
-    private javax.swing.JLabel label_name28;
     private javax.swing.JLabel label_name29;
     private javax.swing.JLabel label_name30;
     private javax.swing.JLabel label_name31;
     private javax.swing.JLabel label_name32;
     private javax.swing.JLabel label_name33;
-    private javax.swing.JLabel label_name34;
     private javax.swing.JLabel label_name37;
     private javax.swing.JLabel label_name38;
+    private javax.swing.JLabel label_name39;
     private javax.swing.JTable table_pengeluaran;
     private javax.swing.JTable table_pengeluaran2;
     private javax.swing.JTable table_pengeluaran5;
@@ -2207,17 +2085,14 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JTextField txt_nama16;
     private javax.swing.JTextField txt_nama17;
     private javax.swing.JTextField txt_nama18;
-    private javax.swing.JTextField txt_nama19;
     private javax.swing.JTextField txt_nama20;
     private javax.swing.JTextField txt_nama21;
     private javax.swing.JTextField txt_nama22;
     private javax.swing.JTextField txt_nama23;
-    private javax.swing.JTextField txt_nama24;
     private javax.swing.JTextField txt_nama25;
     private javax.swing.JTextField txt_nama26;
     private javax.swing.JTextField txt_nama27;
     private javax.swing.JTextField txt_nama28;
-    private javax.swing.JTextField txt_nama29;
     private javax.swing.JTextField txt_nama32;
     private javax.swing.JTextField txt_nama33;
     // End of variables declaration//GEN-END:variables
