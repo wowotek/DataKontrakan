@@ -25,9 +25,10 @@ public class Form_login extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
-        jDialog1 = new javax.swing.JDialog();
+        RegisterFormData = new javax.swing.JDialog();
         jPanel2 = new javax.swing.JPanel();
         label_name5 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
@@ -48,7 +49,7 @@ public class Form_login extends javax.swing.JFrame {
         txt_nama10 = new javax.swing.JTextField();
         btn_delete = new javax.swing.JButton();
         btn_delete1 = new javax.swing.JButton();
-        jDialog2 = new javax.swing.JDialog();
+        RegisterFormCredentials = new javax.swing.JDialog();
         jPanel5 = new javax.swing.JPanel();
         label_name13 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
@@ -147,8 +148,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_delete.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete.setText("Next");
-        btn_delete.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_deleteActionPerformed(evt);
             }
         });
@@ -157,8 +160,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete1.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_delete1.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete1.setText("Cancel");
-        btn_delete1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete1ActionPerformed(evt);
             }
         });
@@ -252,14 +257,14 @@ public class Form_login extends javax.swing.JFrame {
                 .addContainerGap(22, Short.MAX_VALUE))
         );
 
-        javax.swing.GroupLayout jDialog1Layout = new javax.swing.GroupLayout(jDialog1.getContentPane());
-        jDialog1.getContentPane().setLayout(jDialog1Layout);
-        jDialog1Layout.setHorizontalGroup(
-            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout RegisterFormDataLayout = new javax.swing.GroupLayout(RegisterFormData.getContentPane());
+        RegisterFormData.getContentPane().setLayout(RegisterFormDataLayout);
+        RegisterFormDataLayout.setHorizontalGroup(
+            RegisterFormDataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        jDialog1Layout.setVerticalGroup(
-            jDialog1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        RegisterFormDataLayout.setVerticalGroup(
+            RegisterFormDataLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
@@ -309,8 +314,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete2.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_delete2.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete2.setText("Create account");
-        btn_delete2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete2ActionPerformed(evt);
             }
         });
@@ -319,8 +326,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete3.setFont(new java.awt.Font("Tw Cen MT Condensed", 0, 18)); // NOI18N
         btn_delete3.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete3.setText("Previous");
-        btn_delete3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete3ActionPerformed(evt);
             }
         });
@@ -338,7 +347,7 @@ public class Form_login extends javax.swing.JFrame {
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
+                            .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 444, Short.MAX_VALUE)
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(label_name15)
@@ -400,14 +409,14 @@ public class Form_login extends javax.swing.JFrame {
                 .addGap(43, 43, 43))
         );
 
-        javax.swing.GroupLayout jDialog2Layout = new javax.swing.GroupLayout(jDialog2.getContentPane());
-        jDialog2.getContentPane().setLayout(jDialog2Layout);
-        jDialog2Layout.setHorizontalGroup(
-            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        javax.swing.GroupLayout RegisterFormCredentialsLayout = new javax.swing.GroupLayout(RegisterFormCredentials.getContentPane());
+        RegisterFormCredentials.getContentPane().setLayout(RegisterFormCredentialsLayout);
+        RegisterFormCredentialsLayout.setHorizontalGroup(
+            RegisterFormCredentialsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
-        jDialog2Layout.setVerticalGroup(
-            jDialog2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+        RegisterFormCredentialsLayout.setVerticalGroup(
+            RegisterFormCredentialsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -453,8 +462,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Login.png"))); // NOI18N
         btn_save.setText("Login");
         btn_save.setActionCommand("Simpan");
-        btn_save.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_saveActionPerformed(evt);
             }
         });
@@ -465,8 +476,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_save1.setText("Cancel");
         btn_save1.setActionCommand("Simpan");
-        btn_save1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save1ActionPerformed(evt);
             }
         });
@@ -487,8 +500,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save2.setForeground(new java.awt.Color(1, 50, 67));
         btn_save2.setText("Create new account");
         btn_save2.setActionCommand("Simpan");
-        btn_save2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save2ActionPerformed(evt);
             }
         });
@@ -498,8 +513,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save3.setForeground(new java.awt.Color(1, 50, 67));
         btn_save3.setText("Retrieve a lost account");
         btn_save3.setActionCommand("Simpan");
-        btn_save3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save3ActionPerformed(evt);
             }
         });
@@ -508,7 +525,7 @@ public class Form_login extends javax.swing.JFrame {
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 495, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 557, Short.MAX_VALUE)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(21, 21, 21)
                 .addComponent(jLabel1)
@@ -665,6 +682,8 @@ public class Form_login extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JDialog RegisterFormCredentials;
+    private javax.swing.JDialog RegisterFormData;
     private javax.swing.JButton btn_delete;
     private javax.swing.JButton btn_delete1;
     private javax.swing.JButton btn_delete2;
@@ -674,8 +693,6 @@ public class Form_login extends javax.swing.JFrame {
     private javax.swing.JButton btn_save2;
     private javax.swing.JButton btn_save3;
     private java.awt.Checkbox checkbox1;
-    private javax.swing.JDialog jDialog1;
-    private javax.swing.JDialog jDialog2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;

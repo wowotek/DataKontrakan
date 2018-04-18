@@ -53,4 +53,9 @@ public class Util
         System.out.flush();
         System.err.flush();
     }
+    
+    public boolean checkTanggal(String tanggal)
+    {
+        return true;
+    }
 }
