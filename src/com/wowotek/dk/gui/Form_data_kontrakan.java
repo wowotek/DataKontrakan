@@ -745,7 +745,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                             .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 512, Short.MAX_VALUE))
                         .addContainerGap())
                     .addGroup(Backround8Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btn_save2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(18, 18, 18)
                         .addComponent(btn_delete1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -830,7 +829,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_clock8.setBackground(new java.awt.Color(255, 255, 255));
         label_clock8.setFont(new java.awt.Font("Helvetica", 0, 30)); // NOI18N
         label_clock8.setForeground(new java.awt.Color(255, 255, 255));
-        label_clock8.setText("\"Tambah Data Pemasukan\"");
+        label_clock8.setText("\"Tambah Data Pengeluaran\"");
 
         javax.swing.GroupLayout Garis9Layout = new javax.swing.GroupLayout(Garis9);
         Garis9.setLayout(Garis9Layout);
@@ -1545,20 +1544,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JPanel Background_text;
     private javax.swing.JPanel Backround;
     private javax.swing.JPanel Backround2;
-    private javax.swing.JPanel Backround3;
-    private javax.swing.JPanel Backround4;
-    private javax.swing.JPanel Backround5;
-    private javax.swing.JPanel Backround6;
-    private javax.swing.JPanel Backround7;
     private javax.swing.JPanel Backround8;
     private javax.swing.JPanel Backround9;
     private javax.swing.JPanel Garis;
     private javax.swing.JPanel Garis2;
-    private javax.swing.JPanel Garis3;
-    private javax.swing.JPanel Garis4;
-    private javax.swing.JPanel Garis5;
-    private javax.swing.JPanel Garis6;
-    private javax.swing.JPanel Garis7;
     private javax.swing.JPanel Garis8;
     private javax.swing.JPanel Garis9;
     private javax.swing.JLabel btn_Search;
@@ -1603,9 +1592,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
@@ -1615,8 +1601,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
