@@ -1,28 +1,29 @@
 #!/bin/bash
 # My first script
 
-clear
-read -p "Debug ? [y/n] >> " ask
-echo
-
-if [ "$ask" = "n" ]; then
+function CreateCaption()
+{
     echo Creating Caption File...
     sleep 2
     cd caption
-    python3 make_caption.py > nul
+    
+    if ["$1" == "n" ] || ["$1" == "N"]; then
+        python3 make_caption.py > nul
+    else
+        python3 make_caption.py
+    fi
+    
     rm nul
     sleep 0.5
     cd ..
     echo Caption File Created
-else
-    echo Creating Caption File...
-    sleep 2
-    cd caption
-    python3 make_caption.py
-    sleep 0.5
-    cd ..
-    echo Caption File Created
-fi
+}
+
+clear
+read -p "Debug ? [y/n] >> " ask
+echo
+
+CreateCaption $ask
 
 #Gource Video Making
 sleep 2
@@ -43,6 +44,7 @@ gource -1920x1080 \
 --logo logo.png \
 --multi-sampling --colour-images --key \
 -s 5 \
+-e 0.4 \
 -a 0.01 \
 # -o - | ffmpeg -y -r 120 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv444p -crf 1 -threads 12 -bf 0 gource.mp4
 
