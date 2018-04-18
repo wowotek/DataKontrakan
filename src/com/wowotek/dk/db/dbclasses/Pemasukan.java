@@ -1,6 +1,6 @@
 package com.wowotek.dk.db.dbclasses;
 
-public class Pemasukan
+public final class Pemasukan
 {
     public final int ID;
     public final String TRANSAKSI;

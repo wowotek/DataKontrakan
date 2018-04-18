@@ -4,9 +4,9 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.Timer;
 
-public class Form_data_kontrakan extends javax.swing.JFrame {
+public class MainForm extends javax.swing.JFrame {
 
-    public Form_data_kontrakan() {
+    public MainForm() {
         initComponents();
         setJam();
         setTanggal();
@@ -55,7 +55,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         jDialog1 = new javax.swing.JDialog();
         Backround2 = new javax.swing.JPanel();
@@ -225,7 +226,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         );
 
         table_pengeluaran2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -247,20 +249,25 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "Nama Lengkap", "ID KTP/Pasport/SIM", "TTL", "No.Telp 1", "No. Telp 2", "Pekerjaan", "Tempat Kerja"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
         jScrollPane4.setViewportView(table_pengeluaran2);
-        if (table_pengeluaran2.getColumnModel().getColumnCount() > 0) {
+        if (table_pengeluaran2.getColumnModel().getColumnCount() > 0)
+        {
             table_pengeluaran2.getColumnModel().getColumn(3).setHeaderValue("No.Telp 1");
             table_pengeluaran2.getColumnModel().getColumn(4).setHeaderValue("No. Telp 2");
             table_pengeluaran2.getColumnModel().getColumn(5).setHeaderValue("Pekerjaan");
@@ -284,14 +291,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search2.setBackground(new java.awt.Color(27, 188, 155));
         text_search2.setForeground(new java.awt.Color(255, 255, 255));
         text_search2.setBorder(null);
-        text_search2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_search2ActionPerformed(evt);
             }
         });
 
-        btn_search2.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search2.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_search2MouseClicked(evt);
             }
         });
@@ -319,8 +330,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Save.png"))); // NOI18N
         btn_save.setText("Save");
         btn_save.setActionCommand("Simpan");
-        btn_save.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_saveActionPerformed(evt);
             }
         });
@@ -330,8 +343,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Delete.png"))); // NOI18N
         btn_delete.setText("delete");
-        btn_delete.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_deleteActionPerformed(evt);
             }
         });
@@ -341,8 +356,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_edit.setForeground(new java.awt.Color(1, 50, 67));
         btn_edit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
         btn_edit.setText("Edit");
-        btn_edit.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_edit.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_editActionPerformed(evt);
             }
         });
@@ -352,8 +369,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_reset.setForeground(new java.awt.Color(1, 50, 67));
         btn_reset.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_reset.setText("Reset");
-        btn_reset.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_reset.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_resetActionPerformed(evt);
             }
         });
@@ -364,8 +383,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_save1.setText("Add");
         btn_save1.setActionCommand("Simpan");
-        btn_save1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save1ActionPerformed(evt);
             }
         });
@@ -519,7 +540,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         );
 
         table_pengeluaran3.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null},
@@ -541,15 +563,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null, null},
                 {null, null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "ID Pemasukan", "Transaksi", "Sumber", "Jumlah"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
@@ -572,14 +598,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search3.setBackground(new java.awt.Color(27, 188, 155));
         text_search3.setForeground(new java.awt.Color(255, 255, 255));
         text_search3.setBorder(null);
-        text_search3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_search3ActionPerformed(evt);
             }
         });
 
-        btn_search3.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search3.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_search3MouseClicked(evt);
             }
         });
@@ -607,8 +637,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Save.png"))); // NOI18N
         btn_save2.setText("Save");
         btn_save2.setActionCommand("Simpan");
-        btn_save2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save2ActionPerformed(evt);
             }
         });
@@ -618,8 +650,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete1.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Delete.png"))); // NOI18N
         btn_delete1.setText("delete");
-        btn_delete1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete1ActionPerformed(evt);
             }
         });
@@ -629,8 +663,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_edit1.setForeground(new java.awt.Color(1, 50, 67));
         btn_edit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
         btn_edit1.setText("Edit");
-        btn_edit1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_edit1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_edit1ActionPerformed(evt);
             }
         });
@@ -640,8 +676,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_reset1.setForeground(new java.awt.Color(1, 50, 67));
         btn_reset1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_reset1.setText("Reset");
-        btn_reset1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_reset1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_reset1ActionPerformed(evt);
             }
         });
@@ -864,7 +902,8 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         );
 
         table_pengeluaran4.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null, null},
                 {null, null, null, null},
                 {null, null, null, null},
@@ -886,15 +925,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null, null},
                 {null, null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "ID Pemasukan", "Transaksi", "Keterangan", "Jumlah"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
@@ -917,14 +960,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search4.setBackground(new java.awt.Color(27, 188, 155));
         text_search4.setForeground(new java.awt.Color(255, 255, 255));
         text_search4.setBorder(null);
-        text_search4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search4.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_search4ActionPerformed(evt);
             }
         });
 
-        btn_search4.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search4.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_search4MouseClicked(evt);
             }
         });
@@ -952,8 +999,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_save3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Save.png"))); // NOI18N
         btn_save3.setText("Save");
         btn_save3.setActionCommand("Simpan");
-        btn_save3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save3ActionPerformed(evt);
             }
         });
@@ -963,8 +1012,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_delete2.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Delete.png"))); // NOI18N
         btn_delete2.setText("delete");
-        btn_delete2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete2ActionPerformed(evt);
             }
         });
@@ -974,8 +1025,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_edit2.setForeground(new java.awt.Color(1, 50, 67));
         btn_edit2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
         btn_edit2.setText("Edit");
-        btn_edit2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_edit2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_edit2ActionPerformed(evt);
             }
         });
@@ -985,8 +1038,10 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         btn_reset2.setForeground(new java.awt.Color(1, 50, 67));
         btn_reset2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_reset2.setText("Reset");
-        btn_reset2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_reset2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_reset2ActionPerformed(evt);
             }
         });
@@ -1238,7 +1293,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         Garis.setLayout(GarisLayout);
         GarisLayout.setHorizontalGroup(
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 749, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 759, Short.MAX_VALUE)
             .addGroup(GarisLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel3)
@@ -1262,12 +1317,13 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date1, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                .addComponent(label_date1, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
         table_pengeluaran.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
+            new Object [][]
+            {
                 {null, null, null},
                 {null, null, null},
                 {null, null, null},
@@ -1289,15 +1345,19 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 {null, null, null},
                 {null, null, null}
             },
-            new String [] {
+            new String []
+            {
                 "ID Pemasukan", "Transaksi", "Jumlah"
             }
-        ) {
-            Class[] types = new Class [] {
+        )
+        {
+            Class[] types = new Class []
+            {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex) {
+            public Class getColumnClass(int columnIndex)
+            {
                 return types [columnIndex];
             }
         });
@@ -1320,14 +1380,18 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         text_search.setBackground(new java.awt.Color(27, 188, 155));
         text_search.setForeground(new java.awt.Color(255, 255, 255));
         text_search.setBorder(null);
-        text_search.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        text_search.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 text_searchActionPerformed(evt);
             }
         });
 
-        btn_search.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
+        btn_search.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
                 btn_searchMouseClicked(evt);
             }
         });
@@ -1353,7 +1417,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         Backround.setLayout(BackroundLayout);
         BackroundLayout.setHorizontalGroup(
             BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Garis, javax.swing.GroupLayout.DEFAULT_SIZE, 749, Short.MAX_VALUE)
+            .addComponent(Garis, javax.swing.GroupLayout.DEFAULT_SIZE, 759, Short.MAX_VALUE)
             .addGroup(BackroundLayout.createSequentialGroup()
                 .addContainerGap(14, Short.MAX_VALUE)
                 .addComponent(btn_search)
@@ -1522,20 +1586,21 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_data_kontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_data_kontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_data_kontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_data_kontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(MainForm.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
+        //</editor-fold>
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new Form_data_kontrakan().setVisible(true);
+                new MainForm().setVisible(true);
             }
         });
     }

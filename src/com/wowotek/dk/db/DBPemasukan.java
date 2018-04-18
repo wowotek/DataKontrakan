@@ -123,9 +123,6 @@ public class DBPemasukan
 
             while (rs.next())
             {
-                String NIM = rs.getString(1);
-                String Nama = rs.getString(2);
-
                 allPemasukan.add(
                         new Pemasukan(
                                 rs.getInt(1),
