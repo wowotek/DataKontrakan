@@ -92,7 +92,7 @@ public class Form_login extends javax.swing.JFrame {
         label_name5.setForeground(new java.awt.Color(255, 255, 255));
         label_name5.setText("REGISTER FORM");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoKecil.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -289,7 +289,7 @@ public class Form_login extends javax.swing.JFrame {
         label_name13.setForeground(new java.awt.Color(255, 255, 255));
         label_name13.setText("CREATE ACCOUNT");
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoKecil.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -441,7 +441,7 @@ public class Form_login extends javax.swing.JFrame {
 
         jPanel8.setBackground(new java.awt.Color(1, 50, 67));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoBesar.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
 
         label_name3.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
         label_name3.setForeground(new java.awt.Color(255, 255, 255));

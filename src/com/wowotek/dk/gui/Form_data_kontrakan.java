@@ -188,7 +188,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         label_date1 = new javax.swing.JLabel();
-        label_clock1 = new javax.swing.JLabel();
         jScrollPane2 = new javax.swing.JScrollPane();
         table_pengeluaran = new javax.swing.JTable();
         btn_search = new javax.swing.JLabel();
@@ -217,7 +216,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoBesar.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
 
         label_date4.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date4.setForeground(new java.awt.Color(255, 255, 255));
@@ -236,7 +235,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGroup(Garis2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 238, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 248, Short.MAX_VALUE)
                 .addComponent(label_clock4)
                 .addGap(139, 139, 139))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis2Layout.createSequentialGroup()
@@ -453,7 +452,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoBesar.png"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
 
         label_date10.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date10.setForeground(new java.awt.Color(255, 255, 255));
@@ -472,7 +471,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGroup(Garis3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 221, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 231, Short.MAX_VALUE)
                 .addComponent(label_clock10)
                 .addGap(125, 125, 125))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis3Layout.createSequentialGroup()
@@ -684,7 +683,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoBesar.png"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
 
         label_date12.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date12.setForeground(new java.awt.Color(255, 255, 255));
@@ -703,7 +702,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGroup(Garis4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 214, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 224, Short.MAX_VALUE)
                 .addComponent(label_clock12)
                 .addGap(119, 119, 119))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis4Layout.createSequentialGroup()
@@ -902,7 +901,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name13.setForeground(new java.awt.Color(255, 255, 255));
         label_name13.setText("TAMBAH DATA PENGHUNI");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoKecil.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1095,7 +1094,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name21.setForeground(new java.awt.Color(255, 255, 255));
         label_name21.setText("TAMBAH DATA PEMASUKAN");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoKecil.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel14.setBackground(new java.awt.Color(255, 255, 255));
         jPanel14.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1165,13 +1164,13 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
+                        .addComponent(jPanel14, javax.swing.GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE))
                     .addGroup(jPanel13Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
                         .addComponent(jLabel5)
                         .addGap(18, 18, 18)
                         .addComponent(label_name21)
-                        .addGap(0, 14, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -1248,7 +1247,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name27.setForeground(new java.awt.Color(255, 255, 255));
         label_name27.setText("TAMBAH DATA PEMASUKAN");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoKecil.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel16.setBackground(new java.awt.Color(255, 255, 255));
         jPanel16.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1318,13 +1317,13 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 380, Short.MAX_VALUE))
+                        .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE))
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addGap(21, 21, 21)
                         .addComponent(jLabel6)
                         .addGap(18, 18, 18)
                         .addComponent(label_name27)
-                        .addGap(0, 14, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
@@ -1400,7 +1399,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
         label_name33.setForeground(new java.awt.Color(255, 255, 255));
         label_name33.setText("SETORAN DATA PEMASUKAN");
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoKecil.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
         jPanel18.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1625,43 +1624,31 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/LogoBesar.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
 
         label_date1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date1.setForeground(new java.awt.Color(255, 255, 255));
         label_date1.setText("Login as :");
-
-        label_clock1.setBackground(new java.awt.Color(255, 255, 255));
-        label_clock1.setFont(new java.awt.Font("Helvetica", 0, 30)); // NOI18N
-        label_clock1.setForeground(new java.awt.Color(255, 255, 255));
-        label_clock1.setText("Kontrakan Dispenser");
 
         javax.swing.GroupLayout GarisLayout = new javax.swing.GroupLayout(Garis);
         Garis.setLayout(GarisLayout);
         GarisLayout.setHorizontalGroup(
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 781, Short.MAX_VALUE)
-            .addGroup(GarisLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 261, Short.MAX_VALUE)
-                .addComponent(label_clock1)
-                .addGap(68, 68, 68))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GarisLayout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
+                .addGap(0, 488, Short.MAX_VALUE)
                 .addComponent(label_date1, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(GarisLayout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addComponent(jLabel3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         GarisLayout.setVerticalGroup(
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GarisLayout.createSequentialGroup()
-                .addGroup(GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(GarisLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel3))
-                    .addGroup(GarisLayout.createSequentialGroup()
-                        .addGap(39, 39, 39)
-                        .addComponent(label_clock1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addGap(17, 17, 17)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label_date1, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
@@ -1968,7 +1955,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
-    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -1980,7 +1966,6 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JTextField jTextField1;
-    private javax.swing.JLabel label_clock1;
     private javax.swing.JLabel label_clock10;
     private javax.swing.JLabel label_clock11;
     private javax.swing.JLabel label_clock12;

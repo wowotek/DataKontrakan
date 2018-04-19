@@ -167,7 +167,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/LogoKecil.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -494,7 +494,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/LogoKecil.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -836,7 +836,7 @@
             <Component class="javax.swing.JLabel" name="jLabel1">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/LogoBesar.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Besar.png"/>
                 </Property>
               </Properties>
             </Component>
