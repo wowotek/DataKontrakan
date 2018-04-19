@@ -43,7 +43,7 @@ public class Form_data_kontrakan extends javax.swing.JFrame {
                 String menit = nol_menit + Integer.toString(nilai_menit);
                 String detik = nol_detik + Integer.toString(nilai_detik);
 
-                label_clock.setText(waktu + ":" + menit + ":" + detik + "");
+                //label_clock.setText(waktu + ":" + menit + ":" + detik + "");
             }
         };
         new Timer(1000, taskPerformer).start();
