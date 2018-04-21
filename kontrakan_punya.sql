@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:81
--- Generation Time: Apr 14, 2018 at 07:57 PM
+-- Generation Time: Apr 18, 2018 at 10:11 PM
 -- Server version: 5.7.21-0ubuntu0.16.04.1
 -- PHP Version: 7.0.28-0ubuntu0.16.04.1
 
@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `DaftarHarga` (
-  `ID` int(100) NOT NULL,
+  `ID_Harga` int(100) NOT NULL,
   `Nama` varchar(50) NOT NULL,
   `Harga` int(8) NOT NULL,
   `Prioritas` varchar(8) NOT NULL
@@ -73,7 +73,7 @@ CREATE TABLE `Pengeluaran` (
 -- Indexes for table `DaftarHarga`
 --
 ALTER TABLE `DaftarHarga`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`ID_Harga`);
 
 --
 -- Indexes for table `Pemasukan`
@@ -95,7 +95,7 @@ ALTER TABLE `Pengeluaran`
 -- AUTO_INCREMENT for table `DaftarHarga`
 --
 ALTER TABLE `DaftarHarga`
-  MODIFY `ID` int(100) NOT NULL AUTO_INCREMENT;
+  MODIFY `ID_Harga` int(100) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `Pemasukan`
 --

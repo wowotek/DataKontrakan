@@ -1,117 +1,116 @@
 package com.wowotek.dk.db;
 
 import com.wowotek.dk.ErrorReporting;
-import com.wowotek.dk.db.dbclasses.Pemasukan;
+import com.wowotek.dk.db.dbclasses.DaftarHarga;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class DBPemasukan
+public final class DBDaftarHarga
 {
-
     private final Connection c;
     private final ErrorReporting er;
 
-    public DBPemasukan(Connection C, ErrorReporting ER)
+    public DBDaftarHarga(Connection C, ErrorReporting ER)
     {
         this.er = ER;
         this.c = C;
     }
 
-    public boolean tambahPemasukan(Pemasukan pms)
+    public boolean tambahDaftarHarga(DaftarHarga dh)
     {
         try
         {
             PreparedStatement ps = c.prepareStatement(
-                    "insert into Pemasukan(Transaksi, Sumber, Jumlah) "
+                    "insert into DaftarHarga(Nama, Harga, Prioritas) "
                     + "Values (?, ?, ?)");
-            ps.setString(1, pms.TRANSAKSI);
-            ps.setString(2, pms.SUMBER);
-            ps.setInt(3, pms.JUMLAH);
+            ps.setString(1, dh.NAMA);
+            ps.setInt(2, dh.HARGA);
+            ps.setString(3, dh.PRIORITAS);
 
             if (ps.executeUpdate() > 0)
             {
-                er.debug("Menambahkan Pemasukan Berhasil !", 0);
+                er.debug("Menambahkan DaftarHarga Berhasil !", 0);
                 ps.close();
                 return true;
             }
             else
             {
-                throw new SQLException("Menambahkan Pemasukan Gagal !");
+                throw new SQLException("Menambahkan DaftarHarga Gagal !");
             }
         }
         catch (SQLException ex)
         {
-            er.debug("Terjadi Kesalahan saat Menambah Pemasukan,", 2);
+            er.debug("Terjadi Kesalahan saat Menambah DaftarHarga,", 2);
             er.debugln("Karena: ");
             er.debugln("        " + ex.getMessage());
             return false;
         }
     }
 
-    public boolean gantiPemasukan(Pemasukan pms)
+    public boolean gantiDaftarHarga(DaftarHarga dh)
     {
         try
         {
             PreparedStatement ps = c.prepareStatement(
-                    "UPDATE Pemasukan SET Transaksi=?, Sumber=?, Jumlah=? WHERE ID=?");
-            ps.setString(1, pms.TRANSAKSI);
-            ps.setString(2, pms.SUMBER);
-            ps.setInt(3, pms.JUMLAH);
-            ps.setInt(4, pms.ID);
+                    "UPDATE DaftarHarga SET Nama=?, Harga=?, Prioritas=? WHERE ID=?");
+            ps.setString(1, dh.NAMA);
+            ps.setInt(2, dh.HARGA);
+            ps.setString(3, dh.PRIORITAS);
+            ps.setInt(4, dh.IDHARGA);
 
             if (ps.executeUpdate() > 0)
             {
-                er.debug("Merubah data Pemasukan Berhasil !", 0);
+                er.debug("Merubah data DaftarHarga Berhasil !", 0);
                 ps.close();
                 return true;
             }
             else
             {
-                throw new SQLException("Merubah Pemasukan Gagal !");
+                throw new SQLException("Merubah DaftarHarga Gagal !");
             }
         }
         catch (SQLException ex)
         {
-            er.debug("Terjadi Kesalahan saat Merubah Pemasukan,", 2);
+            er.debug("Terjadi Kesalahan saat Merubah DaftarHarga,", 2);
             er.debugln("Karena: ");
             er.debugln("        " + ex.getMessage());
             return false;
         }
     }
 
-    public boolean hapusPemasukan(int ID)
+    public boolean hapusDaftarHarga(int ID)
     {
         try
         {
             PreparedStatement ps = c.prepareStatement(
-                    "DELETE FROM Pemasukan WHERE ID=?");
+                    "DELETE FROM DaftarHarga WHERE ID=?");
             ps.setInt(1, ID);
             if (ps.executeUpdate() > 0)
             {
-                er.debug("Menghapus data Pemasukan Berhasil !", 0);
+                er.debug("Menghapus data DaftarHarga Berhasil !", 0);
                 ps.close();
                 return true;
             }
             else
             {
-                throw new SQLException("Menghapus Pemasukan Gagal !");
+                throw new SQLException("Menghapus DaftarHarga Gagal !");
             }
         }
         catch (SQLException ex)
         {
-            er.debug("Terjadi Kesalahan saat Menghapus Pemasukan,", 2);
+            er.debug("Terjadi Kesalahan saat Menghapus DaftarHarga,", 2);
             er.debugln("Karena: ");
             er.debugln("        " + ex.getMessage());
             return false;
         }
     }
 
-    public ArrayList<Pemasukan> ambilDataPemasukan()
+    public ArrayList<DaftarHarga> ambilDataDaftarHarga()
     {
-        ArrayList<Pemasukan> allPemasukan = new ArrayList<>();
+        ArrayList<DaftarHarga> allDaftarHarga = new ArrayList<>();
         PreparedStatement ps;
         ResultSet rs;
 
@@ -123,25 +122,25 @@ public class DBPemasukan
 
             while (rs.next())
             {
-                allPemasukan.add(
-                        new Pemasukan(
+                allDaftarHarga.add(
+                        new DaftarHarga(
                                 rs.getInt(1),
                                 rs.getString(2),
-                                rs.getString(3),
-                                rs.getInt(4)));
+                                rs.getInt(3),
+                                rs.getString(4)));
             }
 
             rs.close();
             ps.close();
-            er.debug("Pengambilan data Pemasukan Berhasil !", 0);
+            er.debug("Pengambilan data DaftarHarga Berhasil !", 0);
         }
         catch (SQLException ex)
         {
-            er.debug("Terjadi Kesalahan saat Mengambil data Pemasukan,", 2);
+            er.debug("Terjadi Kesalahan saat Mengambil data DaftarHarga,", 2);
             er.debugln("Karena: ");
             er.debugln("        " + ex.getMessage());
         }
 
-        return allPemasukan;
+        return allDaftarHarga;
     }
 }
