@@ -8,10 +8,7 @@ public class Main
 {
     private static ErrorReporting er;
     private static DBConnection dbc;
-
-    private static final ErrorReporting er = new ErrorReporting();
-    private static final DBConnection dbc = new DBConnection(er);
-
+    
     private static final DBDaftarHarga dbdh = new DBDaftarHarga(dbc.c, er);
     private static final DBPemasukan dbpem = new DBPemasukan(dbc.c, er);
     private static final DBPengeluaran dbpen = new DBPengeluaran(dbc.c, er);
