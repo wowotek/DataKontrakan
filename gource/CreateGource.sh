@@ -44,7 +44,6 @@ gource -1920x1080 \
 --logo logo.png \
 --multi-sampling --colour-images --key \
 -s 5 \
--e 0.4 \
 -a 0.01 \
 # -o - | ffmpeg -y -r 120 -f image2pipe -vcodec ppm -i - -vcodec libx264 -preset ultrafast -pix_fmt yuv444p -crf 1 -threads 12 -bf 0 gource.mp4
 
