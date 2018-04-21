@@ -3,8 +3,11 @@ package com.wowotek.dk;
 import com.wowotek.dk.db.*;
 import com.wowotek.dk.db.dbclasses.*;
 
+
 public class Main
 {
+    private static ErrorReporting er;
+    private static DBConnection dbc;
 
     private static final ErrorReporting er = new ErrorReporting();
     private static final DBConnection dbc = new DBConnection(er);
@@ -17,7 +20,6 @@ public class Main
     {
         testConnection();
     }
-    
     private static boolean testConnection()
     {
         boolean dbdhStatus, dbpemStatus, dbpenStatus;

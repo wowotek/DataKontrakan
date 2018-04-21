@@ -10,10 +10,12 @@ public class ErrorReporting
     public int errID = 1;
     private BufferedWriter w;
     private boolean _LOGOPENED = false;
+    private boolean verbose = false;
     public final String ERR_DEBUG_PREFIX = "[" + new Util().getDate() + "]";
 
-    public ErrorReporting()
+    public ErrorReporting(boolean verbose)
     {
+        this.verbose = verbose;
         _LOGOPENED = openFile();
         if (_LOGOPENED == true)
         {
@@ -22,7 +24,8 @@ public class ErrorReporting
                 w.write("================= Session Started At "
                         + new Util().getDate(true)
                         + " ================\n\n");
-            } catch (IOException ex)
+            }
+            catch (IOException ex)
             {
             }
             debug("Successfuly Opened Log File", 0);
@@ -53,7 +56,10 @@ public class ErrorReporting
                 strLevel = "CLOGS";
                 break;
         }
-        System.err.println("[" + strLevel + "] " + error);
+        if (this.verbose)
+        {
+            System.err.println("[" + strLevel + "] " + error);
+        }
     }
 
     public void log(String error)
@@ -82,13 +88,17 @@ public class ErrorReporting
             finalER += " ";
         }
         finalER += "        " + error;
-        System.err.println(finalER);
+        
+        if(this.verbose)
+            System.err.println(finalER);
+        
         if (_LOGOPENED == true)
         {
             try
             {
                 w.append(finalER + "\n");
-            } catch (IOException ex)
+            }
+            catch (IOException ex)
             {
             }
         }
@@ -119,7 +129,10 @@ public class ErrorReporting
                 break;
         }
         String finalER = "[" + new Util().getDate() + "]" + "[EID:" + this.errID + "]" + "[" + strLevel + "] " + error;
-        System.err.println(finalER);
+        
+        if(this.verbose)
+            System.err.println(finalER);
+        
         if (level != 0 || level != 4)
         {
             this.errID++;
@@ -129,7 +142,8 @@ public class ErrorReporting
             try
             {
                 w.append(finalER + "\n");
-            } catch (IOException ex)
+            }
+            catch (IOException ex)
             {
             }
         }
@@ -151,11 +165,15 @@ public class ErrorReporting
     public void debugln(String error)
     {
         int totalLength = ("[" + new Util().getDate() + "]").length() + Integer.toString(this.errID - 1).length() + 14;
-        for (int i = 0; i < totalLength; i++)
+        
+        if(this.verbose)
         {
-            System.err.print(" ");
+            for (int i = 0; i < totalLength; i++)
+            {
+                System.err.print(" ");
+            }
+            System.err.println(error);
         }
-        System.err.println(error);
     }
 
     public boolean openFile()
@@ -165,7 +183,8 @@ public class ErrorReporting
             debug("Opening Log File...");
             this.w = new BufferedWriter(new FileWriter("log", true));
             return true;
-        } catch (IOException ex)
+        }
+        catch (IOException ex)
         {
             debug("Cannot Open Log File", 2);
             return false;
@@ -187,7 +206,8 @@ public class ErrorReporting
             debug("Berhasil Menutup File Log", 0);
             new Util().delay(1);
             return true;
-        } catch (IOException ex)
+        }
+        catch (IOException ex)
         {
             return false;
         }

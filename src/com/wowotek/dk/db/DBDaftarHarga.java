@@ -8,16 +8,15 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 
-public class DBDaftarHarga
+public final class DBDaftarHarga
 {
-
     private final Connection c;
     private final ErrorReporting er;
 
-    public DBDaftarHarga(Connection newConnection, ErrorReporting newErrorReporting)
+    public DBDaftarHarga(Connection C, ErrorReporting ER)
     {
-        this.c = newConnection;
-        this.er = newErrorReporting;
+        this.er = ER;
+        this.c = C;
     }
 
     public boolean tambahDaftarHarga(DaftarHarga dh)
@@ -56,12 +55,11 @@ public class DBDaftarHarga
         try
         {
             PreparedStatement ps = c.prepareStatement(
-                    "UPDATE DaftarHarga SET Nama=?, Harga=?, Prioritas=? WHERE ID_Harga=?");
+                    "UPDATE DaftarHarga SET Nama=?, Harga=?, Prioritas=? WHERE ID=?");
             ps.setString(1, dh.NAMA);
             ps.setInt(2, dh.HARGA);
             ps.setString(3, dh.PRIORITAS);
             ps.setInt(4, dh.IDHARGA);
-            
 
             if (ps.executeUpdate() > 0)
             {
@@ -118,13 +116,18 @@ public class DBDaftarHarga
 
         try
         {
-            er.debug("Mengambil data pengeluaran...");
-            ps = c.prepareStatement("SELECT * FROM DaftarHarga");
+            er.debug("Mengambil data pemasukan...");
+            ps = c.prepareStatement("SELECT * FROM pemasukan");
             rs = ps.executeQuery();
 
             while (rs.next())
             {
-                allDaftarHarga.add(new DaftarHarga(rs.getInt(1), rs.getString(2), rs.getInt(3), rs.getString(4)));
+                allDaftarHarga.add(
+                        new DaftarHarga(
+                                rs.getInt(1),
+                                rs.getString(2),
+                                rs.getInt(3),
+                                rs.getString(4)));
             }
 
             rs.close();

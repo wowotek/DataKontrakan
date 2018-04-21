@@ -1,0 +1,15 @@
+================= Session Started At 20.04.2018 | 12:22:40 ================
+
+[12:22:40][EID:1][CPASS] Successfuly Opened Log File
+[12:22:40]               Database Connection Initialization
+[12:22:40]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[12:22:42]               Handshake Successful !
+[12:22:42][EID:2][CPASS] Connection Established, Total Tries = 0
+[12:22:42][EID:3][LETHL] Closing Program...
+[12:22:42]               Menutup Koneksi Database !
+[12:22:45]               Koneksi Berhasil di Tutup
+[12:22:45]               Closing Log File..
+
+================= Session Closed At 20.04.2018 | 12:22:46 =================
+
+
