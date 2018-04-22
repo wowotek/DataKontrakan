@@ -9,12 +9,12 @@ package com.wowotek.dk.gui;
  *
  * @author Asus
  */
-public class Form_login extends javax.swing.JFrame {
+public class FormLogin extends javax.swing.JFrame {
 
     /**
      * Creates new form Form_login
      */
-    public Form_login() {
+    public FormLogin() {
         initComponents();
     }
 
@@ -25,7 +25,8 @@ public class Form_login extends javax.swing.JFrame {
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents() {
+    private void initComponents()
+    {
 
         RegisterFormData = new javax.swing.JDialog();
         jPanel2 = new javax.swing.JPanel();
@@ -92,7 +93,7 @@ public class Form_login extends javax.swing.JFrame {
         label_name5.setForeground(new java.awt.Color(255, 255, 255));
         label_name5.setText("REGISTER FORM");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -155,8 +156,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete.setText("Next");
-        btn_delete.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_deleteActionPerformed(evt);
             }
         });
@@ -166,8 +169,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete1.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete1.setText("Cancel");
-        btn_delete1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete1ActionPerformed(evt);
             }
         });
@@ -209,7 +214,7 @@ public class Form_login extends javax.swing.JFrame {
                 .addGap(24, 24, 24))
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 407, Short.MAX_VALUE)
+                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 411, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(88, 88, 88)
@@ -330,8 +335,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete2.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete2.setText("Create account");
-        btn_delete2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete2ActionPerformed(evt);
             }
         });
@@ -341,8 +348,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_delete3.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete3.setText("Previous");
-        btn_delete3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_delete3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_delete3ActionPerformed(evt);
             }
         });
@@ -456,8 +465,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save3.setForeground(new java.awt.Color(1, 50, 67));
         btn_save3.setText("Retrieve a lost account");
         btn_save3.setActionCommand("Simpan");
-        btn_save3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save3.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save3ActionPerformed(evt);
             }
         });
@@ -467,8 +478,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save2.setForeground(new java.awt.Color(1, 50, 67));
         btn_save2.setText("Create new account");
         btn_save2.setActionCommand("Simpan");
-        btn_save2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save2.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save2ActionPerformed(evt);
             }
         });
@@ -515,7 +528,7 @@ public class Form_login extends javax.swing.JFrame {
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, 262, Short.MAX_VALUE))
+                        .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, 274, Short.MAX_VALUE))
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel8Layout.createSequentialGroup()
@@ -598,8 +611,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Login.png"))); // NOI18N
         btn_save.setText("Login");
         btn_save.setActionCommand("Simpan");
-        btn_save.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_saveActionPerformed(evt);
             }
         });
@@ -610,8 +625,10 @@ public class Form_login extends javax.swing.JFrame {
         btn_save1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_save1.setText("Cancel");
         btn_save1.setActionCommand("Simpan");
-        btn_save1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
+        btn_save1.addActionListener(new java.awt.event.ActionListener()
+        {
+            public void actionPerformed(java.awt.event.ActionEvent evt)
+            {
                 btn_save1ActionPerformed(evt);
             }
         });
@@ -733,22 +750,30 @@ public class Form_login extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(Form_login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(Form_login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(Form_login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(Form_login.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(FormLogin.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Form_login().setVisible(true);
-            }
-        });
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//            public void run() {
+//                new Form_login().setVisible(true);
+//            }
+//        });
+        //</editor-fold>
+
+        /* Create and display the form */
+//        java.awt.EventQueue.invokeLater(new Runnable() {
+//            public void run() {
+//                new Form_login().setVisible(true);
+//            }
+//        });
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables

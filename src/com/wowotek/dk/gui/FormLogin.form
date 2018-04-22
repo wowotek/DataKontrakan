@@ -72,7 +72,7 @@
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="jPanel4" pref="407" max="32767" attributes="0"/>
+                      <Component id="jPanel4" pref="411" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
@@ -167,7 +167,7 @@
             <Component class="javax.swing.JLabel" name="jLabel2">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoKecil.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -752,7 +752,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jPanel9" pref="262" max="32767" attributes="0"/>
+                              <Component id="jPanel9" pref="274" max="32767" attributes="0"/>
                           </Group>
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">

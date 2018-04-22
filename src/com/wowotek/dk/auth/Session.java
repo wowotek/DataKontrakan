@@ -26,14 +26,13 @@ public class Session
         this.dba = dba;
     }
     
-    public boolean newSession(UserCredentials iuc)
+    private boolean CredentialsCheck(UserCredentials iuc)
     {
         this.input_uc = iuc;
         this.online_uc = db.getCredentials(input_uc.Username);
         if(this.online_uc == null)
         {
             er.debug("Username Not Found !", 2);
-            this.pass = false;
             return false;
         }
         else
@@ -44,7 +43,6 @@ public class Session
             if(this.online_ud == null)
             {
                 er.debug("UserData not Found !", 2);
-                this.pass = false;
                 return false;
             }
             else
@@ -56,12 +54,16 @@ public class Session
                 if(OnlinePassword.equals(InputPassword))
                 {
                     this.LogedInAs = this.online_ud.Nama;
-                    this.pass = true;
                     return true;
                 }
             }
         }
         
         return false;
+    }
+    
+    public boolean newSession(UserCredentials iuc)
+    {
+        return CredentialsCheck(iuc);
     }
 }
