@@ -178,7 +178,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Besar.png"/>
+                      <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoBesar.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -329,14 +329,14 @@
             <Component class="javax.swing.JLabel" name="jLabel8">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/image/clock.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/clock.png"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel9">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/image/Date.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Date.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -572,7 +572,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Besar.png"/>
+                      <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoBesar.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -711,14 +711,14 @@
             <Component class="javax.swing.JLabel" name="jLabel17">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/image/clock.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/clock.png"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel18">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/image/Date.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Date.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -954,7 +954,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel19">
                   <Properties>
                     <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                      <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Besar.png"/>
+                      <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoBesar.png"/>
                     </Property>
                   </Properties>
                 </Component>
@@ -1093,14 +1093,14 @@
             <Component class="javax.swing.JLabel" name="jLabel20">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/image/clock.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/clock.png"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="jLabel21">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/image/Date.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Date.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -1319,7 +1319,7 @@
             <Component class="javax.swing.JLabel" name="jLabel4">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoKecil.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -1647,7 +1647,7 @@
             <Component class="javax.swing.JLabel" name="jLabel5">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoKecil.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -1920,7 +1920,7 @@
             <Component class="javax.swing.JLabel" name="jLabel6">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoKecil.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -2167,6 +2167,13 @@
             </DimensionLayout>
           </Layout>
           <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoKecil.png"/>
+                </Property>
+              </Properties>
+            </Component>
             <Component class="javax.swing.JLabel" name="label_name33">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -2176,13 +2183,6 @@
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
                 <Property name="text" type="java.lang.String" value="SETORAN DATA PEMASUKAN"/>
-              </Properties>
-            </Component>
-            <Component class="javax.swing.JLabel" name="jLabel10">
-              <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Kecil.png"/>
-                </Property>
               </Properties>
             </Component>
             <Container class="javax.swing.JPanel" name="jPanel18">
@@ -2344,7 +2344,7 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="Backround" min="-2" pref="781" max="-2" attributes="0"/>
+          <Component id="Backround" min="-2" pref="782" max="-2" attributes="0"/>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -2375,20 +2375,16 @@
                           <Component id="label_date" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="btn_search" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="219" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="249" max="-2" attributes="0"/>
                           <Component id="btn_Search" min="-2" pref="32" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                           <Component id="jTextField1" max="32767" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="1768" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="1804" max="-2" attributes="0"/>
               </Group>
               <Group type="102" alignment="0" attributes="0">
-                  <Component id="Garis" min="-2" pref="781" max="-2" attributes="0"/>
+                  <Component id="Garis" min="-2" pref="783" max="-2" attributes="0"/>
                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
               </Group>
           </Group>
@@ -2407,11 +2403,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="jLabel1" min="-2" pref="31" max="-2" attributes="0"/>
-                                          <Component id="jLabel2" min="-2" pref="31" max="-2" attributes="0"/>
-                                          <Component id="label_date" alignment="0" min="-2" pref="31" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="label_date" min="-2" pref="31" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="jTextField1" alignment="1" max="32767" attributes="0"/>
                                           <Component id="btn_Search" alignment="1" pref="26" max="32767" attributes="0"/>
@@ -2593,9 +2585,9 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="jPanel3" alignment="0" pref="781" max="32767" attributes="0"/>
+                  <Component id="jPanel3" alignment="0" pref="783" max="32767" attributes="0"/>
                   <Group type="102" alignment="1" attributes="0">
-                      <EmptySpace min="0" pref="488" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="490" max="32767" attributes="0"/>
                       <Component id="label_date1" min="-2" pref="293" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -2646,7 +2638,7 @@
             <Component class="javax.swing.JLabel" name="jLabel3">
               <Properties>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/com/wowotek/dk/gui/image/Fix logo Besar.png"/>
+                  <Image iconType="3" name="/com/wowotek/dk/gui/image/FixLogoBesar.png"/>
                 </Property>
               </Properties>
             </Component>
@@ -2714,20 +2706,6 @@
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
               <Image iconType="3" name="/com/wowotek/dk/gui/image/Icon Search.png"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel1">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/wowotek/dk/image/clock.png"/>
-            </Property>
-          </Properties>
-        </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
-          <Properties>
-            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="3" name="/com/wowotek/dk/image/Date.png"/>
             </Property>
           </Properties>
         </Component>

@@ -165,8 +165,8 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         btn_delete8 = new javax.swing.JButton();
         Setoran_Data_pemasukan = new javax.swing.JDialog();
         jPanel17 = new javax.swing.JPanel();
-        label_name33 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
+        label_name33 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
         txt_nama32 = new javax.swing.JTextField();
         label_name37 = new javax.swing.JLabel();
@@ -193,8 +193,6 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         table_pengeluaran = new javax.swing.JTable();
         btn_search = new javax.swing.JLabel();
         btn_Search = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
         label_date = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
 
@@ -217,7 +215,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoBesar.png"))); // NOI18N
 
         label_date4.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date4.setForeground(new java.awt.Color(255, 255, 255));
@@ -343,9 +341,9 @@ public class FormDataKontrakan extends javax.swing.JFrame {
 
         btn_Search2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/clock.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Date.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
 
         label_clock5.setBackground(new java.awt.Color(255, 255, 255));
         label_clock5.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
@@ -465,7 +463,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
+        jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoBesar.png"))); // NOI18N
 
         label_date10.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date10.setForeground(new java.awt.Color(255, 255, 255));
@@ -585,9 +583,9 @@ public class FormDataKontrakan extends javax.swing.JFrame {
 
         btn_Search5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/clock.png"))); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
 
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Date.png"))); // NOI18N
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
 
         label_clock11.setBackground(new java.awt.Color(255, 255, 255));
         label_clock11.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
@@ -707,7 +705,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
+        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoBesar.png"))); // NOI18N
 
         label_date12.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date12.setForeground(new java.awt.Color(255, 255, 255));
@@ -827,9 +825,9 @@ public class FormDataKontrakan extends javax.swing.JFrame {
 
         btn_Search6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
 
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/clock.png"))); // NOI18N
+        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Date.png"))); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
 
         label_clock13.setBackground(new java.awt.Color(255, 255, 255));
         label_clock13.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
@@ -936,7 +934,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         label_name13.setForeground(new java.awt.Color(255, 255, 255));
         label_name13.setText("TAMBAH DATA PENGHUNI");
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1133,7 +1131,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         label_name21.setForeground(new java.awt.Color(255, 255, 255));
         label_name21.setText("TAMBAH DATA PEMASUKAN");
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
 
         jPanel14.setBackground(new java.awt.Color(255, 255, 255));
         jPanel14.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1290,7 +1288,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         label_name27.setForeground(new java.awt.Color(255, 255, 255));
         label_name27.setText("TAMBAH DATA PEMASUKAN");
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
 
         jPanel16.setBackground(new java.awt.Color(255, 255, 255));
         jPanel16.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1442,11 +1440,11 @@ public class FormDataKontrakan extends javax.swing.JFrame {
 
         jPanel17.setBackground(new java.awt.Color(1, 50, 67));
 
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
+
         label_name33.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
         label_name33.setForeground(new java.awt.Color(255, 255, 255));
         label_name33.setText("SETORAN DATA PEMASUKAN");
-
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Kecil.png"))); // NOI18N
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
         jPanel18.setPreferredSize(new java.awt.Dimension(0, 2));
@@ -1675,7 +1673,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Fix logo Besar.png"))); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoBesar.png"))); // NOI18N
 
         label_date1.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
         label_date1.setForeground(new java.awt.Color(255, 255, 255));
@@ -1685,9 +1683,9 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         Garis.setLayout(GarisLayout);
         GarisLayout.setHorizontalGroup(
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 781, Short.MAX_VALUE)
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, 783, Short.MAX_VALUE)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GarisLayout.createSequentialGroup()
-                .addGap(0, 488, Short.MAX_VALUE)
+                .addGap(0, 490, Short.MAX_VALUE)
                 .addComponent(label_date1, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE))
             .addGroup(GarisLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
@@ -1758,10 +1756,6 @@ public class FormDataKontrakan extends javax.swing.JFrame {
 
         btn_Search.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/clock.png"))); // NOI18N
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/image/Date.png"))); // NOI18N
-
         label_date.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_date.setForeground(new java.awt.Color(255, 255, 255));
         label_date.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
@@ -1782,17 +1776,13 @@ public class FormDataKontrakan extends javax.swing.JFrame {
                         .addComponent(label_date)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btn_search)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel1)
-                        .addGap(219, 219, 219)
+                        .addGap(249, 249, 249)
                         .addComponent(btn_Search, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(4, 4, 4)
                         .addComponent(jTextField1)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel2)
-                .addGap(1768, 1768, 1768))
+                .addGap(1804, 1804, 1804))
             .addGroup(BackroundLayout.createSequentialGroup()
-                .addComponent(Garis, javax.swing.GroupLayout.PREFERRED_SIZE, 781, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Garis, javax.swing.GroupLayout.PREFERRED_SIZE, 783, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         BackroundLayout.setVerticalGroup(
@@ -1808,10 +1798,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
                         .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackroundLayout.createSequentialGroup()
                                 .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addComponent(label_date, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(label_date, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addComponent(btn_Search, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)))
@@ -1827,7 +1814,7 @@ public class FormDataKontrakan extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Backround, javax.swing.GroupLayout.PREFERRED_SIZE, 781, javax.swing.GroupLayout.PREFERRED_SIZE)
+            .addComponent(Backround, javax.swing.GroupLayout.PREFERRED_SIZE, 782, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1989,13 +1976,11 @@ public class FormDataKontrakan extends javax.swing.JFrame {
     private javax.swing.JLabel btn_search5;
     private javax.swing.JLabel btn_search6;
     private javax.swing.JComboBox<String> jComboBox1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;

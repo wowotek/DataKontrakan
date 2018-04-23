@@ -36,7 +36,7 @@ public class DBAuthUserCredentials
                     "insert into UserCredentials(Username, Password, Email, RegID) "
                     + "Values (?, ?, ?)");
             ps.setString(1, ud.Username);
-            ps.setString(2, ud.Password);
+            ps.setString(2, ud.getPasswordString());
             ps.setString(3, ud.Email);
             ps.setString(4, ud.RegID);
             
@@ -66,7 +66,7 @@ public class DBAuthUserCredentials
         {
             PreparedStatement ps = c.prepareStatement(
                     "UPDATE UserCredentials SET Password=?, Email=? WHERE Username=?");
-            ps.setString(1, ud.Password);
+            ps.setString(1, ud.getPasswordString());
             ps.setString(2, ud.Email);
             ps.setString(3, ud.Username);
 
@@ -135,7 +135,7 @@ public class DBAuthUserCredentials
             {
                 uc = new UserCredentials(
                 rs.getString(1),
-                rs.getString(2),
+                rs.getString(2).toCharArray(),
                 rs.getString(3),
                 rs.getString(3)
                 );
@@ -171,7 +171,7 @@ public class DBAuthUserCredentials
             {
                 allUserCredentials.add(
                         new UserCredentials(rs.getString(1),
-            rs.getString(2),
+            rs.getString(2).toCharArray(),
             rs.getString(3),
             rs.getString(4)));
             }

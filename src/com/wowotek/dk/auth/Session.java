@@ -48,8 +48,8 @@ public class Session
             else
             {
                 er.debug("UserData Found, Checking Password");
-                String OnlinePassword = this.online_uc.Password;
-                String InputPassword = this.input_uc.Password;
+                String OnlinePassword = this.online_uc.getPasswordString();
+                String InputPassword = this.input_uc.getPasswordString();
                 
                 if(OnlinePassword.equals(InputPassword))
                 {
