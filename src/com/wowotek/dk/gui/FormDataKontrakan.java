@@ -19,34 +19,34 @@ public class FormDataKontrakan extends javax.swing.JFrame {
 
 //untuk perintah penampilan tanggal
     public void setJam() {
-        ActionListener taskPerformer = new ActionListener() {
-
-            public void actionPerformed(ActionEvent evt) {
-                String nol_jam = "", nol_menit = "", nol_detik = "";
-
-                java.util.Date dateTime = new java.util.Date();
-                int nilai_jam = dateTime.getHours();
-                int nilai_menit = dateTime.getMinutes();
-                int nilai_detik = dateTime.getSeconds();
-
-                if (nilai_jam <= 9) {
-                    nol_jam = "0";
-                }
-                if (nilai_menit <= 9) {
-                    nol_menit = "0";
-                }
-                if (nilai_detik <= 9) {
-                    nol_detik = "0";
-                }
-
-                String waktu = nol_jam + Integer.toString(nilai_jam);
-                String menit = nol_menit + Integer.toString(nilai_menit);
-                String detik = nol_detik + Integer.toString(nilai_detik);
-
-                //label_clock.setText(waktu + ":" + menit + ":" + detik + "");
-            }
-        };
-        new Timer(1000, taskPerformer).start();
+//        ActionListener taskPerformer = new ActionListener() {
+//
+//            public void actionPerformed(ActionEvent evt) {
+//                String nol_jam = "", nol_menit = "", nol_detik = "";
+//
+//                java.util.Date dateTime = new java.util.Date();
+//                int nilai_jam = dateTime.getHours();
+//                int nilai_menit = dateTime.getMinutes();
+//                int nilai_detik = dateTime.getSeconds();
+//
+//                if (nilai_jam <= 9) {
+//                    nol_jam = "0";
+//                }
+//                if (nilai_menit <= 9) {
+//                    nol_menit = "0";
+//                }
+//                if (nilai_detik <= 9) {
+//                    nol_detik = "0";
+//                }
+//
+//                String waktu = nol_jam + Integer.toString(nilai_jam);
+//                String menit = nol_menit + Integer.toString(nilai_menit);
+//                String detik = nol_detik + Integer.toString(nilai_detik);
+//
+//                //label_clock.setText(waktu + ":" + menit + ":" + detik + "");
+//            }
+//        };
+//        new Timer(1000, taskPerformer).start();
     }
     /**
      * This method is called from within the constructor to initialize the form.

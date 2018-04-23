@@ -26,7 +26,7 @@ public class Session
         this.dba = dba;
     }
     
-    private boolean CredentialsCheck(UserCredentials iuc)
+    public boolean newSession(UserCredentials iuc)
     {
         this.input_uc = iuc;
         this.online_uc = db.getCredentials(input_uc.Username);
@@ -60,10 +60,5 @@ public class Session
         }
         
         return false;
-    }
-    
-    public boolean newSession(UserCredentials iuc)
-    {
-        return CredentialsCheck(iuc);
     }
 }

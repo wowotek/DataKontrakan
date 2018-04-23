@@ -7,6 +7,7 @@ import java.util.logging.Logger;
 
 public class Util
 {
+    public final String StandardCharacter = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
     public String getDate()
     {
@@ -57,5 +58,21 @@ public class Util
     public boolean checkTanggal(String tanggal)
     {
         return true;
+    }
+    
+    public boolean checkStringContainChar(String InputData, char CheckInput)
+    {
+        return InputData.indexOf(CheckInput) >= 0;
+    }
+    
+    public boolean checkStringContainString(String InputData, String CheckInput)
+    {
+        for(char i: CheckInput.toCharArray())
+        {
+            if(checkStringContainChar(InputData, i))
+                return true;
+        }
+        
+        return false;
     }
 }

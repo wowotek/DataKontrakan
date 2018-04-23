@@ -10,7 +10,18 @@ public final class UserData
     public String Work;
     public String WorkPlace;
     public String RegID;
-
+    
+    public UserData(String Nama, String LegalID, String TTL, String Phone1, String Phone2, String Work, String WorkPlace)
+    {
+        this.Nama = Nama;
+        this.LegalID = LegalID;
+        this.TTL = TTL;
+        this.Phone1 = Phone1;
+        this.Phone2 = Phone2;
+        this.Work = Work;
+        this.WorkPlace = WorkPlace;
+    }
+    
     public UserData(String Nama, String LegalID, String TTL, String Phone1, String Phone2, String Work, String WorkPlace, String RegID)
     {
         this.Nama = Nama;
@@ -21,5 +32,10 @@ public final class UserData
         this.Work = Work;
         this.WorkPlace = WorkPlace;
         this.RegID = RegID;
+    }
+    
+    private void createRegID()
+    {
+        
     }
 }

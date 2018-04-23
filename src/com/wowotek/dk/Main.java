@@ -3,7 +3,7 @@ package com.wowotek.dk;
 import com.wowotek.dk.db.*;
 import com.wowotek.dk.db.dbclasses.*;
 import com.wowotek.dk.gui.FormLogin;
-import com.wowotek.dk.gui.GUIFlow;
+import com.wowotek.dk.gui.control.GUIFlow;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import javax.swing.JFrame;
@@ -22,8 +22,15 @@ public class Main
     public static void main(String[] args) throws InterruptedException
     {
         g.run();
+        closingCeremonies();
     }
-
+    
+    private static void closingCeremonies()
+    {
+        er.closeFile();
+        dbc.closeConnection();
+    }
+    
     private static boolean testConnection()
     {
         boolean dbdhStatus, dbpemStatus, dbpenStatus;

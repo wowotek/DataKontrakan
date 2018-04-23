@@ -42,16 +42,16 @@
                                   <Group type="102" alignment="1" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" attributes="0">
-                                          <Component id="txt_nama10" alignment="1" min="-2" pref="216" max="-2" attributes="0"/>
-                                          <Component id="txt_nama9" alignment="1" min="-2" pref="216" max="-2" attributes="0"/>
+                                          <Component id="WorkPlaceField" alignment="1" min="-2" pref="216" max="-2" attributes="0"/>
+                                          <Component id="WorkField" alignment="1" min="-2" pref="216" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace min="38" pref="38" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                          <Component id="txt_nama8" max="32767" attributes="0"/>
-                                          <Component id="txt_nama7" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txt_nama6" alignment="0" min="-2" pref="216" max="-2" attributes="0"/>
+                                          <Component id="Phone2Field" max="32767" attributes="0"/>
+                                          <Component id="Phone1Field" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="TTLField" alignment="0" min="-2" pref="216" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                               </Group>
@@ -63,8 +63,8 @@
                               </Group>
                               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="txt_nama5" max="32767" attributes="0"/>
-                                  <Component id="txt_nama4" min="-2" pref="216" max="-2" attributes="0"/>
+                                  <Component id="LegalIDField" max="32767" attributes="0"/>
+                                  <Component id="NamaLengkapField" min="-2" pref="216" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -76,10 +76,10 @@
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="88" max="-2" attributes="0"/>
-                      <Component id="btn_delete" min="-2" pref="105" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btn_delete1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="94" max="-2" attributes="0"/>
+                      <Component id="RF_btnNext" min="-2" pref="110" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="RF_btnCancel" min="-2" pref="110" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
@@ -110,42 +110,42 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name6" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama4" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="NamaLengkapField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name7" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama5" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="LegalIDField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name8" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama6" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="TTLField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name9" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama7" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Phone1Field" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name10" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama8" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="Phone2Field" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name11" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama9" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="WorkField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name12" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama10" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="WorkPlaceField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btn_delete1" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btn_delete" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RF_btnCancel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="RF_btnNext" alignment="3" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace pref="31" max="32767" attributes="0"/>
                   </Group>
@@ -205,12 +205,7 @@
                 <Property name="text" type="java.lang.String" value="Nama Lengkap *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama4">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="NamaLengkapField">
             </Component>
             <Component class="javax.swing.JLabel" name="label_name7">
               <Properties>
@@ -223,19 +218,9 @@
                 <Property name="text" type="java.lang.String" value="ID KTP/Passport/SIM *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama5">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="LegalIDField">
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama6">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="TTLField">
             </Component>
             <Component class="javax.swing.JLabel" name="label_name8">
               <Properties>
@@ -248,12 +233,7 @@
                 <Property name="text" type="java.lang.String" value="Tempat, Tgl Lahir *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama7">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="Phone1Field">
             </Component>
             <Component class="javax.swing.JLabel" name="label_name9">
               <Properties>
@@ -277,12 +257,7 @@
                 <Property name="text" type="java.lang.String" value="No. Telp 2"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama8">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="Phone2Field">
             </Component>
             <Component class="javax.swing.JLabel" name="label_name11">
               <Properties>
@@ -295,12 +270,7 @@
                 <Property name="text" type="java.lang.String" value="Pekerjaan *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama9">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="WorkField">
             </Component>
             <Component class="javax.swing.JLabel" name="label_name12">
               <Properties>
@@ -313,14 +283,9 @@
                 <Property name="text" type="java.lang.String" value="Tempat Kerja *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama10">
-              <Properties>
-                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
-                </Property>
-              </Properties>
+            <Component class="javax.swing.JTextField" name="WorkPlaceField">
             </Component>
-            <Component class="javax.swing.JButton" name="btn_delete">
+            <Component class="javax.swing.JButton" name="RF_btnNext">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="bb" green="c6" red="65" type="rgb"/>
@@ -337,10 +302,10 @@
                 <Property name="text" type="java.lang.String" value="Next"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_deleteActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RF_btnNextActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btn_delete1">
+            <Component class="javax.swing.JButton" name="RF_btnCancel">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="bb" green="c6" red="65" type="rgb"/>
@@ -357,7 +322,7 @@
                 <Property name="text" type="java.lang.String" value="Cancel"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_delete1ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RF_btnCancelActionPerformed"/>
               </Events>
             </Component>
           </SubComponents>
@@ -393,7 +358,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jPanel6" pref="398" max="32767" attributes="0"/>
+                              <Component id="jPanel6" pref="384" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -404,9 +369,9 @@
                               <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace min="0" pref="25" max="32767" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="13" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="102" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="label_name15" alignment="0" min="-2" max="-2" attributes="0"/>
                                           <Component id="label_name16" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -420,15 +385,14 @@
                                           <Component id="txt_nama12" alignment="0" max="32767" attributes="0"/>
                                           <Component id="txt_nama11" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
                                       </Group>
-                                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                                   </Group>
-                                  <Group type="102" alignment="1" attributes="0">
-                                      <Component id="btn_delete2" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="RF_btnCreateAccount" min="-2" pref="171" max="-2" attributes="0"/>
                                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                      <Component id="btn_delete3" min="-2" pref="157" max="-2" attributes="0"/>
-                                      <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                      <Component id="RF_btnPrevious" max="32767" attributes="0"/>
                                   </Group>
                               </Group>
+                              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -469,12 +433,12 @@
                           <Component id="jPasswordField3" min="-2" pref="28" max="-2" attributes="0"/>
                           <Component id="label_name17" min="-2" pref="23" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
-                          <Component id="btn_delete2" alignment="3" min="-2" max="-2" attributes="0"/>
-                          <Component id="btn_delete3" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          <Component id="RF_btnPrevious" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
+                          <Component id="RF_btnCreateAccount" alignment="3" min="-2" pref="40" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -579,7 +543,7 @@
                 <Property name="text" type="java.lang.String" value="Confirm Password *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JButton" name="btn_delete2">
+            <Component class="javax.swing.JButton" name="RF_btnCreateAccount">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="bb" green="c6" red="65" type="rgb"/>
@@ -596,10 +560,10 @@
                 <Property name="text" type="java.lang.String" value="Create account"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_delete2ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RF_btnCreateAccountActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JButton" name="btn_delete3">
+            <Component class="javax.swing.JButton" name="RF_btnPrevious">
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="bb" green="c6" red="65" type="rgb"/>
@@ -616,7 +580,7 @@
                 <Property name="text" type="java.lang.String" value="Previous"/>
               </Properties>
               <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_delete3ActionPerformed"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RF_btnPreviousActionPerformed"/>
               </Events>
             </Component>
             <Component class="javax.swing.JPasswordField" name="jPasswordField2">

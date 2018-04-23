@@ -60,13 +60,7 @@ public class DBConnection
     try
     {
       er.debug("Attempting to Handshake... URL: " + connectionURL);
-      try
-      {
-        Thread.sleep(1500);
-      }
-      catch (InterruptedException ex)
-      {
-      }
+      new Util().delay(1);
       Class.forName("com.mysql.jdbc.Driver").newInstance();
       c = DriverManager.getConnection(connectionURL, properties);
 
