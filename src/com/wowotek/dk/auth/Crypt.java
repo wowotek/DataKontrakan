@@ -1,7 +1,6 @@
 package com.wowotek.dk.auth;
 
 import com.wowotek.dk.ErrorReporting;
-import com.wowotek.dk.exception.ClassVariableCannotBeEmpty;
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;
 import java.security.MessageDigest;
@@ -54,7 +53,7 @@ public class Crypt
     public final String hash(String data)
     {
         String fin;
-        fin = data;
+        fin = encode(data);
         for (int j = 0; j < 500; j++)
         {
             byte[] result = crypt.digest(fin.getBytes());
@@ -68,44 +67,38 @@ public class Crypt
         return fin;
     }
     
-    public final String createBlock(String data1, String data2)
+    public final String hash(char[] data)
     {
-        StringBuilder s = new StringBuilder();
-        s.append(data1);
-        s.append(hash(data2));
-        s.append(hash(data1));
-        s.append(data2);
-        s.append(hash(data1));
-        s.append(data2);
-        s.append(data1);
-        s.append(hash(data2));
-        s.append(hash(s.toString()));
-        
-        String x = s.toString();
-        for(int i=0; i<10; i++)
+        StringBuilder sb = new StringBuilder();
+        sb.append(data);
+        return hash(encode(sb.toString()));
+    }
+    
+    public final String createBlock(String data1, String data2, String data3)
+    {
+        StringBuilder sb = new StringBuilder();
+        for (int i=0; i<data1.length(); i++)
         {
-            x = hash(x);
+            sb.append(data1.toCharArray()[i]);
+            try
+            {
+                sb.append(data2.toCharArray()[i]);
+            }
+            catch(Exception ex)
+            {
+                
+            }
+            
+            try
+            {
+                sb.append(data3.toCharArray()[i]);
+            }
+            catch(Exception ex)
+            {
+                
+            }
         }
-        
-        StringBuilder z = new StringBuilder();
-        z.append(x);
-        z.append(data1);
-        z.append(data2);
-        z.append(hash(x));
-        z.append(hash(data1));
-        z.append(hash(data2));
-        z.append(hash(x));
-        z.append(data2);
-        z.append(data1);
-        z.append(x);
-        
-        String fin = z.toString();
-        for (int i = 0; i < 10; i++)
-        {
-            fin = hash(fin) + fin;
-        }
-        
-        return hash(fin);
+        return hash(sb.toString());
     }
 
     public boolean verify(String Original, String hashed)

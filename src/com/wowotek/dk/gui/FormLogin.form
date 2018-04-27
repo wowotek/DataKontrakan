@@ -380,10 +380,10 @@
                                       </Group>
                                       <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                                          <Component id="jPasswordField3" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="jPasswordField2" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txt_nama12" alignment="0" max="32767" attributes="0"/>
-                                          <Component id="txt_nama11" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
+                                          <Component id="CAConfirmPasswordField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="CAPasswordField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="CAEmailField" alignment="0" max="32767" attributes="0"/>
+                                          <Component id="CAUsernameField" alignment="0" min="-2" pref="206" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <Group type="102" attributes="0">
@@ -406,7 +406,7 @@
                               <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
                               <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
+                          <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                               <Component id="label_name13" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -416,21 +416,21 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name14" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama11" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="CAUsernameField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name15" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="txt_nama12" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="CAEmailField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="label_name16" alignment="3" min="-2" pref="23" max="-2" attributes="0"/>
-                          <Component id="jPasswordField2" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="CAPasswordField" alignment="3" min="-2" pref="28" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="1" attributes="0">
-                          <Component id="jPasswordField3" min="-2" pref="28" max="-2" attributes="0"/>
+                          <Component id="CAConfirmPasswordField" min="-2" pref="28" max="-2" attributes="0"/>
                           <Component id="label_name17" min="-2" pref="23" max="-2" attributes="0"/>
                       </Group>
                       <EmptySpace type="unrelated" max="-2" attributes="0"/>
@@ -496,10 +496,10 @@
                 <Property name="text" type="java.lang.String" value="Username *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama11">
+            <Component class="javax.swing.JTextField" name="CAUsernameField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
@@ -514,10 +514,10 @@
                 <Property name="text" type="java.lang.String" value="E-mail *"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JTextField" name="txt_nama12">
+            <Component class="javax.swing.JTextField" name="CAEmailField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
@@ -583,18 +583,79 @@
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="RF_btnPreviousActionPerformed"/>
               </Events>
             </Component>
-            <Component class="javax.swing.JPasswordField" name="jPasswordField2">
+            <Component class="javax.swing.JPasswordField" name="CAPasswordField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                  <Color blue="1" green="1" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
-            <Component class="javax.swing.JPasswordField" name="jPasswordField3">
+            <Component class="javax.swing.JPasswordField" name="CAConfirmPasswordField">
               <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="1" green="1" red="1" type="rgb"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="WaitFrameDialog">
+      <Properties>
+        <Property name="title" type="java.lang.String" value="Please Wait..."/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel13" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel13" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel13">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="43" green="32" red="1" type="rgb"/>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label_name19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="label_name19" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="label_name19">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Helvetica" size="18" style="0"/>
+                </Property>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
                 </Property>
+                <Property name="text" type="java.lang.String" value="Mohon Menunggu, Sedang Membuat Akun"/>
               </Properties>
             </Component>
           </SubComponents>

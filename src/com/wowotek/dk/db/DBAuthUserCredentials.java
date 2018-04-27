@@ -34,7 +34,7 @@ public class DBAuthUserCredentials
         {
             PreparedStatement ps = c.prepareStatement(
                     "insert into UserCredentials(Username, Password, Email, RegID) "
-                    + "Values (?, ?, ?)");
+                    + "Values (?, ?, ?, ?)");
             ps.setString(1, ud.Username);
             ps.setString(2, ud.getPasswordString());
             ps.setString(3, ud.Email);
@@ -137,7 +137,7 @@ public class DBAuthUserCredentials
                 rs.getString(1),
                 rs.getString(2).toCharArray(),
                 rs.getString(3),
-                rs.getString(3)
+                rs.getString(4)
                 );
             }
 

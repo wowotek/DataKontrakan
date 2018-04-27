@@ -25,7 +25,7 @@ public class DBAuthUserData
         {
             PreparedStatement ps = c.prepareStatement(
                     "insert into UserData(Nama, LegalID, TTL, Phone1, Phone2, Work, WorkPlace, RegID) "
-                    + "Values (?, ?, ?)");
+                    + "Values (?, ?, ?, ?, ?, ?, ?, ?)");
             ps.setString(1, ud.Nama);
             ps.setString(2, ud.LegalID);
             ps.setString(3, ud.TTL);
@@ -140,7 +140,7 @@ public class DBAuthUserData
             rs.getString(5),
             rs.getString(6),
             rs.getString(7),
-            rs.getString(8));
+            rs.getString(8), er);
             }
 
             rs.close();
@@ -180,7 +180,7 @@ public class DBAuthUserData
             rs.getString(5),
             rs.getString(6),
             rs.getString(7),
-            rs.getString(8)));
+            rs.getString(8), er));
             }
 
             rs.close();

@@ -1,9 +1,12 @@
 package com.wowotek.dk.gui.control;
 
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.db.DBAuthUserCredentials;
+import com.wowotek.dk.db.DBAuthUserData;
 import com.wowotek.dk.gui.FormLogin;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.sql.Connection;
 import javax.swing.JFrame;
 
 public class LoginGUI
@@ -12,11 +15,15 @@ public class LoginGUI
     private final Object lock = new Object();
     
     private final ErrorReporting er;
+    private final DBAuthUserCredentials dbuc;
+    private final DBAuthUserData dbud;
     
-    public LoginGUI(ErrorReporting er)
+    public LoginGUI(ErrorReporting er, Connection c)
     {
         this.er = er;
-        this.frameLogin = new FormLogin(er);
+        this.dbuc = new DBAuthUserCredentials(c, er);
+        this.dbud = new DBAuthUserData(c, er);
+        this.frameLogin = new FormLogin(er, dbuc, dbud);
     }
     
     public boolean run()

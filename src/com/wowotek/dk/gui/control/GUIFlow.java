@@ -6,6 +6,7 @@
 package com.wowotek.dk.gui.control;
 
 import com.wowotek.dk.ErrorReporting;
+import java.sql.Connection;
 
 /**
  *
@@ -14,14 +15,16 @@ import com.wowotek.dk.ErrorReporting;
 public class GUIFlow
 {
     private final ErrorReporting er;
+    private final Connection c;
     
-    public GUIFlow(ErrorReporting er)
+    public GUIFlow(ErrorReporting er, Connection c)
     {
+        this.c = c;
         this.er = er;
     }
     public void run()
     {
-        LoginGUI lg = new LoginGUI(er);
+        LoginGUI lg = new LoginGUI(er, c);
         lg.run();
     }
 }

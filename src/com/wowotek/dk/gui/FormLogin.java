@@ -7,9 +7,14 @@ package com.wowotek.dk.gui;
 
 import com.wowotek.dk.ErrorReporting;
 import com.wowotek.dk.Util;
+import com.wowotek.dk.auth.Hash;
 import com.wowotek.dk.auth.authclasses.UserCredentials;
 import com.wowotek.dk.auth.authclasses.UserData;
+import com.wowotek.dk.db.DBAuthUserCredentials;
+import com.wowotek.dk.db.DBAuthUserData;
 import java.awt.Color;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import javax.swing.JOptionPane;
 
 /**
@@ -20,15 +25,21 @@ public class FormLogin extends javax.swing.JFrame
 {
 
     private final ErrorReporting er;
-    
+    private final DBAuthUserCredentials dbuc;
+    private final DBAuthUserData dbud;
     public UserCredentials InputUC;
     public UserData InputUD;
     
+    public UserData CreateAccountUD;
+    public UserCredentials CreateAccountUC;
+    
     public boolean Inputed = false;
 
-    public FormLogin(ErrorReporting er)
+    public FormLogin(ErrorReporting er, DBAuthUserCredentials dbuc, DBAuthUserData dbud)
     {
         this.er = er;
+        this.dbuc = dbuc;
+        this.dbud = dbud;
         initComponents();
         moreInit();
     }
@@ -72,15 +83,18 @@ public class FormLogin extends javax.swing.JFrame
         jLabel3 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         label_name14 = new javax.swing.JLabel();
-        txt_nama11 = new javax.swing.JTextField();
+        CAUsernameField = new javax.swing.JTextField();
         label_name15 = new javax.swing.JLabel();
-        txt_nama12 = new javax.swing.JTextField();
+        CAEmailField = new javax.swing.JTextField();
         label_name16 = new javax.swing.JLabel();
         label_name17 = new javax.swing.JLabel();
         RF_btnCreateAccount = new javax.swing.JButton();
         RF_btnPrevious = new javax.swing.JButton();
-        jPasswordField2 = new javax.swing.JPasswordField();
-        jPasswordField3 = new javax.swing.JPasswordField();
+        CAPasswordField = new javax.swing.JPasswordField();
+        CAConfirmPasswordField = new javax.swing.JPasswordField();
+        WaitFrameDialog = new javax.swing.JDialog();
+        jPanel13 = new javax.swing.JPanel();
+        label_name19 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
@@ -318,13 +332,13 @@ public class FormLogin extends javax.swing.JFrame
         label_name14.setForeground(new java.awt.Color(255, 255, 255));
         label_name14.setText("Username *");
 
-        txt_nama11.setForeground(new java.awt.Color(255, 255, 255));
+        CAUsernameField.setForeground(new java.awt.Color(1, 1, 1));
 
         label_name15.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name15.setForeground(new java.awt.Color(255, 255, 255));
         label_name15.setText("E-mail *");
 
-        txt_nama12.setForeground(new java.awt.Color(255, 255, 255));
+        CAEmailField.setForeground(new java.awt.Color(1, 1, 1));
 
         label_name16.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name16.setForeground(new java.awt.Color(255, 255, 255));
@@ -360,9 +374,9 @@ public class FormLogin extends javax.swing.JFrame
             }
         });
 
-        jPasswordField2.setForeground(new java.awt.Color(255, 255, 255));
+        CAPasswordField.setForeground(new java.awt.Color(1, 1, 1));
 
-        jPasswordField3.setForeground(new java.awt.Color(255, 255, 255));
+        CAConfirmPasswordField.setForeground(new java.awt.Color(1, 1, 1));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -391,10 +405,10 @@ public class FormLogin extends javax.swing.JFrame
                                     .addComponent(label_name14, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGap(14, 14, 14)
                                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(jPasswordField3, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jPasswordField2, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txt_nama12, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(txt_nama11, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(CAConfirmPasswordField, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(CAPasswordField, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(CAEmailField, javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(CAUsernameField, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)))
                             .addGroup(jPanel5Layout.createSequentialGroup()
                                 .addComponent(RF_btnCreateAccount, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -416,18 +430,18 @@ public class FormLogin extends javax.swing.JFrame
                 .addGap(18, 18, 18)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name14, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama11, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(CAUsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name15, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama12, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(CAEmailField, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(label_name16, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPasswordField2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(CAPasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(18, 18, 18)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPasswordField3, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(CAConfirmPasswordField, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(label_name17, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
@@ -445,6 +459,42 @@ public class FormLogin extends javax.swing.JFrame
         RegisterFormCredentialsLayout.setVerticalGroup(
             RegisterFormCredentialsLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
+        WaitFrameDialog.setTitle("Please Wait...");
+
+        jPanel13.setBackground(new java.awt.Color(1, 50, 67));
+
+        label_name19.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
+        label_name19.setForeground(new java.awt.Color(255, 255, 255));
+        label_name19.setText("Mohon Menunggu, Sedang Membuat Akun");
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(label_name19)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(label_name19)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout WaitFrameDialogLayout = new javax.swing.GroupLayout(WaitFrameDialog.getContentPane());
+        WaitFrameDialog.getContentPane().setLayout(WaitFrameDialogLayout);
+        WaitFrameDialogLayout.setHorizontalGroup(
+            WaitFrameDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        WaitFrameDialogLayout.setVerticalGroup(
+            WaitFrameDialogLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -820,12 +870,21 @@ public class FormLogin extends javax.swing.JFrame
 
     private void runRFCred()
     {
-        this.RegisterFormCredentials.setModal(true);
+        this.CreateAccountUD = new UserData(
+                this.NamaLengkapField.getText(), 
+                this.LegalIDField.getText(), 
+                this.TTLField.getText(), 
+                this.Phone1Field.getText(), 
+                this.Phone2Field.getText(), 
+                this.WorkField.getText(), 
+                this.WorkPlaceField.getText(), this.er);
+        
+        this.RegisterFormCredentials.setBounds(120, 120, 408, 348);
         this.RegisterFormCredentials.setResizable(false);
-        this.RegisterFormCredentials.setBounds(35, 35, 408, 348);
+        this.RegisterFormCredentials.setModal(true);
         this.RegisterFormCredentials.setVisible(true);
     }
-
+    
     private void runRFData()
     {
         this.RegisterFormData.setModal(true);
@@ -994,11 +1053,31 @@ public class FormLogin extends javax.swing.JFrame
         this.RegisterFormData.dispose();
         this.RegisterFormCredentials.dispose();
     }//GEN-LAST:event_RF_btnCancelActionPerformed
-
+    
+    private boolean created = false;
     private void RF_btnCreateAccountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RF_btnCreateAccountActionPerformed
-        // TODO add your handling code here:
+        if(createAccount())
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormCredentials,
+                        "Akun Berhasil Dibuat",
+                        "Success!",
+                        JOptionPane.INFORMATION_MESSAGE);
+        }
     }//GEN-LAST:event_RF_btnCreateAccountActionPerformed
-
+    
+    private boolean createAccount()
+    {
+        this.CreateAccountUC = new UserCredentials(
+                this.CAUsernameField.getText(),
+                (new Hash(er).hash_1(this.CAConfirmPasswordField.getPassword())).toCharArray(),
+                this.CAEmailField.getText(),
+                this.CreateAccountUD.RegID);
+        
+        System.out.println(this.CreateAccountUD.RegID);
+        this.created = dbud.tambahUserData(this.CreateAccountUD) && dbuc.tambahUserCredentials(this.CreateAccountUC);
+        return this.created;
+    }
+    
     private void RF_btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RF_btnPreviousActionPerformed
         this.RegisterFormCredentials.setVisible(false);
         this.RegisterFormCredentials.dispose();
@@ -1073,6 +1152,10 @@ public class FormLogin extends javax.swing.JFrame
     }
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JPasswordField CAConfirmPasswordField;
+    private javax.swing.JTextField CAEmailField;
+    private javax.swing.JPasswordField CAPasswordField;
+    private javax.swing.JTextField CAUsernameField;
     private javax.swing.JButton CancelButton;
     private javax.swing.JButton ForgetPasswordButton;
     private javax.swing.JTextField LegalIDField;
@@ -1090,6 +1173,7 @@ public class FormLogin extends javax.swing.JFrame
     private javax.swing.JDialog RegisterFormData;
     private javax.swing.JTextField TTLField;
     private javax.swing.JTextField UsernameField;
+    private javax.swing.JDialog WaitFrameDialog;
     private javax.swing.JTextField WorkField;
     private javax.swing.JTextField WorkPlaceField;
     private java.awt.Checkbox checkbox1;
@@ -1101,6 +1185,7 @@ public class FormLogin extends javax.swing.JFrame
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1109,8 +1194,6 @@ public class FormLogin extends javax.swing.JFrame
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JPasswordField jPasswordField2;
-    private javax.swing.JPasswordField jPasswordField3;
     private javax.swing.JLabel label_name;
     private javax.swing.JLabel label_name1;
     private javax.swing.JLabel label_name10;
@@ -1122,6 +1205,7 @@ public class FormLogin extends javax.swing.JFrame
     private javax.swing.JLabel label_name16;
     private javax.swing.JLabel label_name17;
     private javax.swing.JLabel label_name18;
+    private javax.swing.JLabel label_name19;
     private javax.swing.JLabel label_name2;
     private javax.swing.JLabel label_name3;
     private javax.swing.JLabel label_name4;
@@ -1130,7 +1214,5 @@ public class FormLogin extends javax.swing.JFrame
     private javax.swing.JLabel label_name7;
     private javax.swing.JLabel label_name8;
     private javax.swing.JLabel label_name9;
-    private javax.swing.JTextField txt_nama11;
-    private javax.swing.JTextField txt_nama12;
     // End of variables declaration//GEN-END:variables
 }
