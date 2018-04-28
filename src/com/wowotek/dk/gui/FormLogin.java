@@ -8,6 +8,7 @@ package com.wowotek.dk.gui;
 import com.wowotek.dk.ErrorReporting;
 import com.wowotek.dk.Util;
 import com.wowotek.dk.auth.Hash;
+import com.wowotek.dk.auth.Session;
 import com.wowotek.dk.auth.authclasses.UserCredentials;
 import com.wowotek.dk.auth.authclasses.UserData;
 import com.wowotek.dk.db.DBAuthUserCredentials;
@@ -15,6 +16,7 @@ import com.wowotek.dk.db.DBAuthUserData;
 import java.awt.Color;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 
 /**
@@ -27,19 +29,24 @@ public class FormLogin extends javax.swing.JFrame
     private final ErrorReporting er;
     private final DBAuthUserCredentials dbuc;
     private final DBAuthUserData dbud;
+    
+    private final Session s;
+    
     public UserCredentials InputUC;
     public UserData InputUD;
     
     public UserData CreateAccountUD;
     public UserCredentials CreateAccountUC;
     
+    
     public boolean Inputed = false;
-
+    
     public FormLogin(ErrorReporting er, DBAuthUserCredentials dbuc, DBAuthUserData dbud)
     {
         this.er = er;
         this.dbuc = dbuc;
         this.dbud = dbud;
+        this.s = new Session(dbuc, dbud, er);
         initComponents();
         moreInit();
     }
@@ -857,11 +864,13 @@ public class FormLogin extends javax.swing.JFrame
         {
             this.InputUC = new UserCredentials(this.UsernameField.getText(), this.PasswordField.getPassword());
             this.Inputed = true;
+            System.out.println("Session : " + this.s.newSession(this.InputUC));
         }
     }//GEN-LAST:event_LoginButtonActionPerformed
 
     private void CancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelButtonActionPerformed
-        // TODO add your handling code here:
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        this.dispose();
     }//GEN-LAST:event_CancelButtonActionPerformed
 
     private void NewAccountButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NewAccountButtonActionPerformed
@@ -1069,7 +1078,7 @@ public class FormLogin extends javax.swing.JFrame
     {
         this.CreateAccountUC = new UserCredentials(
                 this.CAUsernameField.getText(),
-                (new Hash(er).hash_1(this.CAConfirmPasswordField.getPassword())).toCharArray(),
+                new Hash(er).crpytPassword(this.CAConfirmPasswordField.getPassword(), this.CAUsernameField.getText()).toCharArray(),
                 this.CAEmailField.getText(),
                 this.CreateAccountUD.RegID);
         

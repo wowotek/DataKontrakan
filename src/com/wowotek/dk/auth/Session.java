@@ -49,8 +49,9 @@ public class Session
             {
                 er.debug("UserData Found, Checking Password");
                 String OnlinePassword = this.online_uc.getPasswordString();
-                String InputPassword = this.input_uc.getPasswordString();
-                
+                String InputPassword = new Hash(er).crpytPassword(this.input_uc.Password, this.input_uc.Username);
+                er.debug("Online Password : " + OnlinePassword);
+                er.debug("Input Password  : " + InputPassword);
                 if(OnlinePassword.equals(InputPassword))
                 {
                     this.LogedInAs = this.online_ud.Nama;

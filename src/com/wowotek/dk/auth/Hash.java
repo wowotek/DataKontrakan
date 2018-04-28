@@ -127,7 +127,37 @@ public class Hash
         }
         return hash(sb.toString());
     }
-
+    
+    public final String crpytPassword(char[] data1, String data2)
+    {
+        StringBuilder sb1 = new StringBuilder();
+        sb1.append(data1);
+        
+        
+        StringBuilder sb = new StringBuilder();
+        sb.append(encode(sb1.toString()));
+        sb.append(hash(encode(data2)));
+        sb.append(hash(encode(sb1.toString())));
+        sb.append(encode(data2));
+        sb.append(hash(sb.toString()));
+        sb.append(encode(sb.toString()));
+        
+        String fin = encode(sb.toString());
+        
+        for (int i = 0; i < 100; i++)
+        {
+            fin = hash(encode(hash_1(fin)));
+        }
+        
+        fin = hash_1(fin);
+        for (int i = 0; i < 100; i++)
+        {
+            fin += hash(createBlock(fin, hash(fin+"Wowotek"), hash(encode("DataKontrakan"))));
+        }
+        
+        return hash_1(hash(encode(fin)));
+    }
+    
     public boolean verify(String Original, String hashed)
     {
         return Original.equals(hashed);
