@@ -25,6 +25,10 @@ public class GUIFlow
     public void run()
     {
         LoginGUI lg = new LoginGUI(er, c);
-        lg.run();
+        MainGUI mg = new MainGUI(er);
+        if(lg.run())
+        {
+            mg.run();
+        }
     }
 }

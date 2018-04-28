@@ -29,7 +29,7 @@ public class LoginGUI
     public boolean run()
     {
 
-        frameLogin.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        frameLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frameLogin.setVisible(true);
 
         Thread t = new Thread()
@@ -82,6 +82,6 @@ public class LoginGUI
             er.debug("Failed to Join GUI-runLoginScreen Thread !");
         }
 
-        return frameLogin.Inputed;
+        return frameLogin.SessionCond;
     }
 }

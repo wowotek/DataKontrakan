@@ -38,7 +38,7 @@ public class FormLogin extends javax.swing.JFrame
     public UserData CreateAccountUD;
     public UserCredentials CreateAccountUC;
     
-    
+    public boolean SessionCond = false;
     public boolean Inputed = false;
     
     public FormLogin(ErrorReporting er, DBAuthUserCredentials dbuc, DBAuthUserData dbud)
@@ -864,13 +864,13 @@ public class FormLogin extends javax.swing.JFrame
         {
             this.InputUC = new UserCredentials(this.UsernameField.getText(), this.PasswordField.getPassword());
             this.Inputed = true;
-            System.out.println("Session : " + this.s.newSession(this.InputUC));
+            this.SessionCond = this.s.newSession(this.InputUC);
+            System.out.println("Session : " + this.SessionCond);
         }
     }//GEN-LAST:event_LoginButtonActionPerformed
 
     private void CancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelButtonActionPerformed
-        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        this.dispose();
+        purge();
     }//GEN-LAST:event_CancelButtonActionPerformed
 
     private void NewAccountButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NewAccountButtonActionPerformed
@@ -1150,13 +1150,14 @@ public class FormLogin extends javax.swing.JFrame
     
     public void purge()
     {
+        this.RegisterFormCredentials.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        this.RegisterFormData.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+        super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         er.debug("Purging All data from form...");
-        this.RegisterFormCredentials.setVisible(false);
-        this.RegisterFormData.setVisible(false);
         this.RegisterFormCredentials.dispose();
         this.RegisterFormData.dispose();
-        this.setVisible(false);
         this.dispose();
+        super.dispose();
         er.debug("Successfully Purged", 10);
     }
     

@@ -1,6 +1,5 @@
 package com.wowotek.dk;
 
-import com.wowotek.dk.auth.Hash;
 import com.wowotek.dk.db.*;
 import com.wowotek.dk.gui.control.GUIFlow;
 

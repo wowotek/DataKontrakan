@@ -27,7 +27,7 @@ public class MainGUI
         this.er = er;
     }
     
-    private void run()
+    public void run()
     {
 
         frameKontrakan.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
