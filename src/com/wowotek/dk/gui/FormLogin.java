@@ -6,6 +6,7 @@
 package com.wowotek.dk.gui;
 
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.Main;
 import com.wowotek.dk.Util;
 import com.wowotek.dk.auth.Hash;
 import com.wowotek.dk.auth.Session;
@@ -29,18 +30,18 @@ public class FormLogin extends javax.swing.JFrame
     private final ErrorReporting er;
     private final DBAuthUserCredentials dbuc;
     private final DBAuthUserData dbud;
-    
+
     private final Session s;
-    
+
     public UserCredentials InputUC;
     public UserData InputUD;
-    
+
     public UserData CreateAccountUD;
     public UserCredentials CreateAccountUC;
-    
+
     public boolean SessionCond = false;
     public boolean Inputed = false;
-    
+
     public FormLogin(ErrorReporting er, DBAuthUserCredentials dbuc, DBAuthUserData dbud)
     {
         this.er = er;
@@ -865,12 +866,26 @@ public class FormLogin extends javax.swing.JFrame
             this.InputUC = new UserCredentials(this.UsernameField.getText(), this.PasswordField.getPassword());
             this.Inputed = true;
             this.SessionCond = this.s.newSession(this.InputUC);
-            System.out.println("Session : " + this.SessionCond);
+
+            if(this.SessionCond)
+            {
+                this.RegisterFormCredentials.dispose();
+                this.RegisterFormData.dispose();
+                purge();
+            }
+            else
+            {
+                JOptionPane.showMessageDialog(this.RegisterFormData,
+                                              "Your Username and/or Password is Invalid !",
+                                              "Wrong Credentials !",
+                                              JOptionPane.ERROR_MESSAGE);
+            }
         }
     }//GEN-LAST:event_LoginButtonActionPerformed
 
     private void CancelButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CancelButtonActionPerformed
         purge();
+        //Main.closingCeremonies();
     }//GEN-LAST:event_CancelButtonActionPerformed
 
     private void NewAccountButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_NewAccountButtonActionPerformed
@@ -880,20 +895,20 @@ public class FormLogin extends javax.swing.JFrame
     private void runRFCred()
     {
         this.CreateAccountUD = new UserData(
-                this.NamaLengkapField.getText(), 
-                this.LegalIDField.getText(), 
-                this.TTLField.getText(), 
-                this.Phone1Field.getText(), 
-                this.Phone2Field.getText(), 
-                this.WorkField.getText(), 
+                this.NamaLengkapField.getText(),
+                this.LegalIDField.getText(),
+                this.TTLField.getText(),
+                this.Phone1Field.getText(),
+                this.Phone2Field.getText(),
+                this.WorkField.getText(),
                 this.WorkPlaceField.getText(), this.er);
-        
+
         this.RegisterFormCredentials.setBounds(120, 120, 408, 348);
         this.RegisterFormCredentials.setResizable(false);
         this.RegisterFormCredentials.setModal(true);
         this.RegisterFormCredentials.setVisible(true);
     }
-    
+
     private void runRFData()
     {
         this.RegisterFormData.setModal(true);
@@ -907,7 +922,7 @@ public class FormLogin extends javax.swing.JFrame
     }//GEN-LAST:event_ForgetPasswordButtonActionPerformed
 
     private void RF_btnNextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RF_btnNextActionPerformed
-        if(checkRFFields() == true)
+        if (checkRFFields() == true)
         {
             this.RegisterFormData.setVisible(false);
             this.RegisterFormData.dispose();
@@ -919,7 +934,7 @@ public class FormLogin extends javax.swing.JFrame
             this.RegisterFormCredentials.dispose();
         }
     }//GEN-LAST:event_RF_btnNextActionPerformed
-   
+
     private boolean checkRFFields()
     {
         Util u = new Util();
@@ -971,7 +986,7 @@ public class FormLogin extends javax.swing.JFrame
         {
             this.LegalIDField.setBackground(Color.white);
             this.LegalIDField.setForeground(Color.black);
-          
+
         }
 
         if (this.TTLField.getText().equals("") || this.TTLField.getText() == null)
@@ -1062,18 +1077,18 @@ public class FormLogin extends javax.swing.JFrame
         this.RegisterFormData.dispose();
         this.RegisterFormCredentials.dispose();
     }//GEN-LAST:event_RF_btnCancelActionPerformed
-    
+
     private boolean created = false;
     private void RF_btnCreateAccountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RF_btnCreateAccountActionPerformed
-        if(createAccount())
+        if (createAccount())
         {
             JOptionPane.showMessageDialog(this.RegisterFormCredentials,
-                        "Akun Berhasil Dibuat",
-                        "Success!",
-                        JOptionPane.INFORMATION_MESSAGE);
+                    "Akun Berhasil Dibuat",
+                    "Success!",
+                    JOptionPane.INFORMATION_MESSAGE);
         }
     }//GEN-LAST:event_RF_btnCreateAccountActionPerformed
-    
+
     private boolean createAccount()
     {
         this.CreateAccountUC = new UserCredentials(
@@ -1081,12 +1096,12 @@ public class FormLogin extends javax.swing.JFrame
                 new Hash(er).crpytPassword(this.CAConfirmPasswordField.getPassword(), this.CAUsernameField.getText()).toCharArray(),
                 this.CAEmailField.getText(),
                 this.CreateAccountUD.RegID);
-        
+
         System.out.println(this.CreateAccountUD.RegID);
         this.created = dbud.tambahUserData(this.CreateAccountUD) && dbuc.tambahUserCredentials(this.CreateAccountUC);
         return this.created;
     }
-    
+
     private void RF_btnPreviousActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RF_btnPreviousActionPerformed
         this.RegisterFormCredentials.setVisible(false);
         this.RegisterFormCredentials.dispose();
@@ -1147,20 +1162,29 @@ public class FormLogin extends javax.swing.JFrame
 //            }
 //        });
     }
-    
+
     public void purge()
     {
+        er.debug("Purging All data from form...");
+        
+        this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.RegisterFormCredentials.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.RegisterFormData.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        er.debug("Purging All data from form...");
+        
         this.RegisterFormCredentials.dispose();
         this.RegisterFormData.dispose();
         this.dispose();
         super.dispose();
+        
+        this.RegisterFormCredentials.setVisible(false);
+        this.RegisterFormData.setVisible(false);
+        this.setVisible(false);
+        super.setVisible(false);
+        
         er.debug("Successfully Purged", 10);
     }
-    
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPasswordField CAConfirmPasswordField;
     private javax.swing.JTextField CAEmailField;

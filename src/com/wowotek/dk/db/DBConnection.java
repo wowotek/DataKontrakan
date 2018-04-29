@@ -90,7 +90,7 @@ public class DBConnection
       new Util().delay(1);
       this.c.close();
       new Util().delay(1);
-      er.debug("Koneksi Berhasil di Tutup");
+      er.debug("Koneksi Berhasil di Tutup", 0);
       return true;
     }
     catch (SQLException ex)

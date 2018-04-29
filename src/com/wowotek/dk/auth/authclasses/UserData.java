@@ -1,6 +1,7 @@
 package com.wowotek.dk.auth.authclasses;
 
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.Util;
 import com.wowotek.dk.auth.Hash;
 
 public final class UserData
@@ -46,13 +47,15 @@ public final class UserData
     {
         Hash x = new Hash(er);
         StringBuilder sb = new StringBuilder();
-        sb.append(this.Nama);
-        sb.append(this.LegalID);
-        sb.append(this.TTL);
-        sb.append(this.Phone1);
-        sb.append(this.Phone2);
-        sb.append(this.Work);
-        sb.append(this.WorkPlace);
-        return x.hash_1(x.hash(x.encode(x.hash_1(x.hash(sb.toString())))));
+        sb.append(new Util().getUnixTimestamp());
+        sb.append(x.encode(sb.toString()));
+        sb.append(x.encode(this.Nama));
+        sb.append(x.encode(this.LegalID));
+        sb.append(x.encode(this.TTL));
+        sb.append(x.encode(this.Phone1));
+        sb.append(x.encode(this.Phone2));
+        sb.append(x.encode(this.Work));
+        sb.append(x.encode(this.WorkPlace));
+        return x.hash_1(x.encode(x.hash_1(x.hash(x.encode(x.hash_1(x.hash(sb.toString())))))));
     }
 }

@@ -11,13 +11,14 @@ import javax.swing.JFrame;
 
 public class LoginGUI
 {
+
     private final FormLogin frameLogin;
     private final Object lock = new Object();
-    
+
     private final ErrorReporting er;
     private final DBAuthUserCredentials dbuc;
     private final DBAuthUserData dbud;
-    
+
     public LoginGUI(ErrorReporting er, Connection c)
     {
         this.er = er;
@@ -25,13 +26,11 @@ public class LoginGUI
         this.dbud = new DBAuthUserData(c, er);
         this.frameLogin = new FormLogin(er, dbuc, dbud);
     }
-    
+
     public boolean run()
     {
-
-        frameLogin.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frameLogin.setVisible(true);
-
+        frameLogin.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        
         Thread t = new Thread()
         {
             @Override
@@ -51,22 +50,32 @@ public class LoginGUI
                         }
                     }
                     // Do Something Here AFTER the Window Closed
-                    frameLogin.purge();
-                    er.debug("Login Screen Closed", 10);
+                    er.debug("Login GUI Closed !");
                 }
             }
         };
+        frameLogin.setVisible(true);
         t.start();
-
+        
         frameLogin.addWindowListener(new WindowAdapter()
         {
-
             @Override
             public void windowClosing(WindowEvent arg0)
             {
                 synchronized (lock)
                 {
                     frameLogin.setVisible(false);
+                    frameLogin.dispose();
+                    lock.notify();
+                }
+            }
+            
+            public void windowClosed(WindowEvent arg1)
+            {
+                synchronized (lock)
+                {
+                    frameLogin.setVisible(false);
+                    frameLogin.dispose();
                     lock.notify();
                 }
             }
@@ -75,13 +84,14 @@ public class LoginGUI
 
         try
         {
+            System.out.println(t.toString());
             t.join();
         }
         catch (InterruptedException e)
         {
             er.debug("Failed to Join GUI-runLoginScreen Thread !");
         }
-
+        
         return frameLogin.SessionCond;
     }
 }

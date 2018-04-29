@@ -22,10 +22,12 @@ public class GUIFlow
         this.c = c;
         this.er = er;
     }
+    
     public void run()
     {
         LoginGUI lg = new LoginGUI(er, c);
         MainGUI mg = new MainGUI(er);
+        
         if(lg.run())
         {
             mg.run();

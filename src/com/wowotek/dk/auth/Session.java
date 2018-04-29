@@ -33,33 +33,39 @@ public class Session
         if(this.online_uc == null)
         {
             er.debug("Username Not Found !", 2);
+            er.debug("Session Not Confirmed, Returning to : False", 2);
             return false;
         }
         else
         {
-            er.debug("Username Found, Checking UserData", 10);
+            er.debug("Username Found, Checking UserData", 0);
             this.online_ud = dba.getUserData(this.online_uc.RegID);
             
             if(this.online_ud == null)
             {
                 er.debug("UserData not Found !", 2);
+                er.debug("Session Not Confirmed, Returning to : False", 2);
                 return false;
             }
             else
             {
-                er.debug("UserData Found, Checking Password");
+                er.debug("UserData Found, Checking Password", 0);
                 String OnlinePassword = this.online_uc.getPasswordString();
                 String InputPassword = new Hash(er).crpytPassword(this.input_uc.Password, this.input_uc.Username);
-                er.debug("Online Password : " + OnlinePassword);
-                er.debug("Input Password  : " + InputPassword);
+                er.debug("Received Password : " + OnlinePassword, 10);
+                er.debug("Inputted Password : " + InputPassword, 10);
                 if(OnlinePassword.equals(InputPassword))
                 {
                     this.LogedInAs = this.online_ud.Nama;
+                    er.debug("Session Confirmed, Returning to : True", 10);
                     return true;
+                }
+                else
+                {
+                    er.debug("Wrong Password !", 2);
+                    return false;
                 }
             }
         }
-        
-        return false;
     }
 }

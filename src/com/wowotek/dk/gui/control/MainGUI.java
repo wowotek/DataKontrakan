@@ -67,19 +67,30 @@ public class MainGUI
                 synchronized (lock)
                 {
                     frameKontrakan.setVisible(false);
+                    frameKontrakan.dispose();
                     lock.notify();
                 }
             }
-
+            
+            public void windowClosed(WindowEvent arg1)
+            {
+                synchronized(lock)
+                {
+                    frameKontrakan.setVisible(false);
+                    frameKontrakan.dispose();
+                    lock.notify();
+                }
+            }
         });
 
         try
         {
+            System.out.println(t.toString());
             t.join();
         }
         catch (InterruptedException e)
         {
-            er.debug("Failed to Join GUI-runLoginScreen Thread !");
+            er.debug("Failed to Join GUI-runMainScreen Thread !");
         }
     }
 }

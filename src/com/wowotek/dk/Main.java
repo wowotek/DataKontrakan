@@ -16,9 +16,10 @@ public class Main
         closingCeremonies();
     }
     
-    private static void closingCeremonies()
+    public static void closingCeremonies()
     {
         er.closeFile();
         dbc.closeConnection();
+        System.exit(0);
     }
 }

@@ -33,6 +33,11 @@ public class Util
         return (String) (ft.format(dNow));
     }
 
+    public int getUnixTimestamp()
+    {
+        return (int)(System.currentTimeMillis() / 1000L);
+    }
+    
     public void delay(double seconds)
     {
         int w = (int) ((seconds * 1000) + 500);
