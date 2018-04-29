@@ -33,9 +33,9 @@ public class Util
         return (String) (ft.format(dNow));
     }
 
-    public int getUnixTimestamp()
+    public long getUnixTimestamp()
     {
-        return (int)(System.currentTimeMillis() / 1000L);
+        return (long)(System.currentTimeMillis() / 1000L);
     }
     
     public void delay(double seconds)

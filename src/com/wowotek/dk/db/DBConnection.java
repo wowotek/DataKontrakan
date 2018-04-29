@@ -37,7 +37,7 @@ public class DBConnection
         {
           dfs += ", Retrying...";
           er.debug(dfs, 2);
-          new Util().delay(3);
+          new Util().delay(1.5);
         }
         else
         {
@@ -60,7 +60,6 @@ public class DBConnection
     try
     {
       er.debug("Attempting to Handshake... URL: " + connectionURL);
-      new Util().delay(1);
       Class.forName("com.mysql.jdbc.Driver").newInstance();
       c = DriverManager.getConnection(connectionURL, properties);
 
@@ -87,9 +86,7 @@ public class DBConnection
     try
     {
       er.debug("Menutup Koneksi Database !");
-      new Util().delay(1);
       this.c.close();
-      new Util().delay(1);
       er.debug("Koneksi Berhasil di Tutup", 0);
       return true;
     }

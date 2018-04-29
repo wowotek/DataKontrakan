@@ -38,3 +38,122 @@
 ================= Session Closed At 29.04.2018 | 11:04:06 =================
 
 
+================= Session Started At 29.04.2018 | 11:13:23 ================
+
+[11:13:23][EID:1][CPASS] Successfuly Opened Log File
+[11:13:23]               Database Connection Initialization
+[11:13:23]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[11:13:25]               Handshake Successful !
+[11:13:25][EID:2][CPASS] Connection Established, Total Tries = 0
+[11:13:39]               Purging All data from form...
+[11:13:39][EID:3][CLOGS] Successfully Purged
+[11:13:39]               Login GUI Closed !
+[11:13:39]               Closing Log File..
+
+================= Session Closed At 29.04.2018 | 11:13:40 =================
+
+
+================= Session Started At 29.04.2018 | 11:17:14 ================
+
+[11:17:14][EID:1][CPASS] Successfuly Opened Log File
+[11:17:14]               Database Connection Initialization
+[11:17:14]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[11:17:16]               Handshake Successful !
+[11:17:16][EID:2][CPASS] Connection Established, Total Tries = 0
+[11:17:17][EID:3][CLOGS] Thread Started -> 
+[11:17:24]               Purging All data from form...
+[11:17:24][EID:4][CLOGS] Successfully Purged
+[11:17:24]               Login GUI Closed !
+[11:17:24]               Closing Log File..
+
+================= Session Closed At 29.04.2018 | 11:17:25 =================
+
+
+================= Session Started At 29.04.2018 | 11:19:06 ================
+
+[11:19:06][EID:1][CPASS] Successfuly Opened Log File
+[11:19:06]               Database Connection Initialization
+[11:19:06]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[11:19:08]               Handshake Successful !
+[11:19:08][EID:2][CPASS] Connection Established, Total Tries = 0
+[11:19:09][EID:3][CLOGS] Thread Started -> 
+[11:19:16]               Mengambil data UserCredentials...
+[11:19:16][EID:4][CPASS] Pengambilan data UserCredentials Berhasil !
+[11:19:16][EID:5][ERROR] Username Not Found !
+[11:19:16][EID:6][ERROR] Session Not Confirmed, Returning to : False
+[11:19:29]               Purging All data from form...
+[11:19:29][EID:7][CLOGS] Successfully Purged
+[11:19:29]               Login GUI Closed !
+[11:19:29]               Closing Log File..
+
+================= Session Closed At 29.04.2018 | 11:19:31 =================
+
+
+================= Session Started At 29.04.2018 | 11:20:01 ================
+
+[11:20:01][EID:1][CPASS] Successfuly Opened Log File
+[11:20:01]               Database Connection Initialization
+[11:20:01]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[11:20:03]               Handshake Successful !
+[11:20:03][EID:2][CPASS] Connection Established, Total Tries = 0
+[11:20:03][EID:3][CLOGS] Thread Started -> 
+[11:29:52]               Mengambil data UserCredentials...
+[11:29:52][EID:4][CPASS] Pengambilan data UserCredentials Berhasil !
+[11:29:52][EID:5][ERROR] Username Not Found !
+[11:29:52][EID:6][ERROR] Session Not Confirmed, Returning to : False
+[11:30:29]               Purging All data from form...
+[11:30:29][EID:7][CLOGS] Successfully Purged
+[11:30:29]               Login GUI Closed !
+[11:30:29]               Closing Log File..
+
+================= Session Closed At 29.04.2018 | 11:30:31 =================
+
+
+================= Session Started At 30.04.2018 | 01:24:30 ================
+
+[01:24:30][EID:1][CPASS] Successfuly Opened Log File
+[01:24:30]               Database Connection Initialization
+[01:24:30]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[01:24:31]               Handshake Successful !
+[01:24:31][EID:2][CPASS] Connection Established, Total Tries = 0
+[01:24:32][EID:3][CLOGS] Thread Started -> 
+[01:24:34]               Purging All data from form...
+[01:24:34][EID:4][CLOGS] Successfully Purged
+[01:24:34]               Login GUI Closed !
+[01:24:34]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 01:24:35 =================
+
+
+================= Session Started At 30.04.2018 | 01:25:40 ================
+
+[01:25:40][EID:1][CPASS] Successfuly Opened Log File
+[01:25:40]               Database Connection Initialization
+[01:25:40]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[01:25:42]               Handshake Successful !
+[01:25:42][EID:2][CPASS] Connection Established, Total Tries = 0
+[01:25:43][EID:3][CLOGS] Thread Started -> 
+[01:26:24]               Purging All data from form...
+[01:26:24][EID:4][CLOGS] Successfully Purged
+[01:26:24]               Login GUI Closed !
+[01:26:24]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 01:26:25 =================
+
+
+================= Session Started At 30.04.2018 | 01:52:56 ================
+
+[01:52:56][EID:1][CPASS] Successfuly Opened Log File
+[01:52:56]               Database Connection Initialization
+[01:52:56]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[01:52:58]               Handshake Successful !
+[01:52:58][EID:2][CPASS] Connection Established, Total Tries = 0
+[01:52:58][EID:3][CLOGS] Thread Started -> 
+[01:54:40]               Purging All data from form...
+[01:54:40][EID:4][CLOGS] Successfully Purged
+[01:54:40]               Login GUI Closed !
+[01:54:40]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 01:54:41 =================
+
+

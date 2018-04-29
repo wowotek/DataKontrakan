@@ -17,21 +17,20 @@ import javax.swing.JFrame;
  */
 public class MainGUI
 {
+
     private final FormDataKontrakan frameKontrakan = new FormDataKontrakan();
     private final Object lock = new Object();
-    
+
     private final ErrorReporting er;
-    
+
     public MainGUI(ErrorReporting er)
     {
         this.er = er;
     }
-    
+
     public void run()
     {
-
         frameKontrakan.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
-        frameKontrakan.setVisible(true);
 
         Thread t = new Thread()
         {
@@ -56,7 +55,14 @@ public class MainGUI
                 }
             }
         };
+        frameKontrakan.setVisible(true);
+        t.setName("Frame MainApp");
         t.start();
+
+        er.debug  ("Thread Started -> ", 10);
+        er.debugln("          ID : " + t.getId());
+        er.debugln("        Name : " + t.getName());
+        er.debugln("    Priority : " + t.getPriority());
 
         frameKontrakan.addWindowListener(new WindowAdapter()
         {
@@ -71,10 +77,10 @@ public class MainGUI
                     lock.notify();
                 }
             }
-            
+
             public void windowClosed(WindowEvent arg1)
             {
-                synchronized(lock)
+                synchronized (lock)
                 {
                     frameKontrakan.setVisible(false);
                     frameKontrakan.dispose();
@@ -85,12 +91,11 @@ public class MainGUI
 
         try
         {
-            System.out.println(t.toString());
             t.join();
         }
         catch (InterruptedException e)
         {
-            er.debug("Failed to Join GUI-runMainScreen Thread !");
+            er.debug("Failed to Join " + t.getName() + ":" + t.getId() + "!");
         }
     }
 }

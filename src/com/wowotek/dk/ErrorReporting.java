@@ -194,7 +194,6 @@ public class ErrorReporting
     public boolean closeFile()
     {
         debug("Closing Log File..");
-        new Util().delay(1);
         try
         {
             w.write("\n");
@@ -204,7 +203,6 @@ public class ErrorReporting
             w.close();
             this._LOGOPENED = false;
             debug("Berhasil Menutup File Log", 0);
-            new Util().delay(1);
             return true;
         }
         catch (IOException ex)

@@ -55,7 +55,13 @@ public class LoginGUI
             }
         };
         frameLogin.setVisible(true);
+        t.setName("Frame Login");
         t.start();
+        
+        er.debug  ("Thread Started -> ", 10);
+        er.debugln("         ID : " + t.getId());
+        er.debugln("       Name : " + t.getName());
+        er.debugln("   Priority : " + t.getPriority());
         
         frameLogin.addWindowListener(new WindowAdapter()
         {
@@ -84,12 +90,11 @@ public class LoginGUI
 
         try
         {
-            System.out.println(t.toString());
             t.join();
         }
         catch (InterruptedException e)
         {
-            er.debug("Failed to Join GUI-runLoginScreen Thread !");
+            er.debug("Failed to Join " + t.getName() + ":" + t.getId() + "!");
         }
         
         return frameLogin.SessionCond;

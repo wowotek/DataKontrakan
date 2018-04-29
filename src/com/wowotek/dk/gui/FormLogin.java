@@ -835,6 +835,7 @@ public class FormLogin extends javax.swing.JFrame
     {
         boolean UsernameCondition;
         boolean PasswordCondition;
+
         if (this.UsernameField.getText().equals("") || this.UsernameField.getText() == null)
         {
             this.UsernameField.setBackground(Color.red);
@@ -867,7 +868,7 @@ public class FormLogin extends javax.swing.JFrame
             this.Inputed = true;
             this.SessionCond = this.s.newSession(this.InputUC);
 
-            if(this.SessionCond)
+            if (this.SessionCond)
             {
                 this.RegisterFormCredentials.dispose();
                 this.RegisterFormData.dispose();
@@ -876,9 +877,9 @@ public class FormLogin extends javax.swing.JFrame
             else
             {
                 JOptionPane.showMessageDialog(this.RegisterFormData,
-                                              "Your Username and/or Password is Invalid !",
-                                              "Wrong Credentials !",
-                                              JOptionPane.ERROR_MESSAGE);
+                        "Your Username and/or Password is Invalid !",
+                        "Wrong Credentials !",
+                        JOptionPane.ERROR_MESSAGE);
             }
         }
     }//GEN-LAST:event_LoginButtonActionPerformed
@@ -941,7 +942,16 @@ public class FormLogin extends javax.swing.JFrame
         String Number = "1234567890";
         String WildCard = ",./;-={}:|</;:][>?!@#$%^&*()_+\"\'\\";
 
-        if (this.NamaLengkapField.getText().equals("") || this.NamaLengkapField.getText() == null)
+        //Condition Met for Nama Lengkap
+        if (this.NamaLengkapField.getText().length() > 56)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Nama Lengkap Tidak Bisa Lebih dari 56 karakter",
+                    "Form nama Lengkap Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.NamaLengkapField.getText().equals("") || this.NamaLengkapField.getText() == null)
         {
             this.NamaLengkapField.setBackground(Color.red);
             this.NamaLengkapField.setForeground(Color.white);
@@ -976,7 +986,16 @@ public class FormLogin extends javax.swing.JFrame
             }
         }
 
-        if (this.LegalIDField.getText().equals("") || this.LegalIDField.getText() == null)
+        //Condition Met for Nomor ID
+        if (this.LegalIDField.getText().length() > 56)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Nomor ID tidak bisa lebih dari 56 karakter",
+                    "Form Nomor ID Lengkap Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.LegalIDField.getText().equals("") || this.LegalIDField.getText() == null)
         {
             this.LegalIDField.setBackground(Color.red);
             this.LegalIDField.setForeground(Color.white);
@@ -989,7 +1008,16 @@ public class FormLogin extends javax.swing.JFrame
 
         }
 
-        if (this.TTLField.getText().equals("") || this.TTLField.getText() == null)
+        //Condition Met for Tempat Tanda Lahir
+        if (this.TTLField.getText().length() > 26)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Tempat Tanggal Lahir tidak bisa lebih dari 26 karakter",
+                    "Form Tempat Tanggal Lahir Lengkap Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.TTLField.getText().equals("") || this.TTLField.getText() == null)
         {
             this.TTLField.setBackground(Color.red);
             this.TTLField.setForeground(Color.white);
@@ -1001,7 +1029,16 @@ public class FormLogin extends javax.swing.JFrame
             this.TTLField.setForeground(Color.black);
         }
 
-        if (this.Phone1Field.getText().equals("") || this.Phone1Field.getText() == null)
+        //Condition Met for nomor Telfon 1
+        if (this.Phone1Field.getText().length() > 13)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Nomor Telfon 1 tidak bisa lebih dari 13 karakter",
+                    "Form Nomor Telfon 1 Lengkap Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.Phone1Field.getText().equals("") || this.Phone1Field.getText() == null)
         {
             this.Phone1Field.setBackground(Color.red);
             this.Phone1Field.setForeground(Color.white);
@@ -1016,7 +1053,7 @@ public class FormLogin extends javax.swing.JFrame
                 this.Phone1Field.setForeground(Color.white);
                 JOptionPane.showMessageDialog(this.RegisterFormData,
                         "Nomor Telfon 1 Tidak Bisa Memuat Karakter Selain Angka",
-                        "Form nama Lengkap Error",
+                        "Form Nomor Telfon 1Error",
                         JOptionPane.ERROR_MESSAGE);
                 return false;
             }
@@ -1027,14 +1064,23 @@ public class FormLogin extends javax.swing.JFrame
             }
         }
 
-        if (u.checkStringContainString(this.Phone2Field.getText(), u.StandardCharacter)
+        //Condition Met for nomor Telfon 2
+        if (this.Phone2Field.getText().length() > 13)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Nomor Telfon 2 tidak bisa lebih dari 13 karakter",
+                    "Form Nomor Telfon 2 Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (u.checkStringContainString(this.Phone2Field.getText(), u.StandardCharacter)
                 || u.checkStringContainString(this.Phone2Field.getText(), WildCard))
         {
             this.Phone2Field.setBackground(Color.red);
             this.Phone2Field.setForeground(Color.white);
             JOptionPane.showMessageDialog(this.RegisterFormData,
-                    "Nomor Telfon 1 Tidak Bisa Memuat Karakter Selain Angka",
-                    "Form nama Lengkap Error",
+                    "Nomor Telfon 2 Tidak Bisa Memuat Karakter Selain Angka",
+                    "Form Nomor Telfon 2 Error",
                     JOptionPane.ERROR_MESSAGE);
             return false;
         }
@@ -1044,7 +1090,16 @@ public class FormLogin extends javax.swing.JFrame
             this.Phone2Field.setForeground(Color.black);
         }
 
-        if (this.WorkField.getText().equals("") || this.WorkField.getText() == null)
+        //Condition Met for Pekerjaan
+        if (this.WorkField.getText().length() > 36)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Pekerjaan tidak bisa lebih dari 36 karakter",
+                    "Form Pekerjaan Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.WorkField.getText().equals("") || this.WorkField.getText() == null)
         {
             this.WorkField.setBackground(Color.red);
             this.WorkField.setForeground(Color.white);
@@ -1056,6 +1111,15 @@ public class FormLogin extends javax.swing.JFrame
             this.WorkField.setForeground(Color.black);
         }
 
+        //Condition Met for Tempat Pekerjaan
+        if (this.WorkPlaceField.getText().length() > 56)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormData,
+                    "Tempat Pekerjaan tidak bisa lebih dari 56 karakter",
+                    "Form Tempat Pekerjaan Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
         if (this.WorkPlaceField.getText().equals("") || this.WorkPlaceField.getText() == null)
         {
             this.WorkPlaceField.setBackground(Color.red);
@@ -1080,14 +1144,119 @@ public class FormLogin extends javax.swing.JFrame
 
     private boolean created = false;
     private void RF_btnCreateAccountActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_RF_btnCreateAccountActionPerformed
-        if (createAccount())
+
+        if (checkCredentialsFields() && createAccount())
         {
             JOptionPane.showMessageDialog(this.RegisterFormCredentials,
                     "Akun Berhasil Dibuat",
                     "Success!",
                     JOptionPane.INFORMATION_MESSAGE);
+
+            this.RegisterFormCredentials.dispose();
+            this.RegisterFormData.dispose();
         }
     }//GEN-LAST:event_RF_btnCreateAccountActionPerformed
+
+    private boolean checkCredentialsFields()
+    {
+        //Condition Username
+        if (this.CAUsernameField.getText().length() > 36)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormCredentials,
+                    "Username tidak bisa lebih dari 36 Karakter",
+                    "Username Field Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.CAUsernameField.getText().length() < 1)
+        {
+            this.CAUsernameField.setBackground(Color.red);
+            this.CAUsernameField.setForeground(Color.white);
+            return false;
+        }
+        else
+        {
+            this.CAUsernameField.setBackground(Color.white);
+            this.CAUsernameField.setForeground(Color.black);
+        }
+
+        //Condition Email
+        if (this.CAEmailField.getText().length() > 42)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormCredentials,
+                    "Email tidak bisa lebih dari 42 Karakter",
+                    "Email Field Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.CAEmailField.getText().length() < 0)
+        {
+            this.CAEmailField.setBackground(Color.red);
+            this.CAEmailField.setForeground(Color.white);
+            return false;
+        }
+        else
+        {
+            this.CAEmailField.setBackground(Color.white);
+            this.CAEmailField.setForeground(Color.black);
+        }
+        
+        //Condition Password
+        if (this.CAPasswordField.getPassword().length > 56)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormCredentials,
+                    "Password tidak bisa lebih dari 56 Karakter",
+                    "Password Field Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.CAPasswordField.getPassword().length < 0)
+        {
+            this.CAPasswordField.setBackground(Color.red);
+            this.CAPasswordField.setForeground(Color.white);
+            return false;
+        }
+        else
+        {
+            this.CAPasswordField.setBackground(Color.white);
+            this.CAPasswordField.setForeground(Color.black);
+        }
+        
+        //Condition Password Confirmation
+        if (this.CAConfirmPasswordField.getPassword().length > 56)
+        {
+            JOptionPane.showMessageDialog(this.RegisterFormCredentials,
+                    "Password tidak bisa lebih dari 56 Karakter",
+                    "Password Field Error",
+                    JOptionPane.ERROR_MESSAGE);
+            return false;
+        }
+        else if (this.CAConfirmPasswordField.getPassword().length < 0)
+        {
+            this.CAConfirmPasswordField.setBackground(Color.red);
+            this.CAConfirmPasswordField.setForeground(Color.white);
+            return false;
+        }
+        else if (this.CAConfirmPasswordField.getPassword() != this.CAPasswordField.getPassword())
+        {
+            this.CAConfirmPasswordField.setBackground(Color.red);
+            this.CAConfirmPasswordField.setForeground(Color.white);
+            
+            JOptionPane.showMessageDialog(this.RegisterFormCredentials,
+                    "Konfirmasi Password tidak sama dengan Password",
+                    "Password Confirmation Field Error",
+                    JOptionPane.ERROR_MESSAGE);
+            
+            return false;
+        }
+        else
+        {
+            this.CAConfirmPasswordField.setBackground(Color.white);
+            this.CAConfirmPasswordField.setForeground(Color.black);
+        }
+        
+        return true;
+    }
 
     private boolean createAccount()
     {
@@ -1166,22 +1335,22 @@ public class FormLogin extends javax.swing.JFrame
     public void purge()
     {
         er.debug("Purging All data from form...");
-        
+
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.RegisterFormCredentials.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.RegisterFormData.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        
+
         this.RegisterFormCredentials.dispose();
         this.RegisterFormData.dispose();
         this.dispose();
         super.dispose();
-        
+
         this.RegisterFormCredentials.setVisible(false);
         this.RegisterFormData.setVisible(false);
         this.setVisible(false);
         super.setVisible(false);
-        
+
         er.debug("Successfully Purged", 10);
     }
 
