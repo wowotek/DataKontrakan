@@ -15,6 +15,7 @@ import com.wowotek.dk.auth.authclasses.UserData;
 import com.wowotek.dk.db.DBAuthUserCredentials;
 import com.wowotek.dk.db.DBAuthUserData;
 import java.awt.Color;
+import java.awt.event.KeyEvent;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JFrame;
@@ -839,28 +840,40 @@ public class FormLogin extends javax.swing.JFrame
         if (this.UsernameField.getText().equals("") || this.UsernameField.getText() == null)
         {
             this.UsernameField.setBackground(Color.red);
+            this.UsernameField.setForeground(Color.white);
+            
             UsernameCondition = false;
         }
         else
         {
             this.UsernameField.setBackground(Color.white);
+            this.UsernameField.setForeground(Color.black);
             UsernameCondition = true;
         }
 
         if (this.PasswordField.getPassword() == null || this.PasswordField.getPassword().length < 1)
         {
             this.PasswordField.setBackground(Color.red);
+            this.PasswordField.setForeground(Color.white);
             PasswordCondition = false;
         }
         else
         {
             this.PasswordField.setBackground(Color.white);
+            this.PasswordField.setForeground(Color.black);
             PasswordCondition = true;
         }
 
         return UsernameCondition == true && PasswordCondition == true;
     }
 
+    public void keyPressed(KeyEvent e)
+    {
+        if (e.getKeyCode() == KeyEvent.VK_ENTER)
+        {
+            System.out.println("Hello");
+        }
+    }
     private void LoginButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LoginButtonActionPerformed
         if (checkTextFieldContain())
         {
@@ -1166,6 +1179,8 @@ public class FormLogin extends javax.swing.JFrame
                     "Username tidak bisa lebih dari 36 Karakter",
                     "Username Field Error",
                     JOptionPane.ERROR_MESSAGE);
+            this.CAUsernameField.setBackground(Color.red);
+            this.CAUsernameField.setForeground(Color.white);
             return false;
         }
         else if (this.CAUsernameField.getText().length() < 1)
@@ -1187,6 +1202,8 @@ public class FormLogin extends javax.swing.JFrame
                     "Email tidak bisa lebih dari 42 Karakter",
                     "Email Field Error",
                     JOptionPane.ERROR_MESSAGE);
+            this.CAEmailField.setBackground(Color.red);
+            this.CAEmailField.setForeground(Color.white);
             return false;
         }
         else if (this.CAEmailField.getText().length() < 0)
@@ -1200,7 +1217,7 @@ public class FormLogin extends javax.swing.JFrame
             this.CAEmailField.setBackground(Color.white);
             this.CAEmailField.setForeground(Color.black);
         }
-        
+
         //Condition Password
         if (this.CAPasswordField.getPassword().length > 56)
         {
@@ -1208,6 +1225,8 @@ public class FormLogin extends javax.swing.JFrame
                     "Password tidak bisa lebih dari 56 Karakter",
                     "Password Field Error",
                     JOptionPane.ERROR_MESSAGE);
+            this.CAPasswordField.setBackground(Color.red);
+            this.CAPasswordField.setForeground(Color.white);
             return false;
         }
         else if (this.CAPasswordField.getPassword().length < 0)
@@ -1221,7 +1240,7 @@ public class FormLogin extends javax.swing.JFrame
             this.CAPasswordField.setBackground(Color.white);
             this.CAPasswordField.setForeground(Color.black);
         }
-        
+
         //Condition Password Confirmation
         if (this.CAConfirmPasswordField.getPassword().length > 56)
         {
@@ -1229,6 +1248,8 @@ public class FormLogin extends javax.swing.JFrame
                     "Password tidak bisa lebih dari 56 Karakter",
                     "Password Field Error",
                     JOptionPane.ERROR_MESSAGE);
+            this.CAConfirmPasswordField.setBackground(Color.red);
+            this.CAConfirmPasswordField.setForeground(Color.white);
             return false;
         }
         else if (this.CAConfirmPasswordField.getPassword().length < 0)
@@ -1241,12 +1262,12 @@ public class FormLogin extends javax.swing.JFrame
         {
             this.CAConfirmPasswordField.setBackground(Color.red);
             this.CAConfirmPasswordField.setForeground(Color.white);
-            
+
             JOptionPane.showMessageDialog(this.RegisterFormCredentials,
                     "Konfirmasi Password tidak sama dengan Password",
                     "Password Confirmation Field Error",
                     JOptionPane.ERROR_MESSAGE);
-            
+
             return false;
         }
         else
@@ -1254,7 +1275,7 @@ public class FormLogin extends javax.swing.JFrame
             this.CAConfirmPasswordField.setBackground(Color.white);
             this.CAConfirmPasswordField.setForeground(Color.black);
         }
-        
+
         return true;
     }
 

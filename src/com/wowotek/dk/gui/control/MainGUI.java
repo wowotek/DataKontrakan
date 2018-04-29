@@ -6,6 +6,8 @@
 package com.wowotek.dk.gui.control;
 
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.db.DBPemasukan;
+import com.wowotek.dk.db.DBPengeluaran;
 import com.wowotek.dk.gui.FormDataKontrakan;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
@@ -18,14 +20,15 @@ import javax.swing.JFrame;
 public class MainGUI
 {
 
-    private final FormDataKontrakan frameKontrakan = new FormDataKontrakan();
+    private final FormDataKontrakan frameKontrakan;
     private final Object lock = new Object();
 
     private final ErrorReporting er;
 
-    public MainGUI(ErrorReporting er)
+    public MainGUI(ErrorReporting er, DBPengeluaran dbpen, DBPemasukan dbpem)
     {
         this.er = er;
+        this.frameKontrakan = new FormDataKontrakan(er, dbpen, dbpem);
     }
 
     public void run()

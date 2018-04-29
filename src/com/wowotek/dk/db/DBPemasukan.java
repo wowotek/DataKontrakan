@@ -118,7 +118,7 @@ public class DBPemasukan
         try
         {
             er.debug("Mengambil data pemasukan...");
-            ps = c.prepareStatement("SELECT * FROM pemasukan");
+            ps = c.prepareStatement("SELECT * FROM Pemasukan");
             rs = ps.executeQuery();
 
             while (rs.next())
