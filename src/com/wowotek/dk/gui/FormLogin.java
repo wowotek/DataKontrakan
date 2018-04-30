@@ -62,8 +62,7 @@ public class FormLogin extends javax.swing.JFrame
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents()
-    {
+    private void initComponents() {
 
         RegisterFormData = new javax.swing.JDialog();
         jPanel2 = new javax.swing.JPanel();
@@ -154,13 +153,21 @@ public class FormLogin extends javax.swing.JFrame
         label_name6.setForeground(new java.awt.Color(255, 255, 255));
         label_name6.setText("Nama Lengkap *");
 
+        NamaLengkapField.setForeground(new java.awt.Color(1, 50, 67));
+
         label_name7.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name7.setForeground(new java.awt.Color(255, 255, 255));
         label_name7.setText("ID KTP/Passport/SIM *");
 
+        LegalIDField.setForeground(new java.awt.Color(1, 50, 67));
+
+        TTLField.setForeground(new java.awt.Color(1, 50, 67));
+
         label_name8.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name8.setForeground(new java.awt.Color(255, 255, 255));
         label_name8.setText("Tempat, Tgl Lahir *");
+
+        Phone1Field.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name9.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name9.setForeground(new java.awt.Color(255, 255, 255));
@@ -170,23 +177,27 @@ public class FormLogin extends javax.swing.JFrame
         label_name10.setForeground(new java.awt.Color(255, 255, 255));
         label_name10.setText("No. Telp 2");
 
+        Phone2Field.setForeground(new java.awt.Color(1, 50, 67));
+
         label_name11.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name11.setForeground(new java.awt.Color(255, 255, 255));
         label_name11.setText("Pekerjaan *");
 
+        WorkField.setForeground(new java.awt.Color(1, 50, 67));
+
         label_name12.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name12.setForeground(new java.awt.Color(255, 255, 255));
         label_name12.setText("Tempat Kerja *");
+
+        WorkPlaceField.setForeground(new java.awt.Color(1, 50, 67));
 
         RF_btnNext.setBackground(new java.awt.Color(101, 198, 187));
         RF_btnNext.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         RF_btnNext.setForeground(new java.awt.Color(1, 50, 67));
         RF_btnNext.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         RF_btnNext.setText("Next");
-        RF_btnNext.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        RF_btnNext.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RF_btnNextActionPerformed(evt);
             }
         });
@@ -196,10 +207,8 @@ public class FormLogin extends javax.swing.JFrame
         RF_btnCancel.setForeground(new java.awt.Color(1, 50, 67));
         RF_btnCancel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         RF_btnCancel.setText("Cancel");
-        RF_btnCancel.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        RF_btnCancel.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RF_btnCancelActionPerformed(evt);
             }
         });
@@ -341,13 +350,13 @@ public class FormLogin extends javax.swing.JFrame
         label_name14.setForeground(new java.awt.Color(255, 255, 255));
         label_name14.setText("Username *");
 
-        CAUsernameField.setForeground(new java.awt.Color(1, 1, 1));
+        CAUsernameField.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name15.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name15.setForeground(new java.awt.Color(255, 255, 255));
         label_name15.setText("E-mail *");
 
-        CAEmailField.setForeground(new java.awt.Color(1, 1, 1));
+        CAEmailField.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name16.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name16.setForeground(new java.awt.Color(255, 255, 255));
@@ -362,10 +371,8 @@ public class FormLogin extends javax.swing.JFrame
         RF_btnCreateAccount.setForeground(new java.awt.Color(1, 50, 67));
         RF_btnCreateAccount.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         RF_btnCreateAccount.setText("Create account");
-        RF_btnCreateAccount.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        RF_btnCreateAccount.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RF_btnCreateAccountActionPerformed(evt);
             }
         });
@@ -375,17 +382,15 @@ public class FormLogin extends javax.swing.JFrame
         RF_btnPrevious.setForeground(new java.awt.Color(1, 50, 67));
         RF_btnPrevious.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         RF_btnPrevious.setText("Previous");
-        RF_btnPrevious.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        RF_btnPrevious.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 RF_btnPreviousActionPerformed(evt);
             }
         });
 
-        CAPasswordField.setForeground(new java.awt.Color(1, 1, 1));
+        CAPasswordField.setForeground(new java.awt.Color(1, 50, 67));
 
-        CAConfirmPasswordField.setForeground(new java.awt.Color(1, 1, 1));
+        CAConfirmPasswordField.setForeground(new java.awt.Color(1, 50, 67));
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -395,7 +400,7 @@ public class FormLogin extends javax.swing.JFrame
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                        .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 386, Short.MAX_VALUE)
                         .addContainerGap())
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addGap(13, 13, 13)
@@ -538,11 +543,12 @@ public class FormLogin extends javax.swing.JFrame
         label_name2.setText("LOGIN FORM");
 
         jPanel1.setBackground(new java.awt.Color(27, 188, 155));
-        jPanel1.setBorder(null);
 
         label_name.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name.setForeground(new java.awt.Color(255, 255, 255));
         label_name.setText("Password");
+
+        PasswordField.setForeground(new java.awt.Color(1, 50, 67));
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -551,9 +557,11 @@ public class FormLogin extends javax.swing.JFrame
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(PasswordField, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(label_name, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(43, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(label_name, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 157, Short.MAX_VALUE))
+                    .addComponent(PasswordField))
+                .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -566,11 +574,12 @@ public class FormLogin extends javax.swing.JFrame
         );
 
         jPanel3.setBackground(new java.awt.Color(27, 188, 155));
-        jPanel3.setBorder(null);
 
         label_name1.setFont(new java.awt.Font("Helvetica", 0, 19)); // NOI18N
         label_name1.setForeground(new java.awt.Color(255, 255, 255));
         label_name1.setText("Username");
+
+        UsernameField.setForeground(new java.awt.Color(1, 50, 67));
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -579,9 +588,11 @@ public class FormLogin extends javax.swing.JFrame
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(label_name1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(UsernameField, javax.swing.GroupLayout.PREFERRED_SIZE, 220, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(43, Short.MAX_VALUE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(label_name1, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 157, Short.MAX_VALUE))
+                    .addComponent(UsernameField))
+                .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -608,10 +619,8 @@ public class FormLogin extends javax.swing.JFrame
         LoginButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Login.png"))); // NOI18N
         LoginButton.setText("  Login");
         LoginButton.setActionCommand("Simpan");
-        LoginButton.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        LoginButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 LoginButtonActionPerformed(evt);
             }
         });
@@ -622,10 +631,8 @@ public class FormLogin extends javax.swing.JFrame
         CancelButton.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         CancelButton.setText("  Cancel");
         CancelButton.setActionCommand("Simpan");
-        CancelButton.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        CancelButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CancelButtonActionPerformed(evt);
             }
         });
@@ -679,7 +686,7 @@ public class FormLogin extends javax.swing.JFrame
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
             .addGroup(jPanel7Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(14, Short.MAX_VALUE)
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                         .addComponent(label_name2, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -715,10 +722,8 @@ public class FormLogin extends javax.swing.JFrame
         NewAccountButton.setForeground(new java.awt.Color(1, 50, 67));
         NewAccountButton.setText("Create new account");
         NewAccountButton.setActionCommand("Simpan");
-        NewAccountButton.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        NewAccountButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 NewAccountButtonActionPerformed(evt);
             }
         });
@@ -732,10 +737,8 @@ public class FormLogin extends javax.swing.JFrame
         ForgetPasswordButton.setForeground(new java.awt.Color(1, 50, 67));
         ForgetPasswordButton.setText("Retrieve a lost account");
         ForgetPasswordButton.setActionCommand("Simpan");
-        ForgetPasswordButton.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        ForgetPasswordButton.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ForgetPasswordButtonActionPerformed(evt);
             }
         });
@@ -749,7 +752,7 @@ public class FormLogin extends javax.swing.JFrame
                 .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
                         .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(ForgetPasswordButton, javax.swing.GroupLayout.DEFAULT_SIZE, 215, Short.MAX_VALUE)
+                            .addComponent(ForgetPasswordButton, javax.swing.GroupLayout.DEFAULT_SIZE, 219, Short.MAX_VALUE)
                             .addComponent(NewAccountButton, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                         .addContainerGap())
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
@@ -799,7 +802,7 @@ public class FormLogin extends javax.swing.JFrame
                         .addContainerGap()
                         .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, 297, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

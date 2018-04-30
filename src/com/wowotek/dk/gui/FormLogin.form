@@ -206,6 +206,11 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="NamaLengkapField">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="label_name7">
               <Properties>
@@ -219,8 +224,18 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="LegalIDField">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="TTLField">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="label_name8">
               <Properties>
@@ -234,6 +249,11 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="Phone1Field">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="label_name9">
               <Properties>
@@ -258,6 +278,11 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="Phone2Field">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="label_name11">
               <Properties>
@@ -271,6 +296,11 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="WorkField">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JLabel" name="label_name12">
               <Properties>
@@ -284,6 +314,11 @@
               </Properties>
             </Component>
             <Component class="javax.swing.JTextField" name="WorkPlaceField">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="43" green="32" red="1" type="rgb"/>
+                </Property>
+              </Properties>
             </Component>
             <Component class="javax.swing.JButton" name="RF_btnNext">
               <Properties>
@@ -358,7 +393,7 @@
                       <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <Component id="jPanel6" pref="384" max="32767" attributes="0"/>
+                              <Component id="jPanel6" pref="386" max="32767" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
@@ -499,7 +534,7 @@
             <Component class="javax.swing.JTextField" name="CAUsernameField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="1" green="1" red="1" type="rgb"/>
+                  <Color blue="43" green="32" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
@@ -517,7 +552,7 @@
             <Component class="javax.swing.JTextField" name="CAEmailField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="1" green="1" red="1" type="rgb"/>
+                  <Color blue="43" green="32" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
@@ -586,14 +621,14 @@
             <Component class="javax.swing.JPasswordField" name="CAPasswordField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="1" green="1" red="1" type="rgb"/>
+                  <Color blue="43" green="32" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
             <Component class="javax.swing.JPasswordField" name="CAConfirmPasswordField">
               <Properties>
                 <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-                  <Color blue="1" green="1" red="1" type="rgb"/>
+                  <Color blue="43" green="32" red="1" type="rgb"/>
                 </Property>
               </Properties>
             </Component>
@@ -730,7 +765,7 @@
                       </Group>
                   </Group>
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="jPanel7" min="-2" pref="297" max="-2" attributes="0"/>
+                  <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -809,7 +844,7 @@
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="1" attributes="0">
                   <Group type="102" attributes="0">
-                      <EmptySpace max="32767" attributes="0"/>
+                      <EmptySpace pref="14" max="32767" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Component id="label_name2" min="-2" pref="130" max="-2" attributes="0"/>
@@ -859,9 +894,6 @@
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="9b" green="bc" red="1b" type="rgb"/>
                 </Property>
-                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="null"/>
-                </Property>
               </Properties>
 
               <Layout>
@@ -870,10 +902,13 @@
                       <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="PasswordField" alignment="1" min="-2" pref="220" max="-2" attributes="0"/>
-                              <Component id="label_name" alignment="0" min="-2" pref="96" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="label_name" min="-2" pref="96" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="157" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="PasswordField" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="43" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -902,6 +937,11 @@
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JPasswordField" name="PasswordField">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="43" green="32" red="1" type="rgb"/>
+                    </Property>
+                  </Properties>
                 </Component>
               </SubComponents>
             </Container>
@@ -909,9 +949,6 @@
               <Properties>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="9b" green="bc" red="1b" type="rgb"/>
-                </Property>
-                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
-                  <Border info="null"/>
                 </Property>
               </Properties>
 
@@ -921,10 +958,13 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="label_name1" min="-2" pref="96" max="-2" attributes="0"/>
-                              <Component id="UsernameField" min="-2" pref="220" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="label_name1" min="-2" pref="96" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="157" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="UsernameField" max="32767" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="43" max="32767" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -953,6 +993,11 @@
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JTextField" name="UsernameField">
+                  <Properties>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="43" green="32" red="1" type="rgb"/>
+                    </Property>
+                  </Properties>
                 </Component>
               </SubComponents>
             </Container>
@@ -1100,7 +1145,7 @@
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="ForgetPasswordButton" alignment="1" pref="215" max="32767" attributes="0"/>
+                                  <Component id="ForgetPasswordButton" alignment="1" pref="219" max="32767" attributes="0"/>
                                   <Component id="NewAccountButton" alignment="0" max="32767" attributes="0"/>
                               </Group>
                               <EmptySpace max="-2" attributes="0"/>

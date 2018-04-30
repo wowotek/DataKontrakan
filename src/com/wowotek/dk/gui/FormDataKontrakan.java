@@ -35,8 +35,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
      */
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
-    private void initComponents()
-    {
+    private void initComponents() {
 
         Data_penghuni = new javax.swing.JDialog();
         Backround2 = new javax.swing.JPanel();
@@ -47,15 +46,13 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_clock4 = new javax.swing.JLabel();
         jScrollPane4 = new javax.swing.JScrollPane();
         table_pengeluaran2 = new javax.swing.JTable();
-        jPanel7 = new javax.swing.JPanel();
         text_search2 = new javax.swing.JTextField();
         btn_search2 = new javax.swing.JLabel();
         btn_Search2 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
         label_clock5 = new javax.swing.JLabel();
         label_date5 = new javax.swing.JLabel();
         btn_save1 = new javax.swing.JButton();
+        btn_save7 = new javax.swing.JButton();
         Data_pemasukan = new javax.swing.JDialog();
         Backround3 = new javax.swing.JPanel();
         Garis3 = new javax.swing.JPanel();
@@ -65,33 +62,14 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_clock10 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
         table_pengeluaran5 = new javax.swing.JTable();
-        jPanel10 = new javax.swing.JPanel();
         text_search5 = new javax.swing.JTextField();
         btn_search5 = new javax.swing.JLabel();
         btn_Search5 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
         label_clock11 = new javax.swing.JLabel();
         label_date11 = new javax.swing.JLabel();
         btn_save4 = new javax.swing.JButton();
-        Data_pengeluaran = new javax.swing.JDialog();
-        Backround4 = new javax.swing.JPanel();
-        Garis4 = new javax.swing.JPanel();
-        jPanel11 = new javax.swing.JPanel();
-        jLabel19 = new javax.swing.JLabel();
-        label_date12 = new javax.swing.JLabel();
-        label_clock12 = new javax.swing.JLabel();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        table_pengeluaran6 = new javax.swing.JTable();
-        jPanel12 = new javax.swing.JPanel();
-        text_search6 = new javax.swing.JTextField();
-        btn_search6 = new javax.swing.JLabel();
-        btn_Search6 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        label_clock13 = new javax.swing.JLabel();
-        label_date13 = new javax.swing.JLabel();
-        btn_save5 = new javax.swing.JButton();
+        btn_save8 = new javax.swing.JButton();
+        btn_save9 = new javax.swing.JButton();
         Tambah_Data_penghuni = new javax.swing.JDialog();
         jPanel5 = new javax.swing.JPanel();
         label_name13 = new javax.swing.JLabel();
@@ -128,21 +106,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
         txt_nama23 = new javax.swing.JTextField();
         btn_delete5 = new javax.swing.JButton();
         btn_delete6 = new javax.swing.JButton();
-        Tambah_Data_pengeluaran = new javax.swing.JDialog();
-        jPanel15 = new javax.swing.JPanel();
-        label_name27 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
-        jPanel16 = new javax.swing.JPanel();
-        label_name29 = new javax.swing.JLabel();
-        txt_nama25 = new javax.swing.JTextField();
-        txt_nama26 = new javax.swing.JTextField();
-        label_name30 = new javax.swing.JLabel();
-        txt_nama27 = new javax.swing.JTextField();
-        label_name31 = new javax.swing.JLabel();
-        label_name32 = new javax.swing.JLabel();
-        txt_nama28 = new javax.swing.JTextField();
-        btn_delete7 = new javax.swing.JButton();
-        btn_delete8 = new javax.swing.JButton();
         Setoran_Data_pemasukan = new javax.swing.JDialog();
         jPanel17 = new javax.swing.JPanel();
         jLabel10 = new javax.swing.JLabel();
@@ -156,12 +119,19 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_delete10 = new javax.swing.JButton();
         label_name39 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
+        Dialog_Info = new javax.swing.JDialog();
+        jPanel15 = new javax.swing.JPanel();
+        label_name22 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        jPanel16 = new javax.swing.JPanel();
+        label_name27 = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         Backround = new javax.swing.JPanel();
         Background_text = new javax.swing.JPanel();
         btn_home = new javax.swing.JLabel();
         btn_data_penghuni = new javax.swing.JLabel();
         btn_pemasukan = new javax.swing.JLabel();
-        btn_pengeluaran = new javax.swing.JLabel();
         btn_exit = new javax.swing.JLabel();
         btn_daftarHarga = new javax.swing.JLabel();
         btn_pelunasan = new javax.swing.JLabel();
@@ -175,6 +145,9 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_Search = new javax.swing.JLabel();
         label_date = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
+        btn_save2 = new javax.swing.JButton();
+        btn_save3 = new javax.swing.JButton();
+        btn_save6 = new javax.swing.JButton();
 
         Backround2.setBackground(new java.awt.Color(27, 188, 155));
 
@@ -214,7 +187,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGroup(Garis2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 227, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 248, Short.MAX_VALUE)
                 .addComponent(label_clock4)
                 .addGap(139, 139, 139))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis2Layout.createSequentialGroup()
@@ -231,16 +204,15 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addGroup(Garis2Layout.createSequentialGroup()
                         .addGap(34, 34, 34)
                         .addComponent(label_clock4)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, 12, Short.MAX_VALUE)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date4, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
+                .addComponent(label_date4, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
         table_pengeluaran2.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][]
-            {
+            new Object [][] {
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null},
@@ -262,68 +234,40 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 {null, null, null, null, null, null, null},
                 {null, null, null, null, null, null, null}
             },
-            new String []
-            {
+            new String [] {
                 "Nama Lengkap", "ID KTP/Pasport/SIM", "TTL", "No.Telp 1", "No. Telp 2", "Pekerjaan", "Tempat Kerja"
             }
-        )
-        {
-            Class[] types = new Class []
-            {
+        ) {
+            Class[] types = new Class [] {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex)
-            {
+            public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
         jScrollPane4.setViewportView(table_pengeluaran2);
-        if (table_pengeluaran2.getColumnModel().getColumnCount() > 0)
-        {
+        if (table_pengeluaran2.getColumnModel().getColumnCount() > 0) {
             table_pengeluaran2.getColumnModel().getColumn(5).setResizable(false);
             table_pengeluaran2.getColumnModel().getColumn(5).setHeaderValue("Pekerjaan");
             table_pengeluaran2.getColumnModel().getColumn(6).setHeaderValue("Tempat Kerja");
         }
 
-        jPanel7.setBackground(new java.awt.Color(1, 50, 67));
-        jPanel7.setPreferredSize(new java.awt.Dimension(0, 1));
-
-        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
-        jPanel7.setLayout(jPanel7Layout);
-        jPanel7Layout.setHorizontalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 207, Short.MAX_VALUE)
-        );
-        jPanel7Layout.setVerticalGroup(
-            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1, Short.MAX_VALUE)
-        );
-
-        text_search2.setBackground(new java.awt.Color(27, 188, 155));
         text_search2.setForeground(new java.awt.Color(255, 255, 255));
         text_search2.setBorder(null);
-        text_search2.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        text_search2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 text_search2ActionPerformed(evt);
             }
         });
 
-        btn_search2.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_search2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_search2MouseClicked(evt);
             }
         });
 
         btn_Search2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
-
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
-
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
 
         label_clock5.setBackground(new java.awt.Color(255, 255, 255));
         label_clock5.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
@@ -342,11 +286,21 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_save1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_save1.setText("Add");
         btn_save1.setActionCommand("Simpan");
-        btn_save1.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_save1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_save1ActionPerformed(evt);
+            }
+        });
+
+        btn_save7.setBackground(new java.awt.Color(101, 198, 187));
+        btn_save7.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_save7.setForeground(new java.awt.Color(1, 50, 67));
+        btn_save7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
+        btn_save7.setText("Edit");
+        btn_save7.setActionCommand("Simpan");
+        btn_save7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_save7ActionPerformed(evt);
             }
         });
 
@@ -367,23 +321,18 @@ public class FormDataKontrakan extends javax.swing.JFrame
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btn_search2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel8)
-                        .addGap(112, 112, 112)
-                        .addComponent(jLabel9)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btn_Search2, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(7, 7, 7)
-                        .addGroup(Backround2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(text_search2, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(text_search2, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(Backround2Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 720, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 720, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(Backround2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(btn_save1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btn_save7)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Backround2Layout.setVerticalGroup(
@@ -395,22 +344,20 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addComponent(btn_search2, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(Backround2Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addGroup(Backround2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(Backround2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(Backround2Layout.createSequentialGroup()
-                                    .addComponent(text_search2, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jPanel7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(btn_Search2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label_clock5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label_date5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGroup(Backround2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(btn_Search2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label_clock5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label_date5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(text_search2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btn_save1)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addGroup(Backround2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(btn_save7)
+                    .addGroup(Backround2Layout.createSequentialGroup()
+                        .addComponent(btn_save1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(1, 1, 1)))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout Data_penghuniLayout = new javax.swing.GroupLayout(Data_penghuni.getContentPane());
@@ -462,7 +409,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGroup(Garis3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 208, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 231, Short.MAX_VALUE)
                 .addComponent(label_clock10)
                 .addGap(125, 125, 125))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis3Layout.createSequentialGroup()
@@ -479,7 +426,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addGroup(Garis3Layout.createSequentialGroup()
                         .addGap(35, 35, 35)
                         .addComponent(label_clock10)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 13, Short.MAX_VALUE)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label_date10, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
@@ -487,8 +434,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
         );
 
         table_pengeluaran5.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][]
-            {
+            new Object [][] {
                 {null, null, null, null, null},
                 {null, null, null, null, null},
                 {null, null, null, null, null},
@@ -510,62 +456,35 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 {null, null, null, null, null},
                 {null, null, null, null, null}
             },
-            new String []
-            {
+            new String [] {
                 "ID Pemasukan", "Transaksi", "Sumber", "Jumlah", "Tanggal"
             }
-        )
-        {
-            Class[] types = new Class []
-            {
+        ) {
+            Class[] types = new Class [] {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex)
-            {
+            public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
         jScrollPane7.setViewportView(table_pengeluaran5);
 
-        jPanel10.setBackground(new java.awt.Color(1, 50, 67));
-        jPanel10.setPreferredSize(new java.awt.Dimension(0, 1));
-
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 207, Short.MAX_VALUE)
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1, Short.MAX_VALUE)
-        );
-
-        text_search5.setBackground(new java.awt.Color(27, 188, 155));
         text_search5.setForeground(new java.awt.Color(255, 255, 255));
         text_search5.setBorder(null);
-        text_search5.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        text_search5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 text_search5ActionPerformed(evt);
             }
         });
 
-        btn_search5.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_search5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_search5MouseClicked(evt);
             }
         });
 
         btn_Search5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
-
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
-
-        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
 
         label_clock11.setBackground(new java.awt.Color(255, 255, 255));
         label_clock11.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
@@ -584,11 +503,33 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_save4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_save4.setText("Add");
         btn_save4.setActionCommand("Simpan");
-        btn_save4.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_save4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_save4ActionPerformed(evt);
+            }
+        });
+
+        btn_save8.setBackground(new java.awt.Color(101, 198, 187));
+        btn_save8.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_save8.setForeground(new java.awt.Color(1, 50, 67));
+        btn_save8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
+        btn_save8.setText("Edit");
+        btn_save8.setActionCommand("Simpan");
+        btn_save8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_save8ActionPerformed(evt);
+            }
+        });
+
+        btn_save9.setBackground(new java.awt.Color(101, 198, 187));
+        btn_save9.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_save9.setForeground(new java.awt.Color(1, 50, 67));
+        btn_save9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
+        btn_save9.setText("Edit");
+        btn_save9.setActionCommand("Simpan");
+        btn_save9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_save9ActionPerformed(evt);
             }
         });
 
@@ -609,24 +550,24 @@ public class FormDataKontrakan extends javax.swing.JFrame
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(btn_search5)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel17)
-                        .addGap(112, 112, 112)
-                        .addComponent(jLabel18)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btn_Search5, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(7, 7, 7)
-                        .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(text_search5, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(text_search5, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(Backround3Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 720, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 720, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addGroup(Backround3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(btn_save4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(btn_save9)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Backround3Layout.createSequentialGroup()
+                    .addGap(331, 331, 331)
+                    .addComponent(btn_save8)
+                    .addContainerGap(331, Short.MAX_VALUE)))
         );
         Backround3Layout.setVerticalGroup(
             Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -637,22 +578,23 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addComponent(btn_search5, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(Backround3Layout.createSequentialGroup()
                         .addGap(18, 18, 18)
-                        .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(Backround3Layout.createSequentialGroup()
-                                    .addComponent(text_search5, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jPanel10, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(btn_Search5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label_clock11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label_date11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                        .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                            .addComponent(btn_Search5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label_clock11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(label_date11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addComponent(text_search5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btn_save4)
+                .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btn_save4)
+                    .addComponent(btn_save9))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(Backround3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(Backround3Layout.createSequentialGroup()
+                    .addGap(225, 225, 225)
+                    .addComponent(btn_save8)
+                    .addContainerGap(226, Short.MAX_VALUE)))
         );
 
         javax.swing.GroupLayout Data_pemasukanLayout = new javax.swing.GroupLayout(Data_pemasukan.getContentPane());
@@ -664,248 +606,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
         Data_pemasukanLayout.setVerticalGroup(
             Data_pemasukanLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(Backround3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-
-        Backround4.setBackground(new java.awt.Color(27, 188, 155));
-
-        Garis4.setBackground(new java.awt.Color(1, 50, 67));
-        Garis4.setPreferredSize(new java.awt.Dimension(0, 2));
-
-        jPanel11.setBackground(new java.awt.Color(27, 188, 155));
-        jPanel11.setPreferredSize(new java.awt.Dimension(0, 2));
-
-        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
-        jPanel11.setLayout(jPanel11Layout);
-        jPanel11Layout.setHorizontalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jPanel11Layout.setVerticalGroup(
-            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 2, Short.MAX_VALUE)
-        );
-
-        jLabel19.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoBesar.png"))); // NOI18N
-
-        label_date12.setFont(new java.awt.Font("Helvetica", 0, 12)); // NOI18N
-        label_date12.setForeground(new java.awt.Color(255, 255, 255));
-        label_date12.setText("Login as :");
-
-        label_clock12.setBackground(new java.awt.Color(255, 255, 255));
-        label_clock12.setFont(new java.awt.Font("Helvetica", 0, 30)); // NOI18N
-        label_clock12.setForeground(new java.awt.Color(255, 255, 255));
-        label_clock12.setText("Data Pengeluaran");
-
-        javax.swing.GroupLayout Garis4Layout = new javax.swing.GroupLayout(Garis4);
-        Garis4.setLayout(Garis4Layout);
-        Garis4Layout.setHorizontalGroup(
-            Garis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel11, javax.swing.GroupLayout.DEFAULT_SIZE, 747, Short.MAX_VALUE)
-            .addGroup(Garis4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 200, Short.MAX_VALUE)
-                .addComponent(label_clock12)
-                .addGap(119, 119, 119))
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis4Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addComponent(label_date12, javax.swing.GroupLayout.PREFERRED_SIZE, 293, javax.swing.GroupLayout.PREFERRED_SIZE))
-        );
-        Garis4Layout.setVerticalGroup(
-            Garis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis4Layout.createSequentialGroup()
-                .addGroup(Garis4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Garis4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jLabel19))
-                    .addGroup(Garis4Layout.createSequentialGroup()
-                        .addGap(35, 35, 35)
-                        .addComponent(label_clock12)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
-                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date12, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
-                .addGap(4, 4, 4))
-        );
-
-        table_pengeluaran6.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][]
-            {
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null},
-                {null, null, null, null, null}
-            },
-            new String []
-            {
-                "ID Pengeluaran", "Transaksi", "Sumber", "Jumlah", "Tanggal"
-            }
-        )
-        {
-            Class[] types = new Class []
-            {
-                java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
-            };
-
-            public Class getColumnClass(int columnIndex)
-            {
-                return types [columnIndex];
-            }
-        });
-        jScrollPane8.setViewportView(table_pengeluaran6);
-
-        jPanel12.setBackground(new java.awt.Color(1, 50, 67));
-        jPanel12.setPreferredSize(new java.awt.Dimension(0, 1));
-
-        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
-        jPanel12.setLayout(jPanel12Layout);
-        jPanel12Layout.setHorizontalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 207, Short.MAX_VALUE)
-        );
-        jPanel12Layout.setVerticalGroup(
-            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1, Short.MAX_VALUE)
-        );
-
-        text_search6.setBackground(new java.awt.Color(27, 188, 155));
-        text_search6.setForeground(new java.awt.Color(255, 255, 255));
-        text_search6.setBorder(null);
-        text_search6.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
-                text_search6ActionPerformed(evt);
-            }
-        });
-
-        btn_search6.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                btn_search6MouseClicked(evt);
-            }
-        });
-
-        btn_Search6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Icon Search.png"))); // NOI18N
-
-        jLabel20.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
-
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
-
-        label_clock13.setBackground(new java.awt.Color(255, 255, 255));
-        label_clock13.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_clock13.setForeground(new java.awt.Color(255, 255, 255));
-        label_clock13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/clock.png"))); // NOI18N
-        label_clock13.setText("Clock");
-
-        label_date13.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_date13.setForeground(new java.awt.Color(255, 255, 255));
-        label_date13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
-        label_date13.setText("Date");
-
-        btn_save5.setBackground(new java.awt.Color(101, 198, 187));
-        btn_save5.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        btn_save5.setForeground(new java.awt.Color(1, 50, 67));
-        btn_save5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
-        btn_save5.setText("Add");
-        btn_save5.setActionCommand("Simpan");
-        btn_save5.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
-                btn_save5ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout Backround4Layout = new javax.swing.GroupLayout(Backround4);
-        Backround4.setLayout(Backround4Layout);
-        Backround4Layout.setHorizontalGroup(
-            Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Backround4Layout.createSequentialGroup()
-                .addComponent(Garis4, javax.swing.GroupLayout.PREFERRED_SIZE, 747, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(Backround4Layout.createSequentialGroup()
-                .addGroup(Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(Backround4Layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
-                        .addComponent(label_clock13, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(34, 34, 34)
-                        .addComponent(label_date13, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(btn_search6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jLabel20)
-                        .addGap(112, 112, 112)
-                        .addComponent(jLabel21)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btn_Search6, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(7, 7, 7)
-                        .addGroup(Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(text_search6, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(Backround4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 720, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(Backround4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btn_save5)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        Backround4Layout.setVerticalGroup(
-            Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(Backround4Layout.createSequentialGroup()
-                .addComponent(Garis4, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(btn_search6, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(Backround4Layout.createSequentialGroup()
-                        .addGap(18, 18, 18)
-                        .addGroup(Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(Backround4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addGroup(Backround4Layout.createSequentialGroup()
-                                    .addComponent(text_search6, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jPanel12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addComponent(btn_Search6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label_clock13, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(label_date13, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 222, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(btn_save5)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout Data_pengeluaranLayout = new javax.swing.GroupLayout(Data_pengeluaran.getContentPane());
-        Data_pengeluaran.getContentPane().setLayout(Data_pengeluaranLayout);
-        Data_pengeluaranLayout.setHorizontalGroup(
-            Data_pengeluaranLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Backround4, javax.swing.GroupLayout.DEFAULT_SIZE, 746, Short.MAX_VALUE)
-        );
-        Data_pengeluaranLayout.setVerticalGroup(
-            Data_pengeluaranLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(Backround4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jPanel5.setBackground(new java.awt.Color(1, 50, 67));
@@ -934,21 +634,21 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_name14.setForeground(new java.awt.Color(255, 255, 255));
         label_name14.setText("Nama Lengkap *");
 
-        txt_nama12.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama12.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name15.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name15.setForeground(new java.awt.Color(255, 255, 255));
         label_name15.setText("ID KTP/Passport/SIM *");
 
-        txt_nama13.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama13.setForeground(new java.awt.Color(1, 50, 67));
 
-        txt_nama14.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama14.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name16.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name16.setForeground(new java.awt.Color(255, 255, 255));
         label_name16.setText("Tempat, Tgl Lahir *");
 
-        txt_nama15.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama15.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name17.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name17.setForeground(new java.awt.Color(255, 255, 255));
@@ -958,29 +658,27 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_name18.setForeground(new java.awt.Color(255, 255, 255));
         label_name18.setText("No. Telp 2");
 
-        txt_nama16.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama16.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name19.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name19.setForeground(new java.awt.Color(255, 255, 255));
         label_name19.setText("Pekerjaan");
 
-        txt_nama17.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama17.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name20.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name20.setForeground(new java.awt.Color(255, 255, 255));
         label_name20.setText("Tempat Kerja");
 
-        txt_nama18.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama18.setForeground(new java.awt.Color(1, 50, 67));
 
         btn_delete3.setBackground(new java.awt.Color(101, 198, 187));
         btn_delete3.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_delete3.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete3.setText("Create");
-        btn_delete3.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete3ActionPerformed(evt);
             }
         });
@@ -990,10 +688,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_delete4.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete4.setText("Cancel");
-        btn_delete4.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete4ActionPerformed(evt);
             }
         });
@@ -1131,15 +827,15 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_name23.setForeground(new java.awt.Color(255, 255, 255));
         label_name23.setText("Transaksi");
 
-        txt_nama20.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama20.setForeground(new java.awt.Color(1, 50, 67));
 
-        txt_nama21.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama21.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name24.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name24.setForeground(new java.awt.Color(255, 255, 255));
         label_name24.setText("Sumber");
 
-        txt_nama22.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama22.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name25.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name25.setForeground(new java.awt.Color(255, 255, 255));
@@ -1149,17 +845,15 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_name26.setForeground(new java.awt.Color(255, 255, 255));
         label_name26.setText("Tanggal");
 
-        txt_nama23.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama23.setForeground(new java.awt.Color(1, 50, 67));
 
         btn_delete5.setBackground(new java.awt.Color(101, 198, 187));
         btn_delete5.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_delete5.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete5.setText("Create");
-        btn_delete5.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete5ActionPerformed(evt);
             }
         });
@@ -1169,10 +863,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_delete6.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete6.setText("Cancel");
-        btn_delete6.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete6ActionPerformed(evt);
             }
         });
@@ -1262,162 +954,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
-        jPanel15.setBackground(new java.awt.Color(1, 50, 67));
-
-        label_name27.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
-        label_name27.setForeground(new java.awt.Color(255, 255, 255));
-        label_name27.setText("TAMBAH DATA PEMASUKAN");
-
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
-
-        jPanel16.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel16.setPreferredSize(new java.awt.Dimension(0, 2));
-
-        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
-        jPanel16.setLayout(jPanel16Layout);
-        jPanel16Layout.setHorizontalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
-        );
-        jPanel16Layout.setVerticalGroup(
-            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 2, Short.MAX_VALUE)
-        );
-
-        label_name29.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name29.setForeground(new java.awt.Color(255, 255, 255));
-        label_name29.setText("Transaksi");
-
-        txt_nama25.setForeground(new java.awt.Color(255, 255, 255));
-
-        txt_nama26.setForeground(new java.awt.Color(255, 255, 255));
-
-        label_name30.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name30.setForeground(new java.awt.Color(255, 255, 255));
-        label_name30.setText("Sumber");
-
-        txt_nama27.setForeground(new java.awt.Color(255, 255, 255));
-
-        label_name31.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name31.setForeground(new java.awt.Color(255, 255, 255));
-        label_name31.setText("Jumlah");
-
-        label_name32.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        label_name32.setForeground(new java.awt.Color(255, 255, 255));
-        label_name32.setText("Tanggal");
-
-        txt_nama28.setForeground(new java.awt.Color(255, 255, 255));
-
-        btn_delete7.setBackground(new java.awt.Color(101, 198, 187));
-        btn_delete7.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        btn_delete7.setForeground(new java.awt.Color(1, 50, 67));
-        btn_delete7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
-        btn_delete7.setText("Create");
-        btn_delete7.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
-                btn_delete7ActionPerformed(evt);
-            }
-        });
-
-        btn_delete8.setBackground(new java.awt.Color(101, 198, 187));
-        btn_delete8.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        btn_delete8.setForeground(new java.awt.Color(1, 50, 67));
-        btn_delete8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
-        btn_delete8.setText("Cancel");
-        btn_delete8.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
-                btn_delete8ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
-        jPanel15.setLayout(jPanel15Layout);
-        jPanel15Layout.setHorizontalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE))
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jLabel6)
-                        .addGap(18, 18, 18)
-                        .addComponent(label_name27)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel15Layout.createSequentialGroup()
-                .addGap(0, 0, Short.MAX_VALUE)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addGroup(jPanel15Layout.createSequentialGroup()
-                            .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(label_name31)
-                                .addComponent(label_name32)
-                                .addComponent(label_name30))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                .addComponent(txt_nama26)
-                                .addComponent(txt_nama27)
-                                .addComponent(txt_nama28, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGroup(jPanel15Layout.createSequentialGroup()
-                            .addComponent(label_name29, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGap(40, 40, 40)
-                            .addComponent(txt_nama25, javax.swing.GroupLayout.PREFERRED_SIZE, 218, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(jPanel15Layout.createSequentialGroup()
-                        .addGap(59, 59, 59)
-                        .addComponent(btn_delete7, javax.swing.GroupLayout.PREFERRED_SIZE, 105, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(btn_delete8)))
-                .addGap(22, 22, 22))
-        );
-        jPanel15Layout.setVerticalGroup(
-            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel15Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel6)
-                    .addComponent(label_name27, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name29, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama25, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name30, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama26, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name31, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama27, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(18, 18, 18)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(label_name32, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(txt_nama28, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(28, 28, 28)
-                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btn_delete8)
-                    .addComponent(btn_delete7))
-                .addContainerGap(31, Short.MAX_VALUE))
-        );
-
-        javax.swing.GroupLayout Tambah_Data_pengeluaranLayout = new javax.swing.GroupLayout(Tambah_Data_pengeluaran.getContentPane());
-        Tambah_Data_pengeluaran.getContentPane().setLayout(Tambah_Data_pengeluaranLayout);
-        Tambah_Data_pengeluaranLayout.setHorizontalGroup(
-            Tambah_Data_pengeluaranLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-        );
-        Tambah_Data_pengeluaranLayout.setVerticalGroup(
-            Tambah_Data_pengeluaranLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-        );
-
         jPanel17.setBackground(new java.awt.Color(1, 50, 67));
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
@@ -1440,7 +976,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGap(0, 2, Short.MAX_VALUE)
         );
 
-        txt_nama32.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama32.setForeground(new java.awt.Color(1, 50, 67));
 
         label_name37.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         label_name37.setForeground(new java.awt.Color(255, 255, 255));
@@ -1450,17 +986,15 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_name38.setForeground(new java.awt.Color(255, 255, 255));
         label_name38.setText("Tanggal");
 
-        txt_nama33.setForeground(new java.awt.Color(255, 255, 255));
+        txt_nama33.setForeground(new java.awt.Color(1, 50, 67));
 
         btn_delete9.setBackground(new java.awt.Color(101, 198, 187));
         btn_delete9.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_delete9.setForeground(new java.awt.Color(1, 50, 67));
         btn_delete9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
         btn_delete9.setText("Added");
-        btn_delete9.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete9ActionPerformed(evt);
             }
         });
@@ -1471,10 +1005,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_delete10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_delete10.setText("Cancel");
         btn_delete10.setPreferredSize(new java.awt.Dimension(85, 34));
-        btn_delete10.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
+        btn_delete10.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btn_delete10ActionPerformed(evt);
             }
         });
@@ -1560,6 +1092,86 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
+        jPanel15.setBackground(new java.awt.Color(1, 50, 67));
+
+        label_name22.setFont(new java.awt.Font("Helvetica", 0, 18)); // NOI18N
+        label_name22.setForeground(new java.awt.Color(255, 255, 255));
+        label_name22.setText("INFORMASI");
+
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/FixLogoKecil.png"))); // NOI18N
+
+        jPanel16.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel16.setPreferredSize(new java.awt.Dimension(0, 2));
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 2, Short.MAX_VALUE)
+        );
+
+        label_name27.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        label_name27.setForeground(new java.awt.Color(255, 255, 255));
+        label_name27.setText("Username     :");
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setForeground(new java.awt.Color(1, 50, 67));
+        jTextArea1.setRows(5);
+        jTextArea1.setText("info");
+        jScrollPane1.setViewportView(jTextArea1);
+
+        javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
+        jPanel15.setLayout(jPanel15Layout);
+        jPanel15Layout.setHorizontalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, 381, Short.MAX_VALUE)
+                .addContainerGap())
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGap(21, 21, 21)
+                .addComponent(jLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(label_name22)
+                .addGap(65, 65, 65))
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGap(24, 24, 24)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(label_name27, javax.swing.GroupLayout.PREFERRED_SIZE, 93, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(27, Short.MAX_VALUE))
+        );
+        jPanel15Layout.setVerticalGroup(
+            jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel15Layout.createSequentialGroup()
+                .addGap(18, 18, 18)
+                .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel6)
+                    .addComponent(label_name22, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jPanel16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(label_name27, javax.swing.GroupLayout.PREFERRED_SIZE, 23, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(31, Short.MAX_VALUE))
+        );
+
+        javax.swing.GroupLayout Dialog_InfoLayout = new javax.swing.GroupLayout(Dialog_Info.getContentPane());
+        Dialog_Info.getContentPane().setLayout(Dialog_InfoLayout);
+        Dialog_InfoLayout.setHorizontalGroup(
+            Dialog_InfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+        );
+        Dialog_InfoLayout.setVerticalGroup(
+            Dialog_InfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         Backround.setBackground(new java.awt.Color(27, 188, 155));
@@ -1568,12 +1180,10 @@ public class FormDataKontrakan extends javax.swing.JFrame
 
         btn_home.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_home.setForeground(new java.awt.Color(255, 255, 255));
-        btn_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Home.png"))); // NOI18N
-        btn_home.setText("Home");
-        btn_home.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_home.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Keluaran.png"))); // NOI18N
+        btn_home.setText("Refresh");
+        btn_home.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_homeMouseClicked(evt);
             }
         });
@@ -1582,10 +1192,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_data_penghuni.setForeground(new java.awt.Color(255, 255, 255));
         btn_data_penghuni.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/User.png"))); // NOI18N
         btn_data_penghuni.setText("Data Penghuni");
-        btn_data_penghuni.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_data_penghuni.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_data_penghuniMouseClicked(evt);
             }
         });
@@ -1594,23 +1202,9 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_pemasukan.setForeground(new java.awt.Color(255, 255, 255));
         btn_pemasukan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Masukan.png"))); // NOI18N
         btn_pemasukan.setText("Pemasukan");
-        btn_pemasukan.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_pemasukan.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_pemasukanMouseClicked(evt);
-            }
-        });
-
-        btn_pengeluaran.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        btn_pengeluaran.setForeground(new java.awt.Color(255, 255, 255));
-        btn_pengeluaran.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Keluaran.png"))); // NOI18N
-        btn_pengeluaran.setText("Pengeluaran");
-        btn_pengeluaran.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
-                btn_pengeluaranMouseClicked(evt);
             }
         });
 
@@ -1623,10 +1217,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_daftarHarga.setForeground(new java.awt.Color(255, 255, 255));
         btn_daftarHarga.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Daftar Harga.png"))); // NOI18N
         btn_daftarHarga.setText("Daftar Harga");
-        btn_daftarHarga.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_daftarHarga.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_daftarHargaMouseClicked(evt);
             }
         });
@@ -1635,10 +1227,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_pelunasan.setForeground(new java.awt.Color(255, 255, 255));
         btn_pelunasan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Pelunasan.png"))); // NOI18N
         btn_pelunasan.setText("Pelunasan");
-        btn_pelunasan.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_pelunasan.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_pelunasanMouseClicked(evt);
             }
         });
@@ -1653,7 +1243,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addComponent(btn_home, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btn_data_penghuni, javax.swing.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
                     .addComponent(btn_pemasukan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_pengeluaran, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btn_exit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btn_daftarHarga, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btn_pelunasan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
@@ -1661,21 +1250,19 @@ public class FormDataKontrakan extends javax.swing.JFrame
         Background_textLayout.setVerticalGroup(
             Background_textLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Background_textLayout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(btn_home, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(btn_data_penghuni, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btn_pemasukan, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(btn_pengeluaran, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btn_daftarHarga, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btn_pelunasan, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
+                .addComponent(btn_home, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
                 .addComponent(btn_exit, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(51, 51, 51))
         );
 
         Garis.setBackground(new java.awt.Color(1, 50, 67));
@@ -1727,8 +1314,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
         );
 
         table_pengeluaran.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][]
-            {
+            new Object [][] {
                 {null, null, null},
                 {null, null, null},
                 {null, null, null},
@@ -1750,28 +1336,22 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 {null, null, null},
                 {null, null, null}
             },
-            new String []
-            {
+            new String [] {
                 "ID", "Transaksi", "Jumlah"
             }
-        )
-        {
-            Class[] types = new Class []
-            {
+        ) {
+            Class[] types = new Class [] {
                 java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
 
-            public Class getColumnClass(int columnIndex)
-            {
+            public Class getColumnClass(int columnIndex) {
                 return types [columnIndex];
             }
         });
         jScrollPane2.setViewportView(table_pengeluaran);
 
-        btn_search.addMouseListener(new java.awt.event.MouseAdapter()
-        {
-            public void mouseClicked(java.awt.event.MouseEvent evt)
-            {
+        btn_search.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
                 btn_searchMouseClicked(evt);
             }
         });
@@ -1783,6 +1363,44 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_date.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Date.png"))); // NOI18N
         label_date.setText("hh/bb/th");
 
+        jTextField1.setForeground(new java.awt.Color(1, 50, 67));
+
+        btn_save2.setBackground(new java.awt.Color(101, 198, 187));
+        btn_save2.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_save2.setForeground(new java.awt.Color(1, 50, 67));
+        btn_save2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Create.png"))); // NOI18N
+        btn_save2.setText("Add");
+        btn_save2.setActionCommand("Simpan");
+        btn_save2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_save2ActionPerformed(evt);
+            }
+        });
+
+        btn_save3.setBackground(new java.awt.Color(101, 198, 187));
+        btn_save3.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_save3.setForeground(new java.awt.Color(1, 50, 67));
+        btn_save3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Edit.png"))); // NOI18N
+        btn_save3.setText("Edit");
+        btn_save3.setActionCommand("Simpan");
+        btn_save3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_save3ActionPerformed(evt);
+            }
+        });
+
+        btn_save6.setBackground(new java.awt.Color(101, 198, 187));
+        btn_save6.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_save6.setForeground(new java.awt.Color(1, 50, 67));
+        btn_save6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/User.png"))); // NOI18N
+        btn_save6.setText("Info");
+        btn_save6.setActionCommand("Simpan");
+        btn_save6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_save6ActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout BackroundLayout = new javax.swing.GroupLayout(Backround);
         Backround.setLayout(BackroundLayout);
         BackroundLayout.setHorizontalGroup(
@@ -1791,8 +1409,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(Background_text, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 592, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(BackroundLayout.createSequentialGroup()
                         .addGap(5, 5, 5)
                         .addComponent(label_date)
@@ -1801,7 +1418,14 @@ public class FormDataKontrakan extends javax.swing.JFrame
                         .addGap(249, 249, 249)
                         .addComponent(btn_Search, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(4, 4, 4)
-                        .addComponent(jTextField1)))
+                        .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 592, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackroundLayout.createSequentialGroup()
+                        .addComponent(btn_save2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn_save3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(btn_save6)))
                 .addGap(1804, 1804, 1804))
             .addGroup(BackroundLayout.createSequentialGroup()
                 .addComponent(Garis, javax.swing.GroupLayout.PREFERRED_SIZE, 783, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1813,23 +1437,27 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 .addComponent(Garis, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(BackroundLayout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addComponent(Background_text, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(BackroundLayout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackroundLayout.createSequentialGroup()
+                            .addGroup(BackroundLayout.createSequentialGroup()
                                 .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(label_date, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addComponent(jTextField1, javax.swing.GroupLayout.Alignment.TRAILING)
                                         .addComponent(btn_Search, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 26, Short.MAX_VALUE)))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 332, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, BackroundLayout.createSequentialGroup()
-                                .addComponent(btn_search, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(338, 338, 338)))))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(btn_search, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(BackroundLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(btn_save2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btn_save3)
+                            .addComponent(btn_save6))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(BackroundLayout.createSequentialGroup()
+                        .addGap(12, 12, 12)
+                        .addComponent(Background_text, javax.swing.GroupLayout.PREFERRED_SIZE, 310, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(25, Short.MAX_VALUE))))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -1882,18 +1510,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_save4ActionPerformed
 
-    private void text_search6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_text_search6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_text_search6ActionPerformed
-
-    private void btn_search6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btn_search6MouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_search6MouseClicked
-
-    private void btn_save5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_save5ActionPerformed
-
     private void btn_delete5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_delete5ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_delete5ActionPerformed
@@ -1901,14 +1517,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private void btn_delete6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_delete6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_btn_delete6ActionPerformed
-
-    private void btn_delete7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_delete7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_delete7ActionPerformed
-
-    private void btn_delete8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_delete8ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btn_delete8ActionPerformed
 
     private void btn_delete9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_delete9ActionPerformed
         // TODO add your handling code here:
@@ -1937,13 +1545,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
         this.Data_pemasukan.setVisible(true);
     }//GEN-LAST:event_btn_pemasukanMouseClicked
 
-    private void btn_pengeluaranMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_pengeluaranMouseClicked
-    {//GEN-HEADEREND:event_btn_pengeluaranMouseClicked
-        this.Data_pengeluaran.setBounds(10, 10, 746, 489);
-        this.Data_pengeluaran.setModal(true);
-        this.Data_pengeluaran.setVisible(true);
-    }//GEN-LAST:event_btn_pengeluaranMouseClicked
-
     private void btn_daftarHargaMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_daftarHargaMouseClicked
     {//GEN-HEADEREND:event_btn_daftarHargaMouseClicked
         er.debug("This Feature is Not Ready yet");
@@ -1955,6 +1556,30 @@ public class FormDataKontrakan extends javax.swing.JFrame
         this.Setoran_Data_pemasukan.setModal(true);
         this.Setoran_Data_pemasukan.setVisible(true);
     }//GEN-LAST:event_btn_pelunasanMouseClicked
+
+    private void btn_save2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_save2ActionPerformed
+
+    private void btn_save3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_save3ActionPerformed
+
+    private void btn_save6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_save6ActionPerformed
+
+    private void btn_save7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save7ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_save7ActionPerformed
+
+    private void btn_save8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_save8ActionPerformed
+
+    private void btn_save9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_save9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btn_save9ActionPerformed
 
     public void updateTablePengeluaran()
     {
@@ -2036,22 +1661,18 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JPanel Backround;
     private javax.swing.JPanel Backround2;
     private javax.swing.JPanel Backround3;
-    private javax.swing.JPanel Backround4;
     private javax.swing.JDialog Data_pemasukan;
-    private javax.swing.JDialog Data_pengeluaran;
     private javax.swing.JDialog Data_penghuni;
+    private javax.swing.JDialog Dialog_Info;
     private javax.swing.JPanel Garis;
     private javax.swing.JPanel Garis2;
     private javax.swing.JPanel Garis3;
-    private javax.swing.JPanel Garis4;
     private javax.swing.JDialog Setoran_Data_pemasukan;
     private javax.swing.JDialog Tambah_Data_pemasukan;
-    private javax.swing.JDialog Tambah_Data_pengeluaran;
     private javax.swing.JDialog Tambah_Data_penghuni;
     private javax.swing.JLabel btn_Search;
     private javax.swing.JLabel btn_Search2;
     private javax.swing.JLabel btn_Search5;
-    private javax.swing.JLabel btn_Search6;
     private javax.swing.JLabel btn_daftarHarga;
     private javax.swing.JLabel btn_data_penghuni;
     private javax.swing.JButton btn_delete10;
@@ -2059,39 +1680,30 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JButton btn_delete4;
     private javax.swing.JButton btn_delete5;
     private javax.swing.JButton btn_delete6;
-    private javax.swing.JButton btn_delete7;
-    private javax.swing.JButton btn_delete8;
     private javax.swing.JButton btn_delete9;
     private javax.swing.JLabel btn_exit;
     private javax.swing.JLabel btn_home;
     private javax.swing.JLabel btn_pelunasan;
     private javax.swing.JLabel btn_pemasukan;
-    private javax.swing.JLabel btn_pengeluaran;
     private javax.swing.JButton btn_save1;
+    private javax.swing.JButton btn_save2;
+    private javax.swing.JButton btn_save3;
     private javax.swing.JButton btn_save4;
-    private javax.swing.JButton btn_save5;
+    private javax.swing.JButton btn_save6;
+    private javax.swing.JButton btn_save7;
+    private javax.swing.JButton btn_save8;
+    private javax.swing.JButton btn_save9;
     private javax.swing.JLabel btn_search;
     private javax.swing.JLabel btn_search2;
     private javax.swing.JLabel btn_search5;
-    private javax.swing.JLabel btn_search6;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JPanel jPanel10;
-    private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
@@ -2101,26 +1713,22 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
-    private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JLabel label_clock10;
     private javax.swing.JLabel label_clock11;
-    private javax.swing.JLabel label_clock12;
-    private javax.swing.JLabel label_clock13;
     private javax.swing.JLabel label_clock4;
     private javax.swing.JLabel label_clock5;
     private javax.swing.JLabel label_date;
     private javax.swing.JLabel label_date1;
     private javax.swing.JLabel label_date10;
     private javax.swing.JLabel label_date11;
-    private javax.swing.JLabel label_date12;
-    private javax.swing.JLabel label_date13;
     private javax.swing.JLabel label_date4;
     private javax.swing.JLabel label_date5;
     private javax.swing.JLabel label_name13;
@@ -2132,15 +1740,12 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JLabel label_name19;
     private javax.swing.JLabel label_name20;
     private javax.swing.JLabel label_name21;
+    private javax.swing.JLabel label_name22;
     private javax.swing.JLabel label_name23;
     private javax.swing.JLabel label_name24;
     private javax.swing.JLabel label_name25;
     private javax.swing.JLabel label_name26;
     private javax.swing.JLabel label_name27;
-    private javax.swing.JLabel label_name29;
-    private javax.swing.JLabel label_name30;
-    private javax.swing.JLabel label_name31;
-    private javax.swing.JLabel label_name32;
     private javax.swing.JLabel label_name33;
     private javax.swing.JLabel label_name37;
     private javax.swing.JLabel label_name38;
@@ -2148,10 +1753,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JTable table_pengeluaran;
     private javax.swing.JTable table_pengeluaran2;
     private javax.swing.JTable table_pengeluaran5;
-    private javax.swing.JTable table_pengeluaran6;
     private javax.swing.JTextField text_search2;
     private javax.swing.JTextField text_search5;
-    private javax.swing.JTextField text_search6;
     private javax.swing.JTextField txt_nama12;
     private javax.swing.JTextField txt_nama13;
     private javax.swing.JTextField txt_nama14;
@@ -2163,10 +1766,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JTextField txt_nama21;
     private javax.swing.JTextField txt_nama22;
     private javax.swing.JTextField txt_nama23;
-    private javax.swing.JTextField txt_nama25;
-    private javax.swing.JTextField txt_nama26;
-    private javax.swing.JTextField txt_nama27;
-    private javax.swing.JTextField txt_nama28;
     private javax.swing.JTextField txt_nama32;
     private javax.swing.JTextField txt_nama33;
     // End of variables declaration//GEN-END:variables
