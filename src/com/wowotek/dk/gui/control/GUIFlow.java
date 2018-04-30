@@ -16,20 +16,18 @@ import java.sql.Connection;
 public class GUIFlow
 {
     private final ErrorReporting er;
-    private final Connection c;
     private final AllDatabase ad;
     
-    public GUIFlow(ErrorReporting er, Connection c, AllDatabase ad)
+    public GUIFlow(ErrorReporting er, AllDatabase ad)
     {
-        this.c = c;
         this.er = er;
         this.ad = ad;
     }
     
     public void run()
     {
-        LoginGUI lg = new LoginGUI(er, c);
-        MainGUI mg = new MainGUI(er, ad.dbpen, ad.dbpem);
+        LoginGUI lg = new LoginGUI(er, ad);
+        MainGUI mg = new MainGUI(er, ad);
         mg.run();
 //        if(lg.run())
 //        {

@@ -119,7 +119,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="248" max="32767" attributes="0"/>
+                          <EmptySpace pref="227" max="32767" attributes="0"/>
                           <Component id="label_clock4" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="139" max="-2" attributes="0"/>
                       </Group>
@@ -145,7 +145,7 @@
                           <EmptySpace type="unrelated" max="32767" attributes="0"/>
                           <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="label_date4" pref="31" max="32767" attributes="0"/>
+                          <Component id="label_date4" pref="29" max="32767" attributes="0"/>
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -513,7 +513,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="231" max="32767" attributes="0"/>
+                          <EmptySpace pref="208" max="32767" attributes="0"/>
                           <Component id="label_clock10" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
                       </Group>
@@ -539,7 +539,7 @@
                           <EmptySpace pref="12" max="32767" attributes="0"/>
                           <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="label_date10" pref="30" max="32767" attributes="0"/>
+                          <Component id="label_date10" pref="29" max="32767" attributes="0"/>
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -895,7 +895,7 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
                           <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="224" max="32767" attributes="0"/>
+                          <EmptySpace pref="200" max="32767" attributes="0"/>
                           <Component id="label_clock12" min="-2" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
                       </Group>
@@ -921,7 +921,7 @@
                           <EmptySpace pref="12" max="32767" attributes="0"/>
                           <Component id="jPanel11" min="-2" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="label_date12" pref="30" max="32767" attributes="0"/>
+                          <Component id="label_date12" pref="29" max="32767" attributes="0"/>
                           <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
                       </Group>
                   </Group>
@@ -2099,7 +2099,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jPanel18" alignment="0" pref="385" max="32767" attributes="0"/>
+                                  <Component id="jPanel18" alignment="0" pref="387" max="32767" attributes="0"/>
                                   <Group type="102" alignment="1" attributes="0">
                                       <Group type="103" groupAlignment="0" attributes="0">
                                           <Component id="label_name39" alignment="0" min="-2" max="-2" attributes="0"/>
@@ -2443,8 +2443,8 @@
                           <Component id="btn_pemasukan" alignment="0" max="32767" attributes="0"/>
                           <Component id="btn_pengeluaran" alignment="0" max="32767" attributes="0"/>
                           <Component id="btn_exit" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btn_pengeluaran1" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btn_pengeluaran2" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_daftarHarga" alignment="0" max="32767" attributes="0"/>
+                          <Component id="btn_pelunasan" alignment="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -2461,9 +2461,9 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btn_pengeluaran" min="-2" pref="33" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btn_pengeluaran1" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="btn_daftarHarga" min="-2" pref="33" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="btn_pengeluaran2" min="-2" pref="33" max="-2" attributes="0"/>
+                      <Component id="btn_pelunasan" min="-2" pref="33" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="btn_exit" min="-2" pref="33" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
@@ -2502,6 +2502,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Data Penghuni"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_data_penghuniMouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btn_pemasukan">
               <Properties>
@@ -2516,6 +2519,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Pemasukan"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_pemasukanMouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btn_pengeluaran">
               <Properties>
@@ -2530,6 +2536,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Pengeluaran"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_pengeluaranMouseClicked"/>
+              </Events>
             </Component>
             <Component class="javax.swing.JLabel" name="btn_exit">
               <Properties>
@@ -2545,7 +2554,7 @@
                 <Property name="text" type="java.lang.String" value="Exit"/>
               </Properties>
             </Component>
-            <Component class="javax.swing.JLabel" name="btn_pengeluaran1">
+            <Component class="javax.swing.JLabel" name="btn_daftarHarga">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Helvetica" size="14" style="0"/>
@@ -2558,8 +2567,11 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Daftar Harga"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_daftarHargaMouseClicked"/>
+              </Events>
             </Component>
-            <Component class="javax.swing.JLabel" name="btn_pengeluaran2">
+            <Component class="javax.swing.JLabel" name="btn_pelunasan">
               <Properties>
                 <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                   <Font name="Helvetica" size="14" style="0"/>
@@ -2572,6 +2584,9 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Pelunasan"/>
               </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="btn_pelunasanMouseClicked"/>
+              </Events>
             </Component>
           </SubComponents>
         </Container>
@@ -2596,8 +2611,6 @@
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                       <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
-                      <Component id="testButton" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -2605,18 +2618,9 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
-                              <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="testButton" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="label_date1" pref="30" max="32767" attributes="0"/>
@@ -2666,14 +2670,6 @@
                 </Property>
                 <Property name="text" type="java.lang.String" value="Login as :"/>
               </Properties>
-            </Component>
-            <Component class="javax.swing.JButton" name="testButton">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="jButton1"/>
-              </Properties>
-              <Events>
-                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="testButtonActionPerformed"/>
-              </Events>
             </Component>
           </SubComponents>
         </Container>

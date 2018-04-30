@@ -1,6 +1,7 @@
 package com.wowotek.dk.gui.control;
 
 import com.wowotek.dk.ErrorReporting;
+import com.wowotek.dk.db.AllDatabase;
 import com.wowotek.dk.db.DBAuthUserCredentials;
 import com.wowotek.dk.db.DBAuthUserData;
 import com.wowotek.dk.gui.FormLogin;
@@ -19,11 +20,11 @@ public class LoginGUI
     private final DBAuthUserCredentials dbuc;
     private final DBAuthUserData dbud;
 
-    public LoginGUI(ErrorReporting er, Connection c)
+    public LoginGUI(ErrorReporting er, AllDatabase ad)
     {
         this.er = er;
-        this.dbuc = new DBAuthUserCredentials(c, er);
-        this.dbud = new DBAuthUserData(c, er);
+        this.dbuc = ad.dbauc;
+        this.dbud = ad.dbaud;
         this.frameLogin = new FormLogin(er, dbuc, dbud);
     }
 

@@ -2,22 +2,19 @@ package com.wowotek.dk;
 
 import com.wowotek.dk.db.*;
 import com.wowotek.dk.gui.control.GUIFlow;
-import java.util.concurrent.Executors;
-import java.util.concurrent.ScheduledExecutorService;
-import java.util.concurrent.TimeUnit;
 
 public class Main
 {
-
-    private static ErrorReporting er = new ErrorReporting(true);
-    
+    private static final ErrorReporting er = new ErrorReporting(true);
     private static final DBConnection dbc = new DBConnection(er);
-    private static final DBPengeluaran dbpen = new DBPengeluaran(dbc.c, er);
-    private static final DBPemasukan dbpem = new DBPemasukan(dbc.c, er);
-    private static final DBDaftarHarga dbdh = new DBDaftarHarga(dbc.c, er);
-    
-    private static final AllDatabase ad = new AllDatabase(dbpen, dbpem, dbdh);
-    private static final GUIFlow g = new GUIFlow(er, dbc.c, ad);
+
+    private static final GUIFlow g = 
+            new GUIFlow(er, new AllDatabase(dbc,
+                                            new DBAuthUserCredentials(dbc.c, er),
+                                            new DBAuthUserData(dbc.c, er), 
+                                            new DBPengeluaran(dbc.c, er), 
+                                            new DBPemasukan(dbc.c, er), 
+                                            new DBDaftarHarga(dbc.c, er)));
 
     public static void main(String[] args) throws InterruptedException
     {

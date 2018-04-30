@@ -11,12 +11,21 @@ package com.wowotek.dk.db;
  */
 public class AllDatabase
 {
+    public final DBConnection dbc;
+    
+    public final DBAuthUserCredentials dbauc;
+    public final DBAuthUserData dbaud;
+    
     public final DBPengeluaran dbpen;
     public final DBPemasukan dbpem;
     public final DBDaftarHarga dbdh;
     
-    public AllDatabase(DBPengeluaran dbpen, DBPemasukan dbpem, DBDaftarHarga dbdh)
+    public AllDatabase(DBConnection dbc, DBAuthUserCredentials dbauc, DBAuthUserData dbaud, DBPengeluaran dbpen, DBPemasukan dbpem, DBDaftarHarga dbdh)
     {
+        this.dbc = dbc;
+        this.dbauc = dbauc;
+        this.dbaud = dbaud;
+        
         this.dbpen = dbpen;
         this.dbpem = dbpem;
         this.dbdh = dbdh;

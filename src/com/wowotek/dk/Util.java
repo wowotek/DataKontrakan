@@ -1,7 +1,9 @@
 package com.wowotek.dk;
 
+import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -79,5 +81,28 @@ public class Util
         }
         
         return false;
+    }
+    
+    public String parseHarga(int harga)
+    {
+        NumberFormat f = NumberFormat.getCurrencyInstance(Locale.US);
+        
+        StringBuilder sb = new StringBuilder();
+        sb.append(f.format(harga));
+        sb.deleteCharAt(sb.toString().length()-1);
+        sb.deleteCharAt(sb.toString().length()-1);
+        sb.deleteCharAt(sb.toString().length()-1);
+        sb.reverse();
+        sb.deleteCharAt(sb.toString().length()-1);
+        sb.append(" pR");
+        sb.reverse();
+        sb.append(",-");
+        
+        return sb.toString();
+    }
+    
+    public String parseHarga(String Harga)
+    {
+        return parseHarga(Integer.parseInt(Harga));
     }
 }

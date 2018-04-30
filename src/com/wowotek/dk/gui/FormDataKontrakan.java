@@ -2,11 +2,8 @@ package com.wowotek.dk.gui;
 
 import com.wowotek.dk.*;
 import com.wowotek.dk.db.*;
-import com.wowotek.dk.db.dbclasses.Pemasukan;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import com.wowotek.dk.db.dbclasses.*;
 import java.util.ArrayList;
-import javax.swing.Timer;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumnModel;
 
@@ -19,16 +16,18 @@ public class FormDataKontrakan extends javax.swing.JFrame
     
     private final DBPengeluaran dbpen;
     private final DBPemasukan dbpem;
+    private final DBDaftarHarga dbdh;
     
-    public FormDataKontrakan(ErrorReporting er, DBPengeluaran dbpen, DBPemasukan dbpem)
+    public FormDataKontrakan(ErrorReporting er, AllDatabase ad)
     {
         this.er = er;
-        this.dbpen = dbpen;
-        this.dbpem = dbpem;
+        this.dbpen = ad.dbpen;
+        this.dbpem = ad.dbpem;
+        this.dbdh = ad.dbdh;
         initComponents();
         
         this.dtm = (DefaultTableModel) this.table_pengeluaran.getModel();
-        updateTablePemasukan();
+        updateTablePengeluaran();
     }
 
     /**
@@ -164,13 +163,12 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_pemasukan = new javax.swing.JLabel();
         btn_pengeluaran = new javax.swing.JLabel();
         btn_exit = new javax.swing.JLabel();
-        btn_pengeluaran1 = new javax.swing.JLabel();
-        btn_pengeluaran2 = new javax.swing.JLabel();
+        btn_daftarHarga = new javax.swing.JLabel();
+        btn_pelunasan = new javax.swing.JLabel();
         Garis = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel3 = new javax.swing.JLabel();
         label_date1 = new javax.swing.JLabel();
-        testButton = new javax.swing.JButton();
         jScrollPane2 = new javax.swing.JScrollPane();
         table_pengeluaran = new javax.swing.JTable();
         btn_search = new javax.swing.JLabel();
@@ -216,7 +214,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGroup(Garis2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 248, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 227, Short.MAX_VALUE)
                 .addComponent(label_clock4)
                 .addGap(139, 139, 139))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis2Layout.createSequentialGroup()
@@ -236,7 +234,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(jPanel6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date4, javax.swing.GroupLayout.DEFAULT_SIZE, 31, Short.MAX_VALUE)
+                .addComponent(label_date4, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
@@ -464,7 +462,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGroup(Garis3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 231, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 208, Short.MAX_VALUE)
                 .addComponent(label_clock10)
                 .addGap(125, 125, 125))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis3Layout.createSequentialGroup()
@@ -484,7 +482,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
                 .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date10, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+                .addComponent(label_date10, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
@@ -706,7 +704,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGroup(Garis4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel19)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 224, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 200, Short.MAX_VALUE)
                 .addComponent(label_clock12)
                 .addGap(119, 119, 119))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, Garis4Layout.createSequentialGroup()
@@ -726,7 +724,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(label_date12, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
+                .addComponent(label_date12, javax.swing.GroupLayout.DEFAULT_SIZE, 29, Short.MAX_VALUE)
                 .addGap(4, 4, 4))
         );
 
@@ -1502,7 +1500,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addGroup(jPanel17Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 385, Short.MAX_VALUE)
+                            .addComponent(jPanel18, javax.swing.GroupLayout.DEFAULT_SIZE, 387, Short.MAX_VALUE)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
                                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(label_name39)
@@ -1584,31 +1582,66 @@ public class FormDataKontrakan extends javax.swing.JFrame
         btn_data_penghuni.setForeground(new java.awt.Color(255, 255, 255));
         btn_data_penghuni.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/User.png"))); // NOI18N
         btn_data_penghuni.setText("Data Penghuni");
+        btn_data_penghuni.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                btn_data_penghuniMouseClicked(evt);
+            }
+        });
 
         btn_pemasukan.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_pemasukan.setForeground(new java.awt.Color(255, 255, 255));
         btn_pemasukan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Masukan.png"))); // NOI18N
         btn_pemasukan.setText("Pemasukan");
+        btn_pemasukan.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                btn_pemasukanMouseClicked(evt);
+            }
+        });
 
         btn_pengeluaran.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_pengeluaran.setForeground(new java.awt.Color(255, 255, 255));
         btn_pengeluaran.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Keluaran.png"))); // NOI18N
         btn_pengeluaran.setText("Pengeluaran");
+        btn_pengeluaran.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                btn_pengeluaranMouseClicked(evt);
+            }
+        });
 
         btn_exit.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
         btn_exit.setForeground(new java.awt.Color(255, 255, 255));
         btn_exit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Logout.png"))); // NOI18N
         btn_exit.setText("Exit");
 
-        btn_pengeluaran1.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        btn_pengeluaran1.setForeground(new java.awt.Color(255, 255, 255));
-        btn_pengeluaran1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Daftar Harga.png"))); // NOI18N
-        btn_pengeluaran1.setText("Daftar Harga");
+        btn_daftarHarga.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_daftarHarga.setForeground(new java.awt.Color(255, 255, 255));
+        btn_daftarHarga.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Daftar Harga.png"))); // NOI18N
+        btn_daftarHarga.setText("Daftar Harga");
+        btn_daftarHarga.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                btn_daftarHargaMouseClicked(evt);
+            }
+        });
 
-        btn_pengeluaran2.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
-        btn_pengeluaran2.setForeground(new java.awt.Color(255, 255, 255));
-        btn_pengeluaran2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Pelunasan.png"))); // NOI18N
-        btn_pengeluaran2.setText("Pelunasan");
+        btn_pelunasan.setFont(new java.awt.Font("Helvetica", 0, 14)); // NOI18N
+        btn_pelunasan.setForeground(new java.awt.Color(255, 255, 255));
+        btn_pelunasan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/com/wowotek/dk/gui/image/Pelunasan.png"))); // NOI18N
+        btn_pelunasan.setText("Pelunasan");
+        btn_pelunasan.addMouseListener(new java.awt.event.MouseAdapter()
+        {
+            public void mouseClicked(java.awt.event.MouseEvent evt)
+            {
+                btn_pelunasanMouseClicked(evt);
+            }
+        });
 
         javax.swing.GroupLayout Background_textLayout = new javax.swing.GroupLayout(Background_text);
         Background_text.setLayout(Background_textLayout);
@@ -1622,8 +1655,8 @@ public class FormDataKontrakan extends javax.swing.JFrame
                     .addComponent(btn_pemasukan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btn_pengeluaran, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btn_exit, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_pengeluaran1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btn_pengeluaran2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                    .addComponent(btn_daftarHarga, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btn_pelunasan, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         Background_textLayout.setVerticalGroup(
             Background_textLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1637,9 +1670,9 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 .addGap(18, 18, 18)
                 .addComponent(btn_pengeluaran, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_pengeluaran1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_daftarHarga, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(btn_pengeluaran2, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btn_pelunasan, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btn_exit, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -1668,15 +1701,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
         label_date1.setForeground(new java.awt.Color(255, 255, 255));
         label_date1.setText("Login as :");
 
-        testButton.setText("jButton1");
-        testButton.addActionListener(new java.awt.event.ActionListener()
-        {
-            public void actionPerformed(java.awt.event.ActionEvent evt)
-            {
-                testButtonActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout GarisLayout = new javax.swing.GroupLayout(Garis);
         Garis.setLayout(GarisLayout);
         GarisLayout.setHorizontalGroup(
@@ -1688,22 +1712,14 @@ public class FormDataKontrakan extends javax.swing.JFrame
             .addGroup(GarisLayout.createSequentialGroup()
                 .addGap(20, 20, 20)
                 .addComponent(jLabel3)
-                .addGap(113, 113, 113)
-                .addComponent(testButton)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         GarisLayout.setVerticalGroup(
             GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GarisLayout.createSequentialGroup()
-                .addGroup(GarisLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(GarisLayout.createSequentialGroup()
-                        .addGap(17, 17, 17)
-                        .addComponent(jLabel3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, GarisLayout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(testButton)
-                        .addGap(32, 32, 32)))
+                .addGap(17, 17, 17)
+                .addComponent(jLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(label_date1, javax.swing.GroupLayout.DEFAULT_SIZE, 30, Short.MAX_VALUE)
@@ -1904,26 +1920,53 @@ public class FormDataKontrakan extends javax.swing.JFrame
 
     private void btn_homeMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_homeMouseClicked
     {//GEN-HEADEREND:event_btn_homeMouseClicked
-
+        updateTablePengeluaran();
     }//GEN-LAST:event_btn_homeMouseClicked
 
-    private void testButtonActionPerformed(java.awt.event.ActionEvent evt)//GEN-FIRST:event_testButtonActionPerformed
-    {//GEN-HEADEREND:event_testButtonActionPerformed
-        updateTablePemasukan();
-    }//GEN-LAST:event_testButtonActionPerformed
+    private void btn_data_penghuniMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_data_penghuniMouseClicked
+    {//GEN-HEADEREND:event_btn_data_penghuniMouseClicked
+        this.Data_penghuni.setBounds(10, 10, 746, 496);
+        this.Data_penghuni.setModal(true);
+        this.Data_penghuni.setVisible(true);
+    }//GEN-LAST:event_btn_data_penghuniMouseClicked
 
-    private void updateTablePemasukan()
+    private void btn_pemasukanMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_pemasukanMouseClicked
+    {//GEN-HEADEREND:event_btn_pemasukanMouseClicked
+        this.Data_pemasukan.setBounds(10, 10, 746, 489);
+        this.Data_pemasukan.setModal(true);
+        this.Data_pemasukan.setVisible(true);
+    }//GEN-LAST:event_btn_pemasukanMouseClicked
+
+    private void btn_pengeluaranMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_pengeluaranMouseClicked
+    {//GEN-HEADEREND:event_btn_pengeluaranMouseClicked
+        this.Data_pengeluaran.setBounds(10, 10, 746, 489);
+        this.Data_pengeluaran.setModal(true);
+        this.Data_pengeluaran.setVisible(true);
+    }//GEN-LAST:event_btn_pengeluaranMouseClicked
+
+    private void btn_daftarHargaMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_daftarHargaMouseClicked
+    {//GEN-HEADEREND:event_btn_daftarHargaMouseClicked
+        er.debug("This Feature is Not Ready yet");
+    }//GEN-LAST:event_btn_daftarHargaMouseClicked
+
+    private void btn_pelunasanMouseClicked(java.awt.event.MouseEvent evt)//GEN-FIRST:event_btn_pelunasanMouseClicked
+    {//GEN-HEADEREND:event_btn_pelunasanMouseClicked
+        this.Setoran_Data_pemasukan.setBounds(10, 10, 411, 297);
+        this.Setoran_Data_pemasukan.setModal(true);
+        this.Setoran_Data_pemasukan.setVisible(true);
+    }//GEN-LAST:event_btn_pelunasanMouseClicked
+
+    public void updateTablePengeluaran()
     {
         this.dtm.setRowCount(0);
         
-        ArrayList<Pemasukan> listPemasukan = this.dbpem.ambilDataPemasukan();
+        ArrayList<Pengeluaran> listPengeluaran = this.dbpen.ambilDataPengeluaran();
         
-        for(Pemasukan i : listPemasukan)
+        for(Pengeluaran i : listPengeluaran)
         {
-            er.debug  ("DBPemasukan -> Data Received ->");
+            er.debug  ("DBPengeluaran -> Data Received ->");
             er.debugln("          ID : " + i.ID);
             er.debugln("   Transaksi : " + i.TRANSAKSI);
-            er.debugln("      Sumber : " + i.SUMBER);
             er.debugln("      Jumlah : " + i.JUMLAH);
             this.dtm.addRow(new Object[]{i.ID, i.TRANSAKSI, ("Rp " + i.JUMLAH + ",-")});
             this.dtm.fireTableDataChanged();
@@ -1960,22 +2003,21 @@ public class FormDataKontrakan extends javax.swing.JFrame
                 }
             }
         }
-        catch (ClassNotFoundException ex)
+        catch (ClassNotFoundException | InstantiationException | IllegalAccessException | javax.swing.UnsupportedLookAndFeelException ex)
         {
-            java.util.logging.Logger.getLogger(FormDataKontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            //java.util.logging.Logger.getLogger(FormDataKontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        catch (InstantiationException ex)
-        {
-            java.util.logging.Logger.getLogger(FormDataKontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        catch (IllegalAccessException ex)
-        {
-            java.util.logging.Logger.getLogger(FormDataKontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
-        catch (javax.swing.UnsupportedLookAndFeelException ex)
-        {
-            java.util.logging.Logger.getLogger(FormDataKontrakan.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
-        }
+        //</editor-fold>
+        //</editor-fold>
+        /* Create and display the form */
+//        java.awt.EventQueue.invokeLater(new Runnable()
+//        {
+//            public void run()
+//            {
+//                new FormDataKontrakan().setVisible(true);
+//            }
+//        });
+
         //</editor-fold>
         //</editor-fold>
 
@@ -2010,6 +2052,7 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JLabel btn_Search2;
     private javax.swing.JLabel btn_Search5;
     private javax.swing.JLabel btn_Search6;
+    private javax.swing.JLabel btn_daftarHarga;
     private javax.swing.JLabel btn_data_penghuni;
     private javax.swing.JButton btn_delete10;
     private javax.swing.JButton btn_delete3;
@@ -2021,10 +2064,9 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JButton btn_delete9;
     private javax.swing.JLabel btn_exit;
     private javax.swing.JLabel btn_home;
+    private javax.swing.JLabel btn_pelunasan;
     private javax.swing.JLabel btn_pemasukan;
     private javax.swing.JLabel btn_pengeluaran;
-    private javax.swing.JLabel btn_pengeluaran1;
-    private javax.swing.JLabel btn_pengeluaran2;
     private javax.swing.JButton btn_save1;
     private javax.swing.JButton btn_save4;
     private javax.swing.JButton btn_save5;
@@ -2107,7 +2149,6 @@ public class FormDataKontrakan extends javax.swing.JFrame
     private javax.swing.JTable table_pengeluaran2;
     private javax.swing.JTable table_pengeluaran5;
     private javax.swing.JTable table_pengeluaran6;
-    private javax.swing.JButton testButton;
     private javax.swing.JTextField text_search2;
     private javax.swing.JTextField text_search5;
     private javax.swing.JTextField text_search6;
