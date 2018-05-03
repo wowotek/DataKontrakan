@@ -1291,3 +1291,966 @@
 ================= Session Closed At 30.04.2018 | 05:49:20 =================
 
 
+================= Session Started At 30.04.2018 | 08:15:11 ================
+
+[08:15:11][EID:1][CPASS] Successfuly Opened Log File
+[08:15:11]               Database Connection Initialization
+[08:15:11]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[08:15:12]               Handshake Successful !
+[08:15:12][EID:2][CPASS] Connection Established, Total Tries = 0
+[08:15:15]               Mengambil data pengeluaran...
+[08:15:15][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:15]               DBPengeluaran -> Data Received ->
+[08:15:15]               DBPengeluaran -> Data Received ->
+[08:15:15][EID:4][CPASS] Table Pemasukan Updated !
+[08:15:15][EID:5][CLOGS] Thread Started -> 
+[08:15:15]               Mengambil data pengeluaran...
+[08:15:15][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:15]               DBPengeluaran -> Data Received ->
+[08:15:15]               DBPengeluaran -> Data Received ->
+[08:15:15][EID:7][CPASS] Table Pemasukan Updated !
+[08:15:25]               Mengambil data pengeluaran...
+[08:15:25][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:25]               DBPengeluaran -> Data Received ->
+[08:15:25]               DBPengeluaran -> Data Received ->
+[08:15:25][EID:9][CPASS] Table Pemasukan Updated !
+[08:15:29]               This Feature is Not Ready yet
+[08:15:31]               This Feature is Not Ready yet
+[08:15:31]               This Feature is Not Ready yet
+[08:15:35]               Mengambil data pengeluaran...
+[08:15:35][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:35]                DBPengeluaran -> Data Received ->
+[08:15:35]                DBPengeluaran -> Data Received ->
+[08:15:35][EID:11][CPASS] Table Pemasukan Updated !
+[08:15:38]                Mengambil data pengeluaran...
+[08:15:38][EID:12][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:38]                DBPengeluaran -> Data Received ->
+[08:15:38]                DBPengeluaran -> Data Received ->
+[08:15:38][EID:13][CPASS] Table Pemasukan Updated !
+[08:15:40]                Mengambil data pengeluaran...
+[08:15:40][EID:14][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:40]                DBPengeluaran -> Data Received ->
+[08:15:40]                DBPengeluaran -> Data Received ->
+[08:15:40][EID:15][CPASS] Table Pemasukan Updated !
+[08:15:41]                Mengambil data pengeluaran...
+[08:15:41][EID:16][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:41]                DBPengeluaran -> Data Received ->
+[08:15:41]                DBPengeluaran -> Data Received ->
+[08:15:41][EID:17][CPASS] Table Pemasukan Updated !
+[08:15:41]                Mengambil data pengeluaran...
+[08:15:41][EID:18][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:41]                DBPengeluaran -> Data Received ->
+[08:15:41]                DBPengeluaran -> Data Received ->
+[08:15:41][EID:19][CPASS] Table Pemasukan Updated !
+[08:15:42]                Mengambil data pengeluaran...
+[08:15:42][EID:20][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:42]                DBPengeluaran -> Data Received ->
+[08:15:42]                DBPengeluaran -> Data Received ->
+[08:15:42][EID:21][CPASS] Table Pemasukan Updated !
+[08:15:45]                Mengambil data pengeluaran...
+[08:15:45][EID:22][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:45]                DBPengeluaran -> Data Received ->
+[08:15:45]                DBPengeluaran -> Data Received ->
+[08:15:45][EID:23][CPASS] Table Pemasukan Updated !
+[08:15:55]                Mengambil data pengeluaran...
+[08:15:55][EID:24][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:15:55]                DBPengeluaran -> Data Received ->
+[08:15:55]                DBPengeluaran -> Data Received ->
+[08:15:55][EID:25][CPASS] Table Pemasukan Updated !
+[08:16:05]                Mengambil data pengeluaran...
+[08:16:05][EID:26][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:16:05]                DBPengeluaran -> Data Received ->
+[08:16:05]                DBPengeluaran -> Data Received ->
+[08:16:05][EID:27][CPASS] Table Pemasukan Updated !
+[08:16:15]                Mengambil data pengeluaran...
+[08:16:15][EID:28][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:16:15]                DBPengeluaran -> Data Received ->
+[08:16:15]                DBPengeluaran -> Data Received ->
+[08:16:15][EID:29][CPASS] Table Pemasukan Updated !
+[08:16:25]                Mengambil data pengeluaran...
+[08:16:25][EID:30][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:16:25]                DBPengeluaran -> Data Received ->
+[08:16:25]                DBPengeluaran -> Data Received ->
+[08:16:25][EID:31][CPASS] Table Pemasukan Updated !
+[08:16:35]                Mengambil data pengeluaran...
+[08:16:35][EID:32][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:16:35]                DBPengeluaran -> Data Received ->
+[08:16:35]                DBPengeluaran -> Data Received ->
+[08:16:35][EID:33][CPASS] Table Pemasukan Updated !
+[08:16:45]                Mengambil data pengeluaran...
+[08:16:45][EID:34][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:16:45]                DBPengeluaran -> Data Received ->
+[08:16:45]                DBPengeluaran -> Data Received ->
+[08:16:45][EID:35][CPASS] Table Pemasukan Updated !
+[08:16:55]                Mengambil data pengeluaran...
+[08:16:55][EID:36][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:16:55]                DBPengeluaran -> Data Received ->
+[08:16:55]                DBPengeluaran -> Data Received ->
+[08:16:55][EID:37][CPASS] Table Pemasukan Updated !
+[08:17:05]                Mengambil data pengeluaran...
+[08:17:05][EID:38][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:17:05]                DBPengeluaran -> Data Received ->
+[08:17:05]                DBPengeluaran -> Data Received ->
+[08:17:05][EID:39][CPASS] Table Pemasukan Updated !
+[08:17:11]                Main GUI Closed !
+[08:17:11]                Closing Log File..
+
+================= Session Closed At 30.04.2018 | 08:17:11 =================
+
+
+================= Session Started At 30.04.2018 | 08:34:44 ================
+
+[08:34:44][EID:1][CPASS] Successfuly Opened Log File
+[08:34:44]               Database Connection Initialization
+[08:34:44]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[08:34:44]               Handshake Successful !
+[08:34:44][EID:2][CPASS] Connection Established, Total Tries = 0
+[08:34:47]               Mengambil data pengeluaran...
+[08:34:47][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:34:47]               DBPengeluaran -> Data Received ->
+[08:34:47]               DBPengeluaran -> Data Received ->
+[08:34:47][EID:4][CPASS] Table Pemasukan Updated !
+[08:34:47][EID:5][CLOGS] Thread Started -> 
+[08:34:47]               Mengambil data pengeluaran...
+[08:34:47][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:34:47]               DBPengeluaran -> Data Received ->
+[08:34:47]               DBPengeluaran -> Data Received ->
+[08:34:47][EID:7][CPASS] Table Pemasukan Updated !
+[08:34:51]               Main GUI Closed !
+[08:34:51]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 08:34:51 =================
+
+
+================= Session Started At 30.04.2018 | 08:34:53 ================
+
+[08:34:53][EID:1][CPASS] Successfuly Opened Log File
+[08:34:53]               Database Connection Initialization
+[08:34:53]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[08:34:53]               Handshake Successful !
+[08:34:53][EID:2][CPASS] Connection Established, Total Tries = 0
+[08:34:56]               Mengambil data pengeluaran...
+[08:34:56][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:34:56]               DBPengeluaran -> Data Received ->
+[08:34:56]               DBPengeluaran -> Data Received ->
+[08:34:56][EID:4][CPASS] Table Pemasukan Updated !
+[08:34:56][EID:5][CLOGS] Thread Started -> 
+[08:34:56]               Mengambil data pengeluaran...
+[08:34:56][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:34:56]               DBPengeluaran -> Data Received ->
+[08:34:56]               DBPengeluaran -> Data Received ->
+[08:34:56][EID:7][CPASS] Table Pemasukan Updated !
+[08:34:59]               Main GUI Closed !
+[08:34:59]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 08:34:59 =================
+
+
+================= Session Started At 30.04.2018 | 08:35:12 ================
+
+[08:35:12][EID:1][CPASS] Successfuly Opened Log File
+[08:35:12]               Database Connection Initialization
+[08:35:12]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[08:35:12]               Handshake Successful !
+[08:35:12][EID:2][CPASS] Connection Established, Total Tries = 0
+[08:35:15]               Mengambil data pengeluaran...
+[08:35:15][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:15]               DBPengeluaran -> Data Received ->
+[08:35:15]               DBPengeluaran -> Data Received ->
+[08:35:15][EID:4][CPASS] Table Pemasukan Updated !
+[08:35:15][EID:5][CLOGS] Thread Started -> 
+[08:35:15]               Mengambil data pengeluaran...
+[08:35:15][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:15]               DBPengeluaran -> Data Received ->
+[08:35:15]               DBPengeluaran -> Data Received ->
+[08:35:15][EID:7][CPASS] Table Pemasukan Updated !
+[08:35:19]               Main GUI Closed !
+[08:35:19]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 08:35:19 =================
+
+
+================= Session Started At 30.04.2018 | 08:35:35 ================
+
+[08:35:35][EID:1][CPASS] Successfuly Opened Log File
+[08:35:35]               Database Connection Initialization
+[08:35:35]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[08:35:35]               Handshake Successful !
+[08:35:35][EID:2][CPASS] Connection Established, Total Tries = 0
+[08:35:39]               Mengambil data pengeluaran...
+[08:35:39][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:39]               DBPengeluaran -> Data Received ->
+[08:35:39]               DBPengeluaran -> Data Received ->
+[08:35:39][EID:4][CPASS] Table Pemasukan Updated !
+[08:35:39][EID:5][CLOGS] Thread Started -> 
+[08:35:39]               Mengambil data pengeluaran...
+[08:35:39][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:39]               DBPengeluaran -> Data Received ->
+[08:35:39]               DBPengeluaran -> Data Received ->
+[08:35:39][EID:7][CPASS] Table Pemasukan Updated !
+[08:35:49]               Mengambil data pengeluaran...
+[08:35:49][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:49]               DBPengeluaran -> Data Received ->
+[08:35:49]               DBPengeluaran -> Data Received ->
+[08:35:49][EID:9][CPASS] Table Pemasukan Updated !
+[08:35:59]               Mengambil data pengeluaran...
+[08:35:59][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:59]                DBPengeluaran -> Data Received ->
+[08:35:59]                DBPengeluaran -> Data Received ->
+[08:35:59][EID:11][CPASS] Table Pemasukan Updated !
+[08:35:59]                Mengambil data pengeluaran...
+[08:35:59][EID:12][CPASS] Pengambilan data Pengeluaran Berhasil !
+[08:35:59]                DBPengeluaran -> Data Received ->
+[08:35:59]                DBPengeluaran -> Data Received ->
+[08:35:59][EID:13][CPASS] Table Pemasukan Updated !
+[08:36:03]                Main GUI Closed !
+[08:36:03]                Closing Log File..
+
+================= Session Closed At 30.04.2018 | 08:36:03 =================
+
+
+================= Session Started At 30.04.2018 | 09:17:07 ================
+
+[09:17:07][EID:1][CPASS] Successfuly Opened Log File
+[09:17:07]               Database Connection Initialization
+[09:17:07]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:17:07]               Handshake Successful !
+[09:17:07][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:17:11]               Mengambil data pengeluaran...
+[09:17:11][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:17:11]               DBPengeluaran -> Data Received ->
+[09:17:11]               DBPengeluaran -> Data Received ->
+[09:17:11][EID:4][CPASS] Table Pemasukan Updated !
+[09:17:11][EID:5][CLOGS] Thread Started -> 
+[09:17:11]               Mengambil data pengeluaran...
+[09:17:11][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:17:11]               DBPengeluaran -> Data Received ->
+[09:17:11]               DBPengeluaran -> Data Received ->
+[09:17:11][EID:7][CPASS] Table Pemasukan Updated !
+[09:17:14]               Main GUI Closed !
+[09:17:14]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 09:17:14 =================
+
+
+================= Session Started At 30.04.2018 | 09:18:52 ================
+
+[09:18:52][EID:1][CPASS] Successfuly Opened Log File
+[09:18:52]               Database Connection Initialization
+[09:18:52]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:18:53]               Handshake Successful !
+[09:18:53][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:18:57]               Mengambil data pengeluaran...
+[09:18:57][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:18:57]               DBPengeluaran -> Data Received ->
+[09:18:57]               DBPengeluaran -> Data Received ->
+[09:18:57][EID:4][CPASS] Table Pemasukan Updated !
+[09:18:57]               20180430
+[09:18:57][EID:5][CLOGS] Thread Started -> 
+[09:18:57]               Mengambil data pengeluaran...
+[09:18:57][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:18:57]               DBPengeluaran -> Data Received ->
+[09:18:57]               DBPengeluaran -> Data Received ->
+[09:18:57][EID:7][CPASS] Table Pemasukan Updated !
+[09:19:07]               Mengambil data pengeluaran...
+[09:19:07][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:19:07]               DBPengeluaran -> Data Received ->
+[09:19:07]               DBPengeluaran -> Data Received ->
+[09:19:07][EID:9][CPASS] Table Pemasukan Updated !
+[09:19:17]               Mengambil data pengeluaran...
+[09:19:17][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:19:17]                DBPengeluaran -> Data Received ->
+[09:19:17]                DBPengeluaran -> Data Received ->
+[09:19:17][EID:11][CPASS] Table Pemasukan Updated !
+[09:19:22]                Main GUI Closed !
+[09:19:22]                Closing Log File..
+
+================= Session Closed At 30.04.2018 | 09:19:22 =================
+
+
+================= Session Started At 30.04.2018 | 09:19:36 ================
+
+[09:19:36][EID:1][CPASS] Successfuly Opened Log File
+[09:19:36]               Database Connection Initialization
+[09:19:36]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:19:37]               Handshake Successful !
+[09:19:37][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:19:40]               Mengambil data pengeluaran...
+[09:19:40][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:19:40]               DBPengeluaran -> Data Received ->
+[09:19:40]               DBPengeluaran -> Data Received ->
+[09:19:40][EID:4][CPASS] Table Pemasukan Updated !
+[09:19:40]               20180430
+[09:19:40][EID:5][CLOGS] Thread Started -> 
+[09:19:40]               Mengambil data pengeluaran...
+[09:19:40][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:19:40]               DBPengeluaran -> Data Received ->
+[09:19:40]               DBPengeluaran -> Data Received ->
+[09:19:40][EID:7][CPASS] Table Pemasukan Updated !
+[09:19:40]               20180430
+[09:19:50]               Mengambil data pengeluaran...
+[09:19:50][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:19:50]               DBPengeluaran -> Data Received ->
+[09:19:50]               DBPengeluaran -> Data Received ->
+[09:19:50][EID:9][CPASS] Table Pemasukan Updated !
+[09:19:50]               20180430
+[09:20:00]               Mengambil data pengeluaran...
+[09:20:00][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:20:00]                DBPengeluaran -> Data Received ->
+[09:20:00]                DBPengeluaran -> Data Received ->
+[09:20:00][EID:11][CPASS] Table Pemasukan Updated !
+[09:20:00]                20180430
+[09:20:10]                Mengambil data pengeluaran...
+[09:20:10][EID:12][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:20:10]                DBPengeluaran -> Data Received ->
+[09:20:10]                DBPengeluaran -> Data Received ->
+[09:20:10][EID:13][CPASS] Table Pemasukan Updated !
+[09:20:10]                20180430
+[09:20:20]                Mengambil data pengeluaran...
+[09:20:20][EID:14][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:20:20]                DBPengeluaran -> Data Received ->
+[09:20:20]                DBPengeluaran -> Data Received ->
+[09:20:20][EID:15][CPASS] Table Pemasukan Updated !
+[09:20:20]                20180430
+[09:20:30]                Mengambil data pengeluaran...
+[09:20:30][EID:16][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:20:30]                DBPengeluaran -> Data Received ->
+[09:20:30]                DBPengeluaran -> Data Received ->
+[09:20:30][EID:17][CPASS] Table Pemasukan Updated !
+[09:20:30]                20180430
+[09:20:40]                Mengambil data pengeluaran...
+[09:20:40][EID:18][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:20:40]                DBPengeluaran -> Data Received ->
+[09:20:40]                DBPengeluaran -> Data Received ->
+[09:20:40][EID:19][CPASS] Table Pemasukan Updated !
+[09:20:40]                20180430
+[09:20:50]                Mengambil data pengeluaran...
+[09:20:50][EID:20][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:20:50]                DBPengeluaran -> Data Received ->
+[09:20:50]                DBPengeluaran -> Data Received ->
+[09:20:50][EID:21][CPASS] Table Pemasukan Updated !
+[09:20:50]                20180430
+[09:21:00]                Mengambil data pengeluaran...
+[09:21:00][EID:22][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:21:00]                DBPengeluaran -> Data Received ->
+[09:21:00]                DBPengeluaran -> Data Received ->
+[09:21:00][EID:23][CPASS] Table Pemasukan Updated !
+[09:21:00]                20180430
+[09:21:10]                Mengambil data pengeluaran...
+[09:21:10][EID:24][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:21:10]                DBPengeluaran -> Data Received ->
+[09:21:10]                DBPengeluaran -> Data Received ->
+[09:21:10][EID:25][CPASS] Table Pemasukan Updated !
+[09:21:10]                20180430
+[09:21:20]                Mengambil data pengeluaran...
+[09:21:20][EID:26][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:21:20]                DBPengeluaran -> Data Received ->
+[09:21:20]                DBPengeluaran -> Data Received ->
+[09:21:20][EID:27][CPASS] Table Pemasukan Updated !
+[09:21:20]                20180430
+[09:21:30]                Mengambil data pengeluaran...
+[09:21:30][EID:28][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:21:30]                DBPengeluaran -> Data Received ->
+[09:21:30]                DBPengeluaran -> Data Received ->
+[09:21:30][EID:29][CPASS] Table Pemasukan Updated !
+[09:21:30]                20180430
+[09:21:40]                Mengambil data pengeluaran...
+[09:21:40][EID:30][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:21:40]                DBPengeluaran -> Data Received ->
+[09:21:40]                DBPengeluaran -> Data Received ->
+[09:21:40][EID:31][CPASS] Table Pemasukan Updated !
+[09:21:40]                20180430
+[09:21:50]                Mengambil data pengeluaran...
+[09:21:50][EID:32][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:21:50]                DBPengeluaran -> Data Received ->
+[09:21:50]                DBPengeluaran -> Data Received ->
+[09:21:50][EID:33][CPASS] Table Pemasukan Updated !
+[09:21:50]                20180430
+[09:22:00]                Mengambil data pengeluaran...
+[09:22:00][EID:34][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:22:00]                DBPengeluaran -> Data Received ->
+[09:22:00]                DBPengeluaran -> Data Received ->
+[09:22:00][EID:35][CPASS] Table Pemasukan Updated !
+[09:22:00]                20180430
+[09:22:10]                Mengambil data pengeluaran...
+[09:22:10][EID:36][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:22:10]                DBPengeluaran -> Data Received ->
+[09:22:10]                DBPengeluaran -> Data Received ->
+[09:22:10][EID:37][CPASS] Table Pemasukan Updated !
+[09:22:10]                20180430
+[09:22:20]                Mengambil data pengeluaran...
+[09:22:20][EID:38][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:22:20]                DBPengeluaran -> Data Received ->
+[09:22:20]                DBPengeluaran -> Data Received ->
+[09:22:20][EID:39][CPASS] Table Pemasukan Updated !
+[09:22:20]                20180430
+[09:22:30]                Mengambil data pengeluaran...
+[09:22:30][EID:40][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:22:30]                DBPengeluaran -> Data Received ->
+[09:22:30]                DBPengeluaran -> Data Received ->
+[09:22:30][EID:41][CPASS] Table Pemasukan Updated !
+[09:22:30]                20180430
+[09:22:40]                Mengambil data pengeluaran...
+[09:22:40][EID:42][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:22:40]                DBPengeluaran -> Data Received ->
+[09:22:40]                DBPengeluaran -> Data Received ->
+[09:22:40][EID:43][CPASS] Table Pemasukan Updated !
+[09:22:40]                20180430
+[09:22:50]                Mengambil data pengeluaran...
+[09:22:50][EID:44][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:22:50]                DBPengeluaran -> Data Received ->
+[09:22:50]                DBPengeluaran -> Data Received ->
+[09:22:50][EID:45][CPASS] Table Pemasukan Updated !
+[09:22:50]                20180430
+[09:23:00]                Mengambil data pengeluaran...
+[09:23:00][EID:46][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:23:00]                DBPengeluaran -> Data Received ->
+[09:23:00]                DBPengeluaran -> Data Received ->
+[09:23:00][EID:47][CPASS] Table Pemasukan Updated !
+[09:23:00]                20180430
+[09:23:10]                Mengambil data pengeluaran...
+[09:23:10][EID:48][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:23:10]                DBPengeluaran -> Data Received ->
+[09:23:10]                DBPengeluaran -> Data Received ->
+[09:23:10][EID:49][CPASS] Table Pemasukan Updated !
+[09:23:10]                20180430
+[09:23:20]                Mengambil data pengeluaran...
+[09:23:20][EID:50][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:23:20]                DBPengeluaran -> Data Received ->
+[09:23:20]                DBPengeluaran -> Data Received ->
+[09:23:20][EID:51][CPASS] Table Pemasukan Updated !
+[09:23:20]                20180430
+[09:23:30]                Mengambil data pengeluaran...
+[09:23:30][EID:52][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:23:30]                DBPengeluaran -> Data Received ->
+[09:23:30]                DBPengeluaran -> Data Received ->
+[09:23:30][EID:53][CPASS] Table Pemasukan Updated !
+[09:23:30]                20180430
+[09:23:40]                Mengambil data pengeluaran...
+[09:23:40][EID:54][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:23:40]                DBPengeluaran -> Data Received ->
+[09:23:40]                DBPengeluaran -> Data Received ->
+[09:23:40][EID:55][CPASS] Table Pemasukan Updated !
+[09:23:40]                20180430
+[09:23:50]                Mengambil data pengeluaran...
+[09:23:50][EID:56][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:23:50]                DBPengeluaran -> Data Received ->
+[09:23:50]                DBPengeluaran -> Data Received ->
+[09:23:50][EID:57][CPASS] Table Pemasukan Updated !
+[09:23:50]                20180430
+[09:24:00]                Mengambil data pengeluaran...
+[09:24:00][EID:58][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:24:00]                DBPengeluaran -> Data Received ->
+[09:24:00]                DBPengeluaran -> Data Received ->
+[09:24:00][EID:59][CPASS] Table Pemasukan Updated !
+[09:24:00]                20180430
+[09:24:10]                Mengambil data pengeluaran...
+[09:24:10][EID:60][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:24:10]                DBPengeluaran -> Data Received ->
+[09:24:10]                DBPengeluaran -> Data Received ->
+[09:24:10][EID:61][CPASS] Table Pemasukan Updated !
+[09:24:10]                20180430
+[09:24:20]                Mengambil data pengeluaran...
+[09:24:20][EID:62][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:24:20]                DBPengeluaran -> Data Received ->
+[09:24:20]                DBPengeluaran -> Data Received ->
+[09:24:20][EID:63][CPASS] Table Pemasukan Updated !
+[09:24:20]                20180430
+[09:24:30]                Mengambil data pengeluaran...
+[09:24:30][EID:64][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:24:30]                DBPengeluaran -> Data Received ->
+[09:24:30]                DBPengeluaran -> Data Received ->
+[09:24:30][EID:65][CPASS] Table Pemasukan Updated !
+[09:24:30]                20180430
+[09:24:40]                Mengambil data pengeluaran...
+[09:24:40][EID:66][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:24:40]                DBPengeluaran -> Data Received ->
+[09:24:40]                DBPengeluaran -> Data Received ->
+[09:24:40][EID:67][CPASS] Table Pemasukan Updated !
+[09:24:40]                20180430
+[09:24:50]                Mengambil data pengeluaran...
+[09:24:50][EID:68][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:24:50]                DBPengeluaran -> Data Received ->
+[09:24:50]                DBPengeluaran -> Data Received ->
+[09:24:50][EID:69][CPASS] Table Pemasukan Updated !
+[09:24:50]                20180430
+[09:25:00]                Mengambil data pengeluaran...
+[09:25:00][EID:70][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:25:00]                DBPengeluaran -> Data Received ->
+[09:25:00]                DBPengeluaran -> Data Received ->
+[09:25:00][EID:71][CPASS] Table Pemasukan Updated !
+[09:25:00]                20180430
+[09:25:10]                Mengambil data pengeluaran...
+[09:25:10][EID:72][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:25:10]                DBPengeluaran -> Data Received ->
+[09:25:10]                DBPengeluaran -> Data Received ->
+[09:25:10][EID:73][CPASS] Table Pemasukan Updated !
+[09:25:10]                20180430
+[09:25:20]                Mengambil data pengeluaran...
+[09:25:20][EID:74][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:25:20]                DBPengeluaran -> Data Received ->
+[09:25:20]                DBPengeluaran -> Data Received ->
+[09:25:20][EID:75][CPASS] Table Pemasukan Updated !
+[09:25:20]                20180430
+[09:25:30]                Mengambil data pengeluaran...
+[09:25:30][EID:76][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:25:30]                DBPengeluaran -> Data Received ->
+[09:25:30]                DBPengeluaran -> Data Received ->
+[09:25:30][EID:77][CPASS] Table Pemasukan Updated !
+[09:25:30]                20180430
+[09:25:40]                Mengambil data pengeluaran...
+[09:25:40][EID:78][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:25:40]                DBPengeluaran -> Data Received ->
+[09:25:40]                DBPengeluaran -> Data Received ->
+[09:25:40][EID:79][CPASS] Table Pemasukan Updated !
+[09:25:40]                20180430
+[09:25:50]                Mengambil data pengeluaran...
+[09:25:50][EID:80][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:25:50]                DBPengeluaran -> Data Received ->
+[09:25:50]                DBPengeluaran -> Data Received ->
+[09:25:50][EID:81][CPASS] Table Pemasukan Updated !
+[09:25:50]                20180430
+[09:26:00]                Mengambil data pengeluaran...
+[09:26:00][EID:82][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:26:00]                DBPengeluaran -> Data Received ->
+[09:26:00]                DBPengeluaran -> Data Received ->
+[09:26:00][EID:83][CPASS] Table Pemasukan Updated !
+[09:26:00]                20180430
+[09:26:10]                Mengambil data pengeluaran...
+[09:26:10][EID:84][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:26:10]                DBPengeluaran -> Data Received ->
+[09:26:10]                DBPengeluaran -> Data Received ->
+[09:26:10][EID:85][CPASS] Table Pemasukan Updated !
+[09:26:10]                20180430
+[09:26:20]                Mengambil data pengeluaran...
+[09:26:20][EID:86][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:26:20]                DBPengeluaran -> Data Received ->
+[09:26:20]                DBPengeluaran -> Data Received ->
+[09:26:20][EID:87][CPASS] Table Pemasukan Updated !
+[09:26:20]                20180430
+[09:26:30]                Mengambil data pengeluaran...
+[09:26:30][EID:88][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:26:30]                DBPengeluaran -> Data Received ->
+[09:26:30]                DBPengeluaran -> Data Received ->
+[09:26:30][EID:89][CPASS] Table Pemasukan Updated !
+[09:26:30]                20180430
+[09:26:40]                Mengambil data pengeluaran...
+[09:26:40][EID:90][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:26:40]                DBPengeluaran -> Data Received ->
+[09:26:40]                DBPengeluaran -> Data Received ->
+[09:26:40][EID:91][CPASS] Table Pemasukan Updated !
+[09:26:40]                20180430
+[09:26:50]                Mengambil data pengeluaran...
+[09:26:50][EID:92][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:26:50]                DBPengeluaran -> Data Received ->
+[09:26:50]                DBPengeluaran -> Data Received ->
+[09:26:50][EID:93][CPASS] Table Pemasukan Updated !
+[09:26:50]                20180430
+[09:27:00]                Mengambil data pengeluaran...
+[09:27:00][EID:94][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:27:00]                DBPengeluaran -> Data Received ->
+[09:27:00]                DBPengeluaran -> Data Received ->
+[09:27:00][EID:95][CPASS] Table Pemasukan Updated !
+[09:27:00]                20180430
+[09:27:10]                Mengambil data pengeluaran...
+[09:27:10][EID:96][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:27:10]                DBPengeluaran -> Data Received ->
+[09:27:10]                DBPengeluaran -> Data Received ->
+[09:27:10][EID:97][CPASS] Table Pemasukan Updated !
+[09:27:10]                20180430
+[09:27:20]                Mengambil data pengeluaran...
+[09:27:20][EID:98][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:27:20]                DBPengeluaran -> Data Received ->
+[09:27:20]                DBPengeluaran -> Data Received ->
+[09:27:20][EID:99][CPASS] Table Pemasukan Updated !
+[09:27:20]                20180430
+[09:27:30]                Mengambil data pengeluaran...
+[09:27:30][EID:100][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:27:30]                 DBPengeluaran -> Data Received ->
+[09:27:30]                 DBPengeluaran -> Data Received ->
+[09:27:30][EID:101][CPASS] Table Pemasukan Updated !
+[09:27:30]                 20180430
+[09:27:40]                 Mengambil data pengeluaran...
+[09:27:40][EID:102][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:27:40]                 DBPengeluaran -> Data Received ->
+[09:27:40]                 DBPengeluaran -> Data Received ->
+[09:27:40][EID:103][CPASS] Table Pemasukan Updated !
+[09:27:40]                 20180430
+[09:27:50]                 Mengambil data pengeluaran...
+[09:27:50][EID:104][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:27:50]                 DBPengeluaran -> Data Received ->
+[09:27:50]                 DBPengeluaran -> Data Received ->
+[09:27:50][EID:105][CPASS] Table Pemasukan Updated !
+[09:27:50]                 20180430
+[09:28:00]                 Mengambil data pengeluaran...
+[09:28:00][EID:106][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:28:00]                 DBPengeluaran -> Data Received ->
+[09:28:00]                 DBPengeluaran -> Data Received ->
+[09:28:00][EID:107][CPASS] Table Pemasukan Updated !
+[09:28:00]                 20180430
+[09:28:10]                 Mengambil data pengeluaran...
+[09:28:10][EID:108][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:28:10]                 DBPengeluaran -> Data Received ->
+[09:28:10]                 DBPengeluaran -> Data Received ->
+[09:28:10][EID:109][CPASS] Table Pemasukan Updated !
+[09:28:10]                 20180430
+[09:28:20]                 Mengambil data pengeluaran...
+[09:28:20][EID:110][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:28:20]                 DBPengeluaran -> Data Received ->
+[09:28:20]                 DBPengeluaran -> Data Received ->
+[09:28:20][EID:111][CPASS] Table Pemasukan Updated !
+[09:28:20]                 20180430
+[09:28:30]                 Mengambil data pengeluaran...
+[09:28:30][EID:112][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:28:30]                 DBPengeluaran -> Data Received ->
+[09:28:30]                 DBPengeluaran -> Data Received ->
+[09:28:30][EID:113][CPASS] Table Pemasukan Updated !
+[09:28:30]                 20180430
+[09:28:40]                 Mengambil data pengeluaran...
+[09:28:40][EID:114][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:28:40]                 DBPengeluaran -> Data Received ->
+[09:28:40]                 DBPengeluaran -> Data Received ->
+[09:28:40][EID:115][CPASS] Table Pemasukan Updated !
+[09:28:40]                 20180430
+[09:28:50]                 Mengambil data pengeluaran...
+[09:28:50][EID:116][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:28:50]                 DBPengeluaran -> Data Received ->
+[09:28:50]                 DBPengeluaran -> Data Received ->
+[09:28:50][EID:117][CPASS] Table Pemasukan Updated !
+[09:28:50]                 20180430
+[09:29:00]                 Mengambil data pengeluaran...
+[09:29:00][EID:118][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:29:00]                 DBPengeluaran -> Data Received ->
+[09:29:00]                 DBPengeluaran -> Data Received ->
+[09:29:00][EID:119][CPASS] Table Pemasukan Updated !
+[09:29:00]                 20180430
+[09:29:10]                 Mengambil data pengeluaran...
+[09:29:10][EID:120][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:29:10]                 DBPengeluaran -> Data Received ->
+[09:29:10]                 DBPengeluaran -> Data Received ->
+[09:29:10][EID:121][CPASS] Table Pemasukan Updated !
+[09:29:10]                 20180430
+[09:29:20]                 Mengambil data pengeluaran...
+[09:29:20][EID:122][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:29:20]                 DBPengeluaran -> Data Received ->
+[09:29:20]                 DBPengeluaran -> Data Received ->
+[09:29:20][EID:123][CPASS] Table Pemasukan Updated !
+[09:29:20]                 20180430
+[09:29:30]                 Mengambil data pengeluaran...
+[09:29:30][EID:124][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:29:30]                 DBPengeluaran -> Data Received ->
+[09:29:30]                 DBPengeluaran -> Data Received ->
+[09:29:30][EID:125][CPASS] Table Pemasukan Updated !
+[09:29:30]                 20180430
+[09:29:40]                 Mengambil data pengeluaran...
+[09:29:40][EID:126][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:29:40]                 DBPengeluaran -> Data Received ->
+[09:29:40]                 DBPengeluaran -> Data Received ->
+[09:29:40][EID:127][CPASS] Table Pemasukan Updated !
+[09:29:40]                 20180430
+[09:29:50]                 Mengambil data pengeluaran...
+[09:29:50][EID:128][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:29:50]                 DBPengeluaran -> Data Received ->
+[09:29:50]                 DBPengeluaran -> Data Received ->
+[09:29:50][EID:129][CPASS] Table Pemasukan Updated !
+[09:29:50]                 20180430
+[09:30:00]                 Mengambil data pengeluaran...
+[09:30:00][EID:130][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:30:00]                 DBPengeluaran -> Data Received ->
+[09:30:00]                 DBPengeluaran -> Data Received ->
+[09:30:00][EID:131][CPASS] Table Pemasukan Updated !
+[09:30:00]                 20180430
+[09:30:10]                 Mengambil data pengeluaran...
+[09:30:10][EID:132][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:30:10]                 DBPengeluaran -> Data Received ->
+[09:30:10]                 DBPengeluaran -> Data Received ->
+[09:30:10][EID:133][CPASS] Table Pemasukan Updated !
+[09:30:10]                 20180430
+[09:30:20]                 Mengambil data pengeluaran...
+[09:30:20][EID:134][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:30:20]                 DBPengeluaran -> Data Received ->
+[09:30:20]                 DBPengeluaran -> Data Received ->
+[09:30:20][EID:135][CPASS] Table Pemasukan Updated !
+[09:30:20]                 20180430
+[09:30:30]                 Mengambil data pengeluaran...
+[09:30:30][EID:136][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:30:30]                 DBPengeluaran -> Data Received ->
+[09:30:30]                 DBPengeluaran -> Data Received ->
+[09:30:30][EID:137][CPASS] Table Pemasukan Updated !
+[09:30:30]                 20180430
+[09:30:40]                 Mengambil data pengeluaran...
+[09:30:40][EID:138][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:30:40]                 DBPengeluaran -> Data Received ->
+[09:30:40]                 DBPengeluaran -> Data Received ->
+[09:30:40][EID:139][CPASS] Table Pemasukan Updated !
+[09:30:40]                 20180430
+[09:30:50]                 Mengambil data pengeluaran...
+[09:30:50][EID:140][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:30:50]                 DBPengeluaran -> Data Received ->
+[09:30:50]                 DBPengeluaran -> Data Received ->
+[09:30:50][EID:141][CPASS] Table Pemasukan Updated !
+[09:30:50]                 20180430
+[09:31:00]                 Mengambil data pengeluaran...
+[09:31:00][EID:142][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:31:00]                 DBPengeluaran -> Data Received ->
+[09:31:00]                 DBPengeluaran -> Data Received ->
+[09:31:00][EID:143][CPASS] Table Pemasukan Updated !
+[09:31:00]                 20180430
+[09:31:10]                 Mengambil data pengeluaran...
+[09:31:10][EID:144][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:31:10]                 DBPengeluaran -> Data Received ->
+[09:31:10]                 DBPengeluaran -> Data Received ->
+[09:31:10][EID:145][CPASS] Table Pemasukan Updated !
+[09:31:10]                 20180430
+[09:31:20]                 Mengambil data pengeluaran...
+[09:31:20][EID:146][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:31:20]                 DBPengeluaran -> Data Received ->
+[09:31:20]                 DBPengeluaran -> Data Received ->
+[09:31:20][EID:147][CPASS] Table Pemasukan Updated !
+[09:31:20]                 20180430
+[09:31:30]                 Mengambil data pengeluaran...
+[09:31:30][EID:148][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:31:30]                 DBPengeluaran -> Data Received ->
+[09:31:30]                 DBPengeluaran -> Data Received ->
+[09:31:30][EID:149][CPASS] Table Pemasukan Updated !
+[09:31:30]            ================= Session Started At 30.04.2018 | 09:38:46 ================
+
+[09:38:46][EID:1][CPASS] Successfuly Opened Log File
+[09:38:46]               Database Connection Initialization
+[09:38:46]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:38:46]               Handshake Successful !
+[09:38:46][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:38:50]               Mengambil data pengeluaran...
+[09:38:50][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:38:50]               DBPengeluaran -> Data Received ->
+[09:38:50]               DBPengeluaran -> Data Received ->
+[09:38:50][EID:4][CPASS] Table Pemasukan Updated !
+[09:38:50][EID:5][CLOGS] Thread Started -> 
+[09:38:50]               Mengambil data pengeluaran...
+[09:38:50][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:38:50]               DBPengeluaran -> Data Received ->
+[09:38:50]               DBPengeluaran -> Data Received ->
+[09:38:50][EID:7][CPASS] Table Pemasukan Updated !
+[09:39:00]               Mengambil data pengeluaran...
+[09:39:00][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:39:00]               DBPengeluaran -> Data Received ->
+[09:39:00]               DBPengeluaran -> Data Received ->
+[09:39:00][EID:9][CPASS] Table Pemasukan Updated !
+[09:39:09]               Main GUI Closed !
+[09:39:09]               Closing Log File..
+
+================= Session Closed At 30.04.2018 | 09:39:09 =================
+
+
+================= Session Started At 30.04.2018 | 09:42:25 ================
+
+[09:42:25][EID:1][CPASS] Successfuly Opened Log File
+[09:42:25]               Database Connection Initialization
+[09:42:25]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:42:26]               Handshake Successful !
+[09:42:26][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:42:29]               Mengambil data pengeluaran...
+[09:42:29][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:42:29]               DBPengeluaran -> Data Received ->
+[09:42:29]               DBPengeluaran -> Data Received ->
+[09:42:29][EID:4][CPASS] Table Pemasukan Updated !
+[09:42:29][EID:5][CLOGS] Thread Started -> 
+[09:42:29]               Mengambil data pengeluaran...
+[09:42:29][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:42:29]               DBPengeluaran -> Data Received ->
+[09:42:29]               DBPengeluaran -> Data Received ->
+[09:42:29][EID:7][CPASS] Table Pemasukan Updated !
+[09:42:31]               This Feature is Not Ready yet
+[09:42:39]               Mengambil data pengeluaran...
+[09:42:39][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:42:39]               DBPengeluaran -> Data Received ->
+[09:42:39]               DBPengeluaran -> Data Received ->
+[09:42:39][EID:9][CPASS] Table Pemasukan Updated !
+[09:42:49]               Mengambil data pengeluaran...
+[09:42:49][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:42:49]                DBPengeluaran -> Data Received ->
+[09:42:49]                DBPengeluaran -> Data Received ->
+[09:42:49][EID:11][CPASS] Table Pemasukan Updated !
+[09:42:52]                Main GUI Closed !
+[09:42:52]                Closing Log File..
+
+================= Session Closed At 30.04.2018 | 09:42:52 =================
+
+
+================= Session Started At 30.04.2018 | 09:45:53 ================
+
+[09:45:53][EID:1][CPASS] Successfuly Opened Log File
+[09:45:53]               Database Connection Initialization
+[09:45:53]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:45:53]               Handshake Successful !
+[09:45:53][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:45:57]               Mengambil data pengeluaran...
+[09:45:57][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:45:57]               DBPengeluaran -> Data Received ->
+[09:45:57]               DBPengeluaran -> Data Received ->
+[09:45:57][EID:4][CPASS] Table Pemasukan Updated !
+[09:45:57][EID:5][CLOGS] Thread Started -> 
+[09:45:57]               Mengambil data pengeluaran...
+[09:45:57][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:45:57]               DBPengeluaran -> Data Received ->
+[09:45:57]               DBPengeluaran -> Data Received ->
+[09:45:57][EID:7][CPASS] Table Pemasukan Updated !
+[09:46:07]               Mengambil data pengeluaran...
+[09:46:07][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:46:07]               DBPengeluaran -> Data Received ->
+[09:46:07]               DBPengeluaran -> Data Received ->
+[09:46:07][EID:9][CPASS] Table Pemasukan Updated !
+[09:46:08]               Mengambil data pengeluaran...
+[09:46:08][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:46:08]                DBPengeluaran -> Data Received ->
+[09:46:08]                DBPengeluaran -> Data Received ->
+[09:46:08][EID:11][CPASS] Table Pemasukan Updated !
+[09:46:17]                Mengambil data pengeluaran...
+[09:46:17][EID:12][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:46:17]                DBPengeluaran -> Data Received ->
+[09:46:17]                DBPengeluaran -> Data Received ->
+[09:46:17][EID:13][CPASS] Table Pemasukan Updated !
+[09:46:27]                Mengambil data pengeluaran...
+[09:46:27][EID:14][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:46:27]                DBPengeluaran -> Data Received ->
+[09:46:27]                DBPengeluaran -> Data Received ->
+[09:46:27][EID:15][CPASS] Table Pemasukan Updated !
+[09:46:37]                Mengambil data pengeluaran...
+[09:46:37][EID:16][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:46:37]                DBPengeluaran -> Data Received ->
+[09:46:37]                DBPengeluaran -> Data Received ->
+[09:46:37][EID:17][CPASS] Table Pemasukan Updated !
+[09:46:45]                Main GUI Closed !
+[09:46:45]                Closing Log File..
+
+================= Session Closed At 30.04.2018 | 09:46:45 =================
+
+
+================= Session Started At 30.04.2018 | 09:51:47 ================
+
+[09:51:47][EID:1][CPASS] Successfuly Opened Log File
+[09:51:47]               Database Connection Initialization
+[09:51:47]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[09:51:47]               Handshake Successful !
+[09:51:47][EID:2][CPASS] Connection Established, Total Tries = 0
+[09:51:50]               Mengambil data pengeluaran...
+[09:51:50][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:51:50]               DBPengeluaran -> Data Received ->
+[09:51:50]               DBPengeluaran -> Data Received ->
+[09:51:50][EID:4][CPASS] Table Pemasukan Updated !
+[09:51:50][EID:5][CLOGS] Thread Started -> 
+[09:51:50]               Mengambil data pengeluaran...
+[09:51:50][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:51:50]               DBPengeluaran -> Data Received ->
+[09:51:50]               DBPengeluaran -> Data Received ->
+[09:51:50][EID:7][CPASS] Table Pemasukan Updated !
+[09:51:51]               Mengambil data pengeluaran...
+[09:51:51][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:51:51]               DBPengeluaran -> Data Received ->
+[09:51:51]               DBPengeluaran -> Data Received ->
+[09:51:51][EID:9][CPASS] Table Pemasukan Updated !
+[09:52:00]               Mengambil data pengeluaran...
+[09:52:00][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[09:52:00]                DBPengeluaran -> Data Received ->
+[09:52:00]                DBPengeluaran -> Data Received ->
+[09:52:00][EID:11][CPASS] Table Pemasukan Updated !
+[09:52:08]                Main GUI Closed !
+[09:52:08]                Closing Log File..
+
+================= Session Closed At 30.04.2018 | 09:52:08 =================
+
+
+================= Session Started At 02.05.2018 | 11:32:01 ================
+
+[11:32:01][EID:1][CPASS] Successfuly Opened Log File
+[11:32:01]               Database Connection Initialization
+[11:32:01]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[11:32:02]               Handshake Successful !
+[11:32:02][EID:2][CPASS] Connection Established, Total Tries = 0
+[11:32:04]               Mengambil data pengeluaran...
+[11:32:04][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:04]               DBPengeluaran -> Data Received ->
+[11:32:04]               DBPengeluaran -> Data Received ->
+[11:32:04][EID:4][CPASS] Table Pemasukan Updated !
+[11:32:04][EID:5][CLOGS] Thread Started -> 
+[11:32:04]               Mengambil data pengeluaran...
+[11:32:04][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:04]               DBPengeluaran -> Data Received ->
+[11:32:04]               DBPengeluaran -> Data Received ->
+[11:32:04][EID:7][CPASS] Table Pemasukan Updated !
+[11:32:14]               Mengambil data pengeluaran...
+[11:32:14][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:14]               DBPengeluaran -> Data Received ->
+[11:32:14]               DBPengeluaran -> Data Received ->
+[11:32:14][EID:9][CPASS] Table Pemasukan Updated !
+[11:32:24]               Mengambil data pengeluaran...
+[11:32:24][EID:10][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:24]                DBPengeluaran -> Data Received ->
+[11:32:24]                DBPengeluaran -> Data Received ->
+[11:32:24][EID:11][CPASS] Table Pemasukan Updated !
+[11:32:34]                Mengambil data pengeluaran...
+[11:32:34][EID:12][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:34]                DBPengeluaran -> Data Received ->
+[11:32:34]                DBPengeluaran -> Data Received ->
+[11:32:34][EID:13][CPASS] Table Pemasukan Updated !
+[11:32:44]                Mengambil data pengeluaran...
+[11:32:44][EID:14][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:44]                DBPengeluaran -> Data Received ->
+[11:32:44]                DBPengeluaran -> Data Received ->
+[11:32:44][EID:15][CPASS] Table Pemasukan Updated !
+[11:32:52]                This Feature is Not Ready yet
+[11:32:54]                Mengambil data pengeluaran...
+[11:32:54][EID:16][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:32:54]                DBPengeluaran -> Data Received ->
+[11:32:54]                DBPengeluaran -> Data Received ->
+[11:32:54][EID:17][CPASS] Table Pemasukan Updated !
+[11:33:04]                Mengambil data pengeluaran...
+[11:33:04][EID:18][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:33:04]                DBPengeluaran -> Data Received ->
+[11:33:04]                DBPengeluaran -> Data Received ->
+[11:33:04][EID:19][CPASS] Table Pemasukan Updated !
+[11:33:14]                Mengambil data pengeluaran...
+[11:33:14][EID:20][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:33:14]                DBPengeluaran -> Data Received ->
+[11:33:14]                DBPengeluaran -> Data Received ->
+[11:33:14][EID:21][CPASS] Table Pemasukan Updated !
+[11:33:24]                Mengambil data pengeluaran...
+[11:33:24][EID:22][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:33:24]                DBPengeluaran -> Data Received ->
+[11:33:24]                DBPengeluaran -> Data Received ->
+[11:33:24][EID:23][CPASS] Table Pemasukan Updated !
+[11:33:32]                Main GUI Closed !
+[11:33:32]                Closing Log File..
+
+================= Session Closed At 02.05.2018 | 11:33:32 =================
+
+
+================= Session Started At 02.05.2018 | 11:54:02 ================
+
+[11:54:02][EID:1][CPASS] Successfuly Opened Log File
+[11:54:02]               Database Connection Initialization
+[11:54:02]               Attempting to Handshake... URL: jdbc:mysql://localhost/kontrakan_punya
+[11:54:02]               Handshake Successful !
+[11:54:02][EID:2][CPASS] Connection Established, Total Tries = 0
+[11:54:04]               Mengambil data pengeluaran...
+[11:54:04][EID:3][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:54:04]               DBPengeluaran -> Data Received ->
+[11:54:04]               DBPengeluaran -> Data Received ->
+[11:54:04][EID:4][CPASS] Table Pemasukan Updated !
+[11:54:04][EID:5][CLOGS] Thread Started -> 
+[11:54:04]               Mengambil data pengeluaran...
+[11:54:04][EID:6][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:54:04]               DBPengeluaran -> Data Received ->
+[11:54:04]               DBPengeluaran -> Data Received ->
+[11:54:04][EID:7][CPASS] Table Pemasukan Updated !
+[11:54:14]               Mengambil data pengeluaran...
+[11:54:14][EID:8][CPASS] Pengambilan data Pengeluaran Berhasil !
+[11:54:14]               DBPengeluaran -> Data Received ->
+[11:54:14]               DBPengeluaran -> Data Received ->
+[11:54:14][EID:9][CPASS] Table Pemasukan Updated !
+[11:54:18]               Main GUI Closed !
+[11:54:18]               Closing Log File..
+
+================= Session Closed At 02.05.2018 | 11:54:18 =================
+
+

@@ -20,7 +20,9 @@ public class AllDatabase
     public final DBPemasukan dbpem;
     public final DBDaftarHarga dbdh;
     
-    public AllDatabase(DBConnection dbc, DBAuthUserCredentials dbauc, DBAuthUserData dbaud, DBPengeluaran dbpen, DBPemasukan dbpem, DBDaftarHarga dbdh)
+    public final DBNamaApp dbna;
+    
+    public AllDatabase(DBConnection dbc, DBAuthUserCredentials dbauc, DBAuthUserData dbaud, DBPengeluaran dbpen, DBPemasukan dbpem, DBDaftarHarga dbdh, DBNamaApp dbna)
     {
         this.dbc = dbc;
         this.dbauc = dbauc;
@@ -29,5 +31,7 @@ public class AllDatabase
         this.dbpen = dbpen;
         this.dbpem = dbpem;
         this.dbdh = dbdh;
+        
+        this.dbna = dbna;
     }
 }

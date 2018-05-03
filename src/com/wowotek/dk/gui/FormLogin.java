@@ -12,6 +12,7 @@ import com.wowotek.dk.auth.Hash;
 import com.wowotek.dk.auth.Session;
 import com.wowotek.dk.auth.authclasses.UserCredentials;
 import com.wowotek.dk.auth.authclasses.UserData;
+import com.wowotek.dk.db.AllDatabase;
 import com.wowotek.dk.db.DBAuthUserCredentials;
 import com.wowotek.dk.db.DBAuthUserData;
 import java.awt.Color;
@@ -43,12 +44,12 @@ public class FormLogin extends javax.swing.JFrame
     public boolean SessionCond = false;
     public boolean Inputed = false;
 
-    public FormLogin(ErrorReporting er, DBAuthUserCredentials dbuc, DBAuthUserData dbud)
+    public FormLogin(ErrorReporting er, AllDatabase ad)
     {
         this.er = er;
-        this.dbuc = dbuc;
-        this.dbud = dbud;
-        this.s = new Session(dbuc, dbud, er);
+        this.dbuc = ad.dbauc;
+        this.dbud = ad.dbaud;
+        this.s = new Session(ad, er);
         initComponents();
         moreInit();
     }

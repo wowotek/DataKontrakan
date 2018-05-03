@@ -3,33 +3,61 @@ package com.wowotek.dk.auth;
 import com.wowotek.dk.ErrorReporting;
 import com.wowotek.dk.auth.authclasses.UserCredentials;
 import com.wowotek.dk.auth.authclasses.UserData;
+import com.wowotek.dk.db.AllDatabase;
 import com.wowotek.dk.db.DBAuthUserCredentials;
 import com.wowotek.dk.db.DBAuthUserData;
+import com.wowotek.dk.db.DBNamaApp;
+import com.wowotek.dk.db.dbclasses.NamaApp;
 
 public class Session
 {
     private final ErrorReporting er;
-    private final DBAuthUserCredentials db;
-    private final DBAuthUserData dba;
+    private final DBAuthUserCredentials dbauc;
+    private final DBAuthUserData dbaud;
+    private final DBNamaApp dbna;
+    
     
     private UserCredentials input_uc;
     private UserCredentials online_uc;
     private UserData online_ud;
     
+    public String namaApp;
+    
     private String LogedInAs;
     private boolean pass;
     
-    public Session(DBAuthUserCredentials db, DBAuthUserData dba, ErrorReporting er)
+    public Session(AllDatabase ad, ErrorReporting er)
     {
         this.er = er;
-        this.db = db;
-        this.dba = dba;
+        this.dbauc = ad.dbauc;
+        this.dbaud = ad.dbaud;
+        this.dbna = ad.dbna;
     }
     
     public boolean newSession(UserCredentials iuc)
     {
+        boolean credCheck = checkCredential(iuc);
+        this.namaApp = getNamaPerusahaan(this.online_uc);
+        
+        return (credCheck && (this.namaApp != null));
+    }
+    
+    private String getNamaPerusahaan(UserCredentials iuc)
+    {
+        for(NamaApp i: this.dbna.ambilDataNamaApp())
+        {
+            if(iuc.RegID == i.REGID)
+            {
+                return i.NAMA;
+            }
+        }
+        return null;
+    }
+    
+    private boolean checkCredential(UserCredentials iuc)
+    {
         this.input_uc = iuc;
-        this.online_uc = db.getCredentials(input_uc.Username);
+        this.online_uc = dbauc.getCredentials(input_uc.Username);
         if(this.online_uc == null)
         {
             er.debug("Username Not Found !", 2);
@@ -39,7 +67,7 @@ public class Session
         else
         {
             er.debug("Username Found, Checking UserData", 0);
-            this.online_ud = dba.getUserData(this.online_uc.RegID);
+            this.online_ud = dbaud.getUserData(this.online_uc.RegID);
             
             if(this.online_ud == null)
             {
