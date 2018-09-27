@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/wowotek/DataKontrakan#readme",
   "dependencies": {
-    "electron": "^3.0.2"
+    "electron": "^3.0.2",
+    "electron-reload": "^1.2.5"
   }
 }
