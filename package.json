@@ -4,7 +4,7 @@
   "description": "financial tracker for small bussiness",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
