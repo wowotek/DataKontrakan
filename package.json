@@ -1,0 +1,19 @@
+{
+  "name": "xfinance",
+  "version": "0.0.0",
+  "description": "financial tracker for small bussiness",
+  "main": "main.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wowotek/DataKontrakan.git"
+  },
+  "author": "Erlangga Ibrahim",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/wowotek/DataKontrakan/issues"
+  },
+  "homepage": "https://github.com/wowotek/DataKontrakan#readme"
+}
