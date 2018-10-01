@@ -17,24 +17,13 @@ app.on('ready', function(){
     // Create new Window
     mainWindow = new BrowserWindow({
         frame: true,
-
-        width: 1366,
-        height: 768
     });
     // Load HTML file into window
-    if(loggedIn){
-        mainWindow.loadURL(url.format({
-            pathname: path.join(__dirname, 'mainWindow.html'),
-            protocol: 'file:',
-            slashes: true
-        }));
-    } else {
-        mainWindow.loadURL(url.format({
-            pathname: path.join(__dirname, 'login_screen.html'),
-            protocol: 'file:',
-            slashes: true
-        }));
-    }
+    mainWindow.loadURL(url.format({
+        pathname: path.join(__dirname, 'mainWindow.html'),
+        protocol: 'file:',
+        slashes: true
+    }));
     // Quit app when closed
     mainWindow.on('closed', function(){
         app.quit();
